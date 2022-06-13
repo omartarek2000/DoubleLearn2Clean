@@ -1,0 +1,766 @@
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.8241517694272164, 4.3612353801727295)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6120754716981132, 4.3143150806427)
+('house_example2', 'learn2clean', 'LASSO', 'SalePrice', None, 'IQR -> LASSO', 'MSE', 535780519.09053785, 9.579675197601318)
+('house_example2', 'learn2clean', 'LASSO', 'SalePrice', None, 'IQR -> LASSO', 'MSE', 535780519.09047174, 8.78518295288086)
+('house_example2', 'learn2clean', 'OLS', 'SalePrice', None, 'WR -> IQR -> OLS', 'MSE', 3990994387.1171007, 3.8543858528137207)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'Tree -> ED -> MARS', 'MSE', 1.4265787837293549, 102.13922715187073)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.8241517694272164, 4.588683128356934)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6120754716981132, 4.637954950332642)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'MM -> LASSO', 'MSE', ({'quality_metric': 1369429490.2711022}, 0.34253811836242676))
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'MM -> LASSO', 'MSE', ({'quality_metric': 1369429490.2711565}, 0.34195613861083984))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'MM -> WR -> LOF -> ED -> OLS', 'MSE', ({'quality_metric': 6344514286.486293}, 0.73801589012146))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'ZS -> Tree -> ED -> MARS', 'MSE', ({'quality_metric': 1.413304412828155}, 3.7925782203674316))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.803517}, 0.27179503440856934))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.04842805862426758))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13180375406591996}, 7.822617769241333))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828365878725591}, 99.23292899131775))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8074683110654334}, 0.09188508987426758))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10551558752997602}, 0.12030601501464844))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.2232924236591108, 98.62206888198853)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 126.62660098075867)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 5.790197134017944)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 5.80009388923645)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'LC -> IQR -> LASSO', 'MSE', ({'quality_metric': 1542677314.8995385}, 0.21483397483825684))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.0753321647644043))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'DS -> LC -> MARS', 'MSE', ({'quality_metric': 0.2884585653485321}, 7.538163900375366))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.5327348709106445))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.043682098388671875))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 12.44367527961731))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 166.6031231880188))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.17539310455322266))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.12134718894958496))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 133.02038192749023)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 6.049577951431274)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 5.1700968742370605)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'IQR -> LASSO', 'MSE', ({'quality_metric': 535981674.029729}, 0.3404848575592041))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'ZS -> IQR -> ED -> OLS', 'MSE', ({'quality_metric': 4883121030.467378}, 0.2958948612213135))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'ZS -> Tree -> ED -> MARS', 'MSE', ({'quality_metric': 0.13180899600692747}, 9.235480070114136))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.4130210876464844))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.04084610939025879))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 9.992855787277222))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 144.12588596343994))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.15918374061584473))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.11206698417663574))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 84.32391405105591)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 4.548636198043823)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 4.466200113296509)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ZS -> Tree -> LASSO', 'MSE', ({'quality_metric': 45161978651.49645}, 0.365764856338501))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'ED -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.10581207275390625))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'MM -> LOF -> MARS', 'MSE', ({'quality_metric': 0.13312903216275612}, 7.32326602935791))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.3545539379119873))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.03058004379272461))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 7.4238221645355225))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 110.42999815940857))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.11808896064758301))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.07309198379516602))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 80.53621506690979)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 4.182919979095459)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 4.097415924072266)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'MM -> LASSO', 'MSE', ({'quality_metric': 1369429490.2709088}, 0.3353867530822754))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'ZS -> Tree -> LOF -> OLS', 'MSE', ({'quality_metric': 6319427435.187591}, 0.8786711692810059))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'ZS -> ZSB -> MARS', 'MSE', ({'quality_metric': 0.1278545950741485}, 4.792389154434204))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.3158278465270996))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.029249191284179688))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 6.847848892211914))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 107.83774995803833))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.14976096153259277))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.0771479606628418))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 131.84536910057068)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 4.479885816574097)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 4.947214841842651)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'DS -> WR -> LOF -> LASSO', 'MSE', ({'quality_metric': 1527572357.799871}, 0.6387279033660889))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'WR -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.8593120574951172))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'MM -> ED -> MARS', 'MSE', ({'quality_metric': 0.1318089960069276}, 6.196397066116333))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.2976369857788086))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.029772043228149414))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 6.417038202285767))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 119.39747285842896))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.23090887069702148))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.0988619327545166))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 87.328045129776)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 24.762821197509766)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 4.246754884719849)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'DS -> Tree -> LOF -> LASSO', 'MSE', ({'quality_metric': 1527572357.799871}, 0.4899899959564209))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 99.43766713142395)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 26.125481843948364)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 4.24373984336853)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ZS -> LC -> LASSO', 'MSE', ({'quality_metric': 45180349743.326294}, 0.3306291103363037))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'MM -> IQR -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.11611127853393555))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'DS -> LC -> ZSB -> ED -> MARS', 'MSE', ({'quality_metric': 0.2873331222854142}, 4.78288722038269))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.3664970397949219))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.027478933334350586))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 7.832535028457642))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 106.44552898406982))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.10386490821838379))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.06759500503540039))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 102.6013240814209)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 26.329530715942383)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 4.40298318862915)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'MM -> WR -> IQR -> LASSO', 'MSE', ({'quality_metric': 1369429490.2709088}, 0.5016517639160156))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 132.7508087158203)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 37.03633522987366)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 10.038688898086548)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ZS -> IQR -> LASSO', 'MSE', ({'quality_metric': 652925695.5192099}, 0.735849142074585))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> Tree -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.15477490425109863))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 81.37630891799927)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 24.752431869506836)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 4.184468984603882)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ZS -> Tree -> ED -> LASSO', 'MSE', ({'quality_metric': 45161978651.49645}, 0.41475701332092285))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'Tree -> LOF -> ED -> OLS', 'MSE', ({'quality_metric': 6410639927.006683}, 0.4027421474456787))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 6.593559741973877))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.34458279609680176))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.03378486633300781))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 7.030924081802368))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 110.47537302970886))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.12055206298828125))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.08027195930480957))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 165.02495908737183)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 38.80754590034485)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 6.903201103210449)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ZS -> IQR -> ED -> LASSO', 'MSE', ({'quality_metric': 652925695.5192099}, 0.874671220779419))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'ZS -> LC -> IQR -> OLS', 'MSE', ({'quality_metric': 5747639081.747915}, 0.415496826171875))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'ZS -> Tree -> ZSB -> MARS', 'MSE', ({'quality_metric': 0.1278545950741485}, 9.311134099960327))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.5816190242767334))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.04685688018798828))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 10.970227003097534))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 149.47287917137146))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.17444992065429688))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.11367583274841309))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 161.01519083976746)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 36.51134014129639)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 5.738968133926392)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'Tree -> ZSB -> LASSO', 'MSE', ({'quality_metric': 615141937.2379626}, 0.47316932678222656))
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ZS -> LC -> IQR -> LASSO', 'MSE', ({'quality_metric': 1800787195.9856076}, 0.26531100273132324))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'Tree -> ZSB -> OLS', 'MSE', ({'quality_metric': 4135129829.0395145}, 0.16297507286071777))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'LC -> LOF -> ED -> MARS', 'MSE', ({'quality_metric': 0.22341783427202447}, 5.3337929248809814))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.3967580795288086))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.03214597702026367))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 7.772538900375366))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 135.52159881591797))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.1300199031829834))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.0937647819519043))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 144.2088601589203)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 38.15821981430054)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 6.045202970504761)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'WR -> ED -> LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.483659029006958))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> Tree -> IQR -> ED -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.5584409236907959))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'ZS -> Tree -> ZSB -> ED -> MARS', 'MSE', ({'quality_metric': 0.1278545950741485}, 6.381038188934326))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.6795370578765869))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.0396881103515625))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 9.88694715499878))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 134.8775990009308))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.2100510597229004))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.11509108543395996))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 228.22774410247803)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 22.879629135131836)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 3.6267549991607666)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'DS -> LOF -> ED -> LASSO', 'MSE', ({'quality_metric': 1527572357.799871}, 0.48687195777893066))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> LC -> ZSB -> ED -> OLS', 'MSE', ({'quality_metric': 6317708755.670739}, 0.23083901405334473))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'ZS -> LOF -> ED -> MARS', 'MSE', ({'quality_metric': 0.13312076846292015}, 6.6108620166778564))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.28273987770080566))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.025905132293701172))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 6.424494028091431))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 103.36526608467102))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.16513609886169434))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.10658717155456543))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 111.8735921382904)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.966, 30.927449941635132)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 5.410442113876343)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'LC -> ZSB -> LASSO', 'MSE', ({'quality_metric': 2049346686.1620877}, 0.1620020866394043))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'MM -> Tree -> ZSB -> ED -> OLS', 'MSE', ({'quality_metric': 4135129829.0395145}, 0.21369600296020508))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'DS -> Tree -> MARS', 'MSE', ({'quality_metric': 0.1389822793663789}, 14.751476049423218))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.3621037006378174))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.03300881385803223))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 7.653624057769775))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 131.3457932472229))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.1889030933380127))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.09366798400878906))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 94.64200091362)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> HCA', 'silhouette', 0.966, 24.94514298439026)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'IQR -> NB', 'accuracy', 0.6113294600136706, 4.4228270053863525)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'DS -> LC -> ZSB -> LASSO', 'MSE', ({'quality_metric': 4361217091.731925}, 0.19020891189575195))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'ZSB -> OLS', 'MSE', ({'quality_metric': 4135129829.0395145}, 0.17469406127929688))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'DS -> ED -> MARS', 'MSE', ({'quality_metric': 0.1389822793663789}, 12.944109916687012))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.37526988983154297))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.037010908126831055))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 7.7402660846710205))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 126.0650360584259))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.11335873603820801))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.07743000984191895))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 95.49635982513428)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> HCA', 'silhouette', 0.966, 26.912321090698242)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'IQR -> NB', 'accuracy', 0.6113294600136706, 4.30485200881958)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'MM -> WR -> IQR -> LASSO', 'MSE', ({'quality_metric': 1369429490.2709088}, 0.47118210792541504))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> Tree -> ED -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.17615675926208496))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'DS -> WR -> MARS', 'MSE', ({'quality_metric': 0.1389822793663789}, 16.455750942230225))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.4145200252532959))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.04040408134460449))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 8.134955167770386))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 120.86433720588684))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.11885309219360352))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.0954890251159668))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 73.71481704711914)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 79.09790372848511)
+('house_example2', 'learn2clean', 'CART', 'SaleCondition', None, 'ZSB -> ED -> CART', 'accuracy', 0.8985733244857335, 1208.2700266838074)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 5.515819072723389)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 4.465444087982178)
+('house_example2', 'learn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 1.6189728459843126e-06, 6.805639982223511)
+('house_example2', 'learn2clean', 'MARS', 'SaleCondition', None, 'DS -> IQR -> MARS', 'MSE', 0.2524569437561471, 16.70427107810974)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.9648, 30.75345730781555)
+('house_example2', 'learn2clean', 'KMEANS', 'SaleCondition', None, 'ZSB -> ED -> KMEANS', 'silhouette', 0.9648, 21.37053084373474)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ZS -> Tree -> LASSO', 'MSE', ({'quality_metric': 45161978651.49645}, 0.4520089626312256))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'WR -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.12857437133789062))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'DS -> LC -> MARS', 'MSE', ({'quality_metric': 0.2884585653485321}, 5.874075889587402))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.4087941646575928))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.03747391700744629))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 7.946315050125122))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 113.474937915802))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.31493401527404785))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.13205194473266602))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 69.64601516723633)
+('house_example2', 'learn2clean', 'CART', 'SaleCondition', None, 'ZSB -> ED -> CART', 'accuracy', 0.8985733244857335, 992.111321926117)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 3.7930140495300293)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 3.658176898956299)
+('house_example2', 'learn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 1.6189728459843126e-06, 5.380988836288452)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 70.86717104911804)
+('house_example2', 'learn2clean', 'CART', 'SaleCondition', None, 'ZSB -> ED -> CART', 'accuracy', 0.8985733244857335, 967.5059740543365)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 3.8062639236450195)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 3.5703930854797363)
+('house_example2', 'learn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 1.6189728459843126e-06, 5.130327939987183)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 72.034255027771)
+('house_example2', 'learn2clean', 'CART', 'SaleCondition', None, 'ZSB -> ED -> CART', 'accuracy', 0.8985733244857335, 967.8069469928741)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 70.50115585327148)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 77.04056811332703)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 70.06434297561646)
+('house_example2', 'learn2clean', 'MARS', 'SaleCondition', None, 'DS -> IQR -> MARS', 'MSE', 0.2524569437561471, 10.49026083946228)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 69.77202296257019)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 70.199373960495)
+('house_example2', 'learn2clean', 'OLS', 'SaleCondition', None, 'WR -> IQR -> OLS', 'MSE', 1.0715761272302342, 3.3745648860931396)
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 70.51877188682556)
+('house_example2', 'learn2clean', 'OLS', 'SaleCondition', None, 'WR -> IQR -> OLS', 'MSE', 1.0715761272302342, 3.50479793548584)
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'LC -> ED -> CC -> MARS', 'MSE', 0.22114858357979653, 132.36043334007263)
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'IQR -> MARS', 'MSE', 0.8783754458521077, 198.53502416610718)
+('house_example2', 'doublelearn2clean', 'OLS', 'SaleCondition', None, 'ED -> OLS', 'MSE', 1.1626034529274651, 13.819093942642212)
+('house_example2', 'doublelearn2clean', 'CART', 'SaleCondition', None, 'DS -> ZSB -> CART', 'accuracy', 0.9776556579120872, 1769.2751159667969)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'IQR -> LDA', 'accuracy', 0.8618270332187858, 27.56396794319153)
+('house_example2', 'doublelearn2clean', 'NB', 'SaleCondition', None, 'IQR -> NB', 'accuracy', 0.8513885985300327, 28.995606899261475)
+('house_example2', 'doublelearn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 3.1773289704310342e-06, 33.38673996925354)
+('house_example2', 'doublelearn2clean', 'MARS', 'SaleCondition', None, 'LC -> AD -> MARS', 'MSE', 0.5391415420203203, 786.4022450447083)
+('house_example2', 'doublelearn2clean', 'HCA', 'SaleCondition', None, 'AD -> HCA', 'silhouette', 0.96, 406.5743668079376)
+('house_example2', 'doublelearn2clean', 'KMEANS', 'SaleCondition', None, 'LOF -> AD -> KMEANS', 'silhouette', 0.8544, 157.1621880531311)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'LC -> LOF -> LASSO', 'MSE', ({'quality_metric': 4118148955.7796564}, 0.6156816482543945))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> LC -> LOF -> OLS', 'MSE', ({'quality_metric': 9929715656.37507}, 1.065331220626831))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'MM -> IQR -> ED -> MARS', 'MSE', ({'quality_metric': 0.17635107994727925}, 37.66675090789795))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 3005502470.9537997}, 1.165607213973999))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 9913847895.209864}, 0.09900903701782227))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.18268983831163207}, 38.93842172622681))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.976546905995509}, 191.57930874824524))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8486677768526228}, 0.6059279441833496))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.5992948243485559}, 0.12932801246643066))
+('house_example2', 'random', 'CART', 'SalePrice', None, 'LC -> CART', 'accuracy', ({'quality_metric': 0.013273001508295626}, 204.79405188560486))
+('house_example2', 'random', 'LDA', 'SalePrice', None, 'MM -> LOF -> ED -> LDA', 'accuracy', ({'quality_metric': 0.7823885109599396}, 4.493133068084717))
+('house_example2', 'random', 'NB', 'SalePrice', None, 'LC -> ZSB -> NB', 'accuracy', ({'quality_metric': 0.7283244825528727}, 1.3168549537658691))
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'MM -> LC -> LOF -> LASSO', 'MSE', ({'quality_metric': 2125790313.1750915}, 1.2410147190093994))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> LOF -> OLS', 'MSE', ({'quality_metric': 9924290429.422045}, 3.2780041694641113))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'Tree -> ZSB -> MARS', 'MSE', ({'quality_metric': 0.14662078759673428}, 35.5436909198761))
+('house_example2', 'random', 'HCA', 'SalePrice', None, 'ZS -> LC -> ED -> HCA', 'silhouette', ({'quality_metric': 0.8048, 'result': {'train':        BsmtHalfBath  LowQualFinSF    MoSold  MiscVal  KitchenAbvGr  PoolArea  \
+0         -0.216996     -0.116606 -1.595173  -0.0812     -0.203148 -0.063217   
+1          4.271883     -0.116606 -0.484288  -0.0812     -0.203148 -0.063217   
+2         -0.216996     -0.116606  0.996893  -0.0812     -0.203148 -0.063217   
+3         -0.216996     -0.116606 -1.595173  -0.0812     -0.203148 -0.063217   
+4         -0.216996     -0.116606  2.107778  -0.0812     -0.203148 -0.063217   
+...             ...           ...       ...      ...           ...       ...   
+13255      4.271883     -0.116606 -1.965469  -0.0812     -0.203148 -0.063217   
+13256      4.271883     -0.116606 -1.965469  -0.0812     -0.203148 -0.063217   
+13257      4.271883     -0.116606 -1.965469  -0.0812     -0.203148 -0.063217   
+13258      4.271883     -0.116606 -1.965469  -0.0812     -0.203148 -0.063217   
+13259      4.271883     -0.116606 -1.965469  -0.0812     -0.203148 -0.063217   
+
+        LotArea  1stFlrSF  ScreenPorch        Id  EnclosedPorch  3SsnPorch  \
+0     -0.209268 -0.848403    -0.261988 -1.741537      -0.332775  -0.096683   
+1     -0.117624  0.102724    -0.261988 -1.739132      -0.332775  -0.096683   
+2      0.013866 -0.698471    -0.261988 -1.736728      -0.332775  -0.096683   
+3     -0.121608 -0.602422    -0.261988 -1.734324       4.429569  -0.096683   
+4      0.253734 -0.171369    -0.261988 -1.731919      -0.332775  -0.096683   
+...         ...       ...          ...       ...            ...        ...   
+13255  0.833481  2.871769    -0.261988 -0.080130      -0.332775  -0.096683   
+13256  0.833481  2.871769    -0.261988 -0.080130      -0.332775  -0.096683   
+13257  0.833481  2.871769    -0.261988 -0.080130      -0.332775  -0.096683   
+13258  0.833481  2.871769    -0.261988 -0.080130      -0.332775  -0.096683   
+13259  0.833481  2.871769    -0.261988 -0.080130      -0.332775  -0.096683   
+
+         YrSold  BsmtFinSF2  2ndFlrSF  cluster_ID  
+0      0.143127    -0.26242  1.052216           0  
+1     -0.602890    -0.26242 -0.783841           0  
+2      0.143127    -0.26242  1.078016           0  
+3     -1.348907    -0.26242  0.841521           0  
+4      0.143127    -0.26242  1.480057           0  
+...         ...         ...       ...         ...  
+13255 -0.602890    -0.26242  3.240866           0  
+13256 -0.602890    -0.26242  3.240866           0  
+13257 -0.602890    -0.26242  3.240866           0  
+13258 -0.602890    -0.26242  3.240866           0  
+13259 -0.602890    -0.26242  3.240866           0  
+
+[13260 rows x 16 columns], 'test':                                                                                                       row  \
+0     856.0*854.0*0.0*Grvl*3.0*1Fam*TA*No*706.0*0.0*GLQ*Unf*1.0*0.0*Gd*150.0*Y*Norm*Norm*SBrkr*0.0*TA*...   
+1     1262.0*0.0*0.0*Grvl*3.0*1Fam*TA*Gd*978.0*0.0*ALQ*Unf*0.0*1.0*Gd*284.0*Y*Feedr*Norm*SBrkr*0.0*TA*...   
+2     920.0*866.0*0.0*Grvl*3.0*1Fam*TA*Mn*486.0*0.0*GLQ*Unf*1.0*0.0*Gd*434.0*Y*Norm*Norm*SBrkr*0.0*TA*...   
+3     961.0*756.0*0.0*Grvl*3.0*1Fam*Gd*No*216.0*0.0*ALQ*Unf*1.0*0.0*TA*540.0*Y*Norm*Norm*SBrkr*272.0*T...   
+4     1145.0*1053.0*0.0*Grvl*4.0*1Fam*TA*Av*655.0*0.0*GLQ*Unf*1.0*0.0*Gd*490.0*Y*Norm*Norm*SBrkr*0.0*T...   
+...                                                                                                   ...   
+2914  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...   
+2915  546.0*546.0*0.0*Grvl*3.0*TwnhsE*TA*No*252.0*0.0*Rec*Unf*0.0*0.0*TA*294.0*Y*Norm*Norm*SBrkr*0.0*T...   
+2916  1224.0*0.0*0.0*Grvl*4.0*1Fam*TA*No*1224.0*0.0*ALQ*Unf*1.0*0.0*TA*0.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...   
+2917  970.0*0.0*0.0*Grvl*3.0*1Fam*TA*Av*337.0*0.0*GLQ*Unf*0.0*1.0*Gd*575.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...   
+2918  996.0*1004.0*0.0*Grvl*3.0*1Fam*TA*Av*758.0*0.0*LwQ*Unf*0.0*0.0*Gd*238.0*Y*Norm*Norm*SBrkr*0.0*TA...   
+
+     Condition1 Exterior1st Utilities PoolQC  KitchenAbvGr Exterior2nd  \
+0          Norm     VinylSd    AllPub     Gd     -0.207663     VinylSd   
+1         Feedr     MetalSd    AllPub     Gd     -0.207663     MetalSd   
+2          Norm     VinylSd    AllPub     Gd     -0.207663     VinylSd   
+3          Norm     Wd Sdng    AllPub     Gd     -0.207663     Wd Shng   
+4          Norm     VinylSd    AllPub     Gd     -0.207663     VinylSd   
+...         ...         ...       ...    ...           ...         ...   
+2914       Norm     CemntBd    AllPub     Gd     -0.207663     CmentBd   
+2915       Norm     CemntBd    AllPub     Gd     -0.207663     CmentBd   
+2916       Norm     VinylSd    AllPub     Gd     -0.207663     VinylSd   
+2917       Norm     HdBoard    AllPub     Gd     -0.207663     Wd Shng   
+2918       Norm     HdBoard    AllPub     Gd     -0.207663     HdBoard   
+
+      PoolArea  ScreenPorch BsmtFinType2  ... BsmtExposure GarageType  \
+0    -0.063139    -0.285886          Unf  ...           No     Attchd   
+1    -0.063139    -0.285886          Unf  ...           Gd     Attchd   
+2    -0.063139    -0.285886          Unf  ...           Mn     Attchd   
+3    -0.063139    -0.285886          Unf  ...           No     Detchd   
+4    -0.063139    -0.285886          Unf  ...           Av     Attchd   
+...        ...          ...          ...  ...          ...        ...   
+2914 -0.063139    -0.285886          Unf  ...           No     Attchd   
+2915 -0.063139    -0.285886          Unf  ...           No    CarPort   
+2916 -0.063139    -0.285886          Unf  ...           No     Detchd   
+2917 -0.063139    -0.285886          Unf  ...           Av     Attchd   
+2918 -0.063139    -0.285886          Unf  ...           Av     Attchd   
+
+     BldgType   LotArea  Foundation        Id KitchenQual Functional  \
+0        1Fam -0.217841       PConc -1.731161          Gd        Typ   
+1        1Fam -0.072032      CBlock -1.729974          TA        Typ   
+2        1Fam  0.137173       PConc -1.728788          Gd        Typ   
+3        1Fam -0.078371      BrkTil -1.727601          Gd        Typ   
+4        1Fam  0.518814       PConc -1.726415          Gd        Typ   
+...       ...       ...         ...       ...         ...        ...   
+2914    Twnhs -1.043758      CBlock  1.726415          TA        Typ   
+2915   TwnhsE -1.049083      CBlock  1.727601          TA        Typ   
+2916     1Fam  1.246594      CBlock  1.728788          TA        Typ   
+2917     1Fam  0.034599       PConc  1.729974          TA        Typ   
+2918     1Fam -0.068608       PConc  1.731161          TA        Typ   
+
+      1stFlrSF PavedDrive  
+0    -0.773728          Y  
+1     0.261030          Y  
+2    -0.610614          Y  
+3    -0.506118          Y  
+4    -0.037164          Y  
+...        ...        ...  
+2914 -1.563815          Y  
+2915 -1.563815          Y  
+2916  0.164181          Y  
+2917 -0.483181          Y  
+2918 -0.416915          Y  
+
+[2919 rows x 58 columns], 'target': 0        208500.0
+1        181500.0
+2        223500.0
+3        140000.0
+4        250000.0
+           ...   
+13255    755000.0
+13256    755000.0
+13257    755000.0
+13258    755000.0
+13259    755000.0
+Name: SalePrice, Length: 13260, dtype: float64, 'target_test': Series([], Name: SalePrice, dtype: float64)}}, 36.69367980957031))
+('house_example2', 'random', 'KMEANS', 'SalePrice', None, 'DS -> Tree -> LOF -> ED -> KMEANS', 'silhouette', ({'quality_metric': 0.1643, 'result': {'train':        1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0      0.213915  0.805051        0.0      0.555556    0.714119         0.0   
+1      0.588148  0.000000        0.0      0.555556    0.825163         0.0   
+2      0.287037  0.811111        0.0      0.555556    0.587241         0.0   
+3      0.334215  0.750617        0.0      0.555556    0.435028         0.0   
+4      0.494108  0.892398        0.0      0.888889    0.688555         0.0   
+...         ...       ...        ...           ...         ...         ...   
+13255  0.915729  0.979479        0.0      0.888889    0.895897         0.0   
+13256  0.915729  0.979479        0.0      0.888889    0.895897         0.0   
+13257  0.915729  0.979479        0.0      0.888889    0.895897         0.0   
+13258  0.915729  0.979479        0.0      0.888889    0.895897         0.0   
+13259  0.915729  0.979479        0.0      0.888889    0.895897         0.0   
+
+       BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  OverallQual  \
+0          0.777778      0.000000   0.157623       0.000000  ...     0.611111   
+1          0.000000      0.944444   0.281281       0.000000  ...     0.388889   
+2          0.777778      0.000000   0.422587       0.000000  ...     0.611111   
+3          0.777778      0.000000   0.507716       0.938758  ...     0.611111   
+4          0.777778      0.000000   0.469136       0.000000  ...     0.833333   
+...             ...           ...        ...            ...  ...          ...   
+13255      0.000000      0.944444   0.797848       0.000000  ...     1.000000   
+13256      0.000000      0.944444   0.797848       0.000000  ...     1.000000   
+13257      0.000000      0.944444   0.797848       0.000000  ...     1.000000   
+13258      0.000000      0.944444   0.797848       0.000000  ...     1.000000   
+13259      0.000000      0.944444   0.797848       0.000000  ...     1.000000   
+
+       PoolArea  ScreenPorch  TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  \
+0           0.0          0.0      0.777778     0.314010    0.000000   
+1           0.0          0.0      0.388889     0.656671    0.897675   
+2           0.0          0.0      0.388889     0.380952    0.000000   
+3           0.0          0.0      0.611111     0.201021    0.000000   
+4           0.0          0.0      0.888889     0.575081    0.777778   
+...         ...          ...           ...          ...         ...   
+13255       0.0          0.0      0.911111     0.907676    0.913051   
+13256       0.0          0.0      0.911111     0.907676    0.913051   
+13257       0.0          0.0      0.911111     0.907676    0.913051   
+13258       0.0          0.0      0.911111     0.907676    0.913051   
+13259       0.0          0.0      0.911111     0.907676    0.913051   
+
+       YearBuilt  YearRemodAdd    YrSold  cluster_ID  
+0       0.703704      0.638889  0.555556           1  
+1       0.444444      0.303030  0.333333           0  
+2       0.652778      0.611111  0.555556           1  
+3       0.085317      0.242424  0.000000           0  
+4       0.638889      0.555556  0.555556           1  
+...          ...           ...       ...         ...  
+13255   0.555556      0.437908  0.333333           1  
+13256   0.555556      0.437908  0.333333           1  
+13257   0.555556      0.437908  0.333333           1  
+13258   0.555556      0.437908  0.333333           1  
+13259   0.555556      0.437908  0.333333           1  
+
+[13230 rows x 39 columns], 'test':       1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+1     0.662668  0.000000    0.00000      0.555556    0.868564         0.0   
+2     0.300985  0.864704    0.00000      0.555556    0.579254         0.0   
+3     0.353952  0.788209    0.00000      0.555556    0.414793         0.0   
+4     0.562411  0.903417    0.00000      0.888889    0.696118         0.0   
+5     0.150112  0.664991    0.95888      0.055556    0.747657         0.0   
+...        ...       ...        ...           ...         ...         ...   
+2913  0.055396  0.661124    0.00000      0.555556    0.000000         0.0   
+2914  0.055396  0.661124    0.00000      0.555556    0.000000         0.0   
+2916  0.630106  0.000000    0.00000      0.888889    0.893722         0.0   
+2917  0.364261  0.000000    0.00000      0.555556    0.478610         0.0   
+2918  0.394044  0.898740    0.00000      0.555556    0.765060         0.0   
+
+      BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  MiscFeature  \
+1         0.000000      0.944444   0.316649       0.000000  ...         Shed   
+2         0.777778      0.000000   0.466648       0.000000  ...         Shed   
+3         0.777778      0.000000   0.556994       0.910238  ...         Shed   
+4         0.777778      0.000000   0.514470       0.000000  ...         Shed   
+5         0.777778      0.000000   0.088889       0.000000  ...         Shed   
+...            ...           ...        ...            ...  ...          ...   
+2913      0.000000      0.000000   0.561564       0.000000  ...         Shed   
+2914      0.000000      0.000000   0.561564       0.000000  ...         Shed   
+2916      0.777778      0.000000   0.000000       0.000000  ...         Shed   
+2917      0.000000      0.944444   0.583651       0.000000  ...         Shed   
+2918      0.000000      0.000000   0.268683       0.000000  ...         Shed   
+
+      Neighborhood  PavedDrive  PoolQC  RoofMatl  RoofStyle  SaleCondition  \
+1          Veenker           Y      Gd   CompShg      Gable         Normal   
+2          CollgCr           Y      Gd   CompShg      Gable         Normal   
+3          Crawfor           Y      Gd   CompShg      Gable        Abnorml   
+4          NoRidge           Y      Gd   CompShg      Gable         Normal   
+5          Mitchel           Y      Gd   CompShg      Gable         Normal   
+...            ...         ...     ...       ...        ...            ...   
+2913       MeadowV           Y      Gd   CompShg      Gable         Normal   
+2914       MeadowV           Y      Gd   CompShg      Gable         Normal   
+2916       Mitchel           Y      Gd   CompShg      Gable        Abnorml   
+2917       Mitchel           Y      Gd   CompShg      Gable         Normal   
+2918       Mitchel           Y      Gd   CompShg      Gable         Normal   
+
+      Street  Utilities  \
+1       Pave     AllPub   
+2       Pave     AllPub   
+3       Pave     AllPub   
+4       Pave     AllPub   
+5       Pave     AllPub   
+...      ...        ...   
+2913    Pave     AllPub   
+2914    Pave     AllPub   
+2916    Pave     AllPub   
+2917    Pave     AllPub   
+2918    Pave     AllPub   
+
+                                                                                                      row  
+1     1262.0*0.0*0.0*Grvl*3.0*1Fam*TA*Gd*978.0*0.0*ALQ*Unf*0.0*1.0*Gd*284.0*Y*Feedr*Norm*SBrkr*0.0*TA*...  
+2     920.0*866.0*0.0*Grvl*3.0*1Fam*TA*Mn*486.0*0.0*GLQ*Unf*1.0*0.0*Gd*434.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+3     961.0*756.0*0.0*Grvl*3.0*1Fam*Gd*No*216.0*0.0*ALQ*Unf*1.0*0.0*TA*540.0*Y*Norm*Norm*SBrkr*272.0*T...  
+4     1145.0*1053.0*0.0*Grvl*4.0*1Fam*TA*Av*655.0*0.0*GLQ*Unf*1.0*0.0*Gd*490.0*Y*Norm*Norm*SBrkr*0.0*T...  
+5     796.0*566.0*320.0*Grvl*1.0*1Fam*TA*No*732.0*0.0*GLQ*Unf*1.0*0.0*Gd*64.0*Y*Norm*Norm*SBrkr*0.0*TA...  
+...                                                                                                   ...  
+2913  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...  
+2914  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...  
+2916  1224.0*0.0*0.0*Grvl*4.0*1Fam*TA*No*1224.0*0.0*ALQ*Unf*1.0*0.0*TA*0.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2917  970.0*0.0*0.0*Grvl*3.0*1Fam*TA*Av*337.0*0.0*GLQ*Unf*0.0*1.0*Gd*575.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2918  996.0*1004.0*0.0*Grvl*3.0*1Fam*TA*Av*758.0*0.0*LwQ*Unf*0.0*0.0*Gd*238.0*Y*Norm*Norm*SBrkr*0.0*TA...  
+
+[2889 rows x 81 columns], 'target': 0        208500.0
+1        181500.0
+2        223500.0
+3        140000.0
+4        250000.0
+           ...   
+13255    755000.0
+13256    755000.0
+13257    755000.0
+13258    755000.0
+13259    755000.0
+Name: SalePrice, Length: 13260, dtype: float64, 'target_test': Series([], Name: SalePrice, dtype: float64)}}, 14.49816608428955))
+('house_example2', 'learn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 69.11823511123657)
+('house_example2', 'learn2clean', 'OLS', 'SaleCondition', None, 'WR -> IQR -> OLS', 'MSE', 1.0715761272302342, 3.22245192527771)
+('house_example2', 'learn2clean', 'CART', 'SaleCondition', None, 'ZSB -> ED -> CART', 'accuracy', 0.8978433974784341, 1033.663547039032)
+('house_example2', 'learn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> ED -> LDA', 'accuracy', 0.825612307574187, 4.127547025680542)
+('house_example2', 'learn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.6113294600136706, 3.920560121536255)
+('house_example2', 'learn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 1.6189728459843126e-06, 5.70176887512207)
+('house_example2', 'learn2clean', 'MARS', 'SaleCondition', None, 'DS -> IQR -> MARS', 'MSE', 0.2524569437561471, 11.663780927658081)
+('house_example2', 'learn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> ED -> HCA', 'silhouette', 0.9648, 23.62045383453369)
+('house_example2', 'learn2clean', 'KMEANS', 'SaleCondition', None, 'ZSB -> ED -> KMEANS', 'silhouette', 0.9648, 16.406319856643677)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'LOF -> LASSO', 'MSE', ({'quality_metric': 1409061181.0644548}, 0.555535078048706))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> Tree -> ZSB -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.16465377807617188))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'Tree -> IQR -> MARS', 'MSE', ({'quality_metric': 0.11197222503421012}, 1.376704216003418))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.2979280948638916))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.07215404510498047))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 6.23478889465332))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 103.46918511390686))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.10832786560058594))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.07719278335571289))
+('house_example2', 'random', 'CART', 'SalePrice', None, 'Tree -> LOF -> CART', 'accuracy', ({'quality_metric': 0.006993006993006994}, 327.5361909866333))
+('house_example2', 'random', 'LDA', 'SalePrice', None, 'ZS -> IQR -> LDA', 'accuracy', ({'quality_metric': 0.012251068710249193}, 0.3666093349456787))
+('house_example2', 'random', 'NB', 'SalePrice', None, 'MM -> Tree -> LOF -> NB', 'accuracy', ({'quality_metric': 0.006993006993006994}, 0.9726626873016357))
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'WR -> IQR -> LASSO', 'MSE', ({'quality_metric': 535981674.029729}, 0.2939450740814209))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'MM -> WR -> IQR -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.17201995849609375))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'DS -> LC -> ED -> MARS', 'MSE', ({'quality_metric': 0.2884585653485321}, 4.969198703765869))
+('house_example2', 'random', 'HCA', 'SalePrice', None, 'WR -> HCA', 'silhouette', ({'quality_metric': 0.9623, 'result': {'train':       1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0        856.0     854.0        0.0           3.0       706.0         0.0   
+1       1262.0       0.0        0.0           3.0       978.0         0.0   
+2        920.0     866.0        0.0           3.0       486.0         0.0   
+3        961.0     756.0        0.0           3.0       216.0         0.0   
+4       1145.0    1053.0        0.0           4.0       655.0         0.0   
+...        ...       ...        ...           ...         ...         ...   
+1455     953.0     694.0        0.0           3.0         0.0         0.0   
+1456    2073.0       0.0        0.0           3.0       790.0       163.0   
+1457    1188.0    1152.0        0.0           4.0       275.0         0.0   
+1458    1078.0       0.0        0.0           2.0        49.0      1029.0   
+1459    1256.0       0.0        0.0           3.0       830.0       290.0   
+
+      BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  PoolArea  \
+0              1.0           0.0      150.0            0.0  ...       0.0   
+1              0.0           1.0      284.0            0.0  ...       0.0   
+2              1.0           0.0      434.0            0.0  ...       0.0   
+3              1.0           0.0      540.0          272.0  ...       0.0   
+4              1.0           0.0      490.0            0.0  ...       0.0   
+...            ...           ...        ...            ...  ...       ...   
+1455           0.0           0.0      953.0            0.0  ...       0.0   
+1456           1.0           0.0      589.0            0.0  ...       0.0   
+1457           0.0           0.0      877.0            0.0  ...       0.0   
+1458           1.0           0.0        0.0          112.0  ...       0.0   
+1459           1.0           0.0      136.0            0.0  ...       0.0   
+
+      ScreenPorch  TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  YearBuilt  \
+0             0.0           8.0        856.0         0.0     2003.0   
+1             0.0           6.0       1262.0       298.0     1976.0   
+2             0.0           6.0        920.0         0.0     2001.0   
+3             0.0           7.0        756.0         0.0     1915.0   
+4             0.0           9.0       1145.0       192.0     2000.0   
+...           ...           ...          ...         ...        ...   
+1455          0.0           7.0        953.0         0.0     1999.0   
+1456          0.0           7.0       1542.0       349.0     1978.0   
+1457          0.0           9.0       1152.0         0.0     1941.0   
+1458          0.0           5.0       1078.0       366.0     1950.0   
+1459          0.0           6.0       1256.0       736.0     1965.0   
+
+      YearRemodAdd  YrSold  New_ID  cluster_ID  
+0           2003.0  2008.0       1           1  
+1           1976.0  2007.0       2           1  
+2           2002.0  2008.0       3           1  
+3           1970.0  2006.0       4           1  
+4           2000.0  2008.0       5           1  
+...            ...     ...     ...         ...  
+1455        2000.0  2007.0    1456           1  
+1456        1988.0  2010.0    1457           1  
+1457        2006.0  2010.0    1458           1  
+1458        1996.0  2010.0    1459           1  
+1459        1965.0  2008.0    1460           1  
+
+[1460 rows x 39 columns], 'test':       MSSubClass  MasVnrArea  HalfBath  GarageCars  OpenPorchSF  BsmtUnfSF  \
+0           60.0       196.0       1.0         2.0         61.0      150.0   
+1           20.0         0.0       0.0         2.0          0.0      284.0   
+2           60.0       162.0       1.0         2.0         42.0      434.0   
+3           70.0         0.0       0.0         3.0         35.0      540.0   
+4           60.0       350.0       1.0         3.0         84.0      490.0   
+...          ...         ...       ...         ...          ...        ...   
+2914       160.0         0.0       1.0         0.0          0.0      546.0   
+2915       160.0         0.0       1.0         1.0         24.0      294.0   
+2916        20.0         0.0       0.0         2.0          0.0        0.0   
+2917        85.0         0.0       0.0         0.0         32.0      575.0   
+2918        60.0        94.0       1.0         3.0         48.0      238.0   
+
+      YearRemodAdd  BedroomAbvGr  OverallCond  BsmtFinSF1  ...  TotRmsAbvGrd  \
+0           2003.0           3.0          5.0       706.0  ...           8.0   
+1           1976.0           3.0          8.0       978.0  ...           6.0   
+2           2002.0           3.0          5.0       486.0  ...           6.0   
+3           1970.0           3.0          5.0       216.0  ...           7.0   
+4           2000.0           4.0          5.0       655.0  ...           9.0   
+...            ...           ...          ...         ...  ...           ...   
+2914        1970.0           3.0          7.0         0.0  ...           5.0   
+2915        1970.0           3.0          5.0       252.0  ...           6.0   
+2916        1996.0           4.0          7.0      1224.0  ...           7.0   
+2917        1992.0           3.0          5.0       337.0  ...           6.0   
+2918        1994.0           3.0          5.0       758.0  ...           9.0   
+
+      2ndFlrSF  3SsnPorch  ScreenPorch  YearBuilt  KitchenAbvGr  BsmtFullBath  \
+0        854.0        0.0          0.0     2003.0           1.0           1.0   
+1          0.0        0.0          0.0     1976.0           1.0           0.0   
+2        866.0        0.0          0.0     2001.0           1.0           1.0   
+3        756.0        0.0          0.0     1915.0           1.0           1.0   
+4       1053.0        0.0          0.0     2000.0           1.0           1.0   
+...        ...        ...          ...        ...           ...           ...   
+2914     546.0        0.0          0.0     1970.0           1.0           0.0   
+2915     546.0        0.0          0.0     1970.0           1.0           0.0   
+2916       0.0        0.0          0.0     1960.0           1.0           1.0   
+2917       0.0        0.0          0.0     1992.0           1.0           0.0   
+2918    1004.0        0.0          0.0     1993.0           1.0           0.0   
+
+      MiscVal  YrSold  GrLivArea  
+0         0.0  2008.0     1710.0  
+1         0.0  2007.0     1262.0  
+2         0.0  2008.0     1786.0  
+3         0.0  2006.0     1717.0  
+4         0.0  2008.0     2198.0  
+...       ...     ...        ...  
+2914      0.0  2006.0     1092.0  
+2915      0.0  2006.0     1092.0  
+2916      0.0  2006.0     1224.0  
+2917    700.0  2006.0      970.0  
+2918      0.0  2006.0     2000.0  
+
+[2919 rows x 38 columns], 'target': 0       208500.0
+1       181500.0
+2       223500.0
+3       140000.0
+4       250000.0
+          ...   
+1455    175000.0
+1456    210000.0
+1457    266500.0
+1458    142125.0
+1459    147500.0
+Name: SalePrice, Length: 1460, dtype: float64, 'target_test': Series([], Name: SalePrice, dtype: float64)}}, 0.6031267642974854))
+('house_example2', 'random', 'KMEANS', 'SalePrice', None, 'DS -> WR -> ZSB -> KMEANS', 'silhouette', ({'quality_metric': 0.1348, 'result': {'train':       1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0     0.212952  0.844135        0.0      0.555556    0.733982    0.000000   
+1     0.663248  0.000000        0.0      0.555556    0.865291    0.000000   
+2     0.296004  0.852939        0.0      0.555556    0.575182    0.000000   
+3     0.348687  0.772645        0.0      0.555556    0.410504    0.000000   
+4     0.563248  0.902222        0.0      0.888889    0.695836    0.000000   
+...        ...       ...        ...           ...         ...         ...   
+1455  0.338990  0.730525        0.0      0.555556    0.000000    0.000000   
+1456  0.904150  0.000000        0.0      0.555556    0.788210    0.898356   
+1457  0.600000  0.911787        0.0      0.888889    0.434218    0.000000   
+1458  0.488426  0.000000        0.0      0.166667    0.343382    0.965499   
+1459  0.658120  0.000000        0.0      0.555556    0.804610    0.908203   
+
+      BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  OverallQual  \
+0         0.777778      0.000000   0.179856       0.000000  ...     0.722222   
+1         0.000000      0.944444   0.309012       0.000000  ...     0.500000   
+2         0.777778      0.000000   0.461407       0.000000  ...     0.722222   
+3         0.777778      0.000000   0.547029       0.931507  ...     0.722222   
+4         0.777778      0.000000   0.506642       0.000000  ...     0.888889   
+...            ...           ...        ...            ...  ...          ...   
+1455      0.000000      0.000000   0.812254       0.000000  ...     0.500000   
+1456      0.777778      0.000000   0.584527       0.000000  ...     0.500000   
+1457      0.000000      0.000000   0.784445       0.000000  ...     0.722222   
+1458      0.777778      0.000000   0.000000       0.892368  ...     0.222222   
+1459      0.777778      0.000000   0.165468       0.000000  ...     0.222222   
+
+      PoolArea  ScreenPorch  TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  YearBuilt  \
+0          0.0          0.0      0.833333     0.326625    0.000000   0.814815   
+1          0.0          0.0      0.388889     0.722443    0.897675   0.541667   
+2          0.0          0.0      0.388889     0.415730    0.000000   0.763889   
+3          0.0          0.0      0.611111     0.205506    0.000000   0.088477   
+4          0.0          0.0      0.907407     0.648420    0.794118   0.750000   
+...        ...          ...           ...          ...         ...        ...   
+1455       0.0          0.0      0.611111     0.457178    0.000000   0.736111   
+1456       0.0          0.0      0.611111     0.871918    0.907011   0.562092   
+1457       0.0          0.0      0.907407     0.655262    0.000000   0.180556   
+1458       0.0          0.0      0.166667     0.582926    0.910123   0.222222   
+1459       0.0          0.0      0.388889     0.719040    0.977851   0.395062   
+
+      YearRemodAdd    YrSold  cluster_ID  
+0         0.740741  0.500000           0  
+1         0.349206  0.277778           1  
+2         0.703704  0.500000           0  
+3         0.288889  0.000000           1  
+4         0.644444  0.500000           0  
+...            ...       ...         ...  
+1455      0.644444  0.277778           0  
+1456      0.444444  1.000000           0  
+1457      0.888889  1.000000           0  
+1458      0.555556  1.000000           1  
+1459      0.233333  0.500000           1  
+
+[1460 rows x 39 columns], 'test':       MSSubClass  MasVnrArea  HalfBath  GarageCars  OpenPorchSF  BsmtUnfSF  \
+0       0.611111    0.791462  0.777778    0.555556     0.710317   0.179671   
+1       0.000000    0.000000  0.000000    0.555556     0.000000   0.316649   
+2       0.611111    0.754972  0.777778    0.555556     0.607407   0.466648   
+3       0.722222    0.000000  0.000000    0.888889     0.555556   0.556994   
+4       0.611111    0.892998  0.777778    0.888889     0.792666   0.514470   
+...          ...         ...       ...         ...          ...        ...   
+2914    0.952381    0.000000  0.777778    0.000000     0.000000   0.561564   
+2915    0.952381    0.000000  0.777778    0.166667     0.520635   0.327077   
+2916    0.000000    0.000000  0.000000    0.555556     0.000000   0.000000   
+2917    0.791667    0.000000  0.000000    0.000000     0.546032   0.583651   
+2918    0.611111    0.673827  0.777778    0.888889     0.651852   0.268683   
+
+      YearRemodAdd  BedroomAbvGr  OverallCond  BsmtFinSF1  ...  TotRmsAbvGrd  \
+0         0.740741      0.555556     0.333333    0.730254  ...      0.888889   
+1         0.365079      0.555556     0.944444    0.868564  ...      0.444444   
+2         0.703704      0.555556     0.333333    0.579254  ...      0.444444   
+3         0.311111      0.555556     0.333333    0.414793  ...      0.722222   
+4         0.644444      0.888889     0.333333    0.696118  ...      0.904762   
+...            ...           ...          ...         ...  ...           ...   
+2914      0.311111      0.555556     0.888889    0.000000  ...      0.166667   
+2915      0.311111      0.555556     0.333333    0.430066  ...      0.444444   
+2916      0.555556      0.888889     0.888889    0.893722  ...      0.722222   
+2917      0.511111      0.555556     0.333333    0.478610  ...      0.444444   
+2918      0.533333      0.555556     0.333333    0.765060  ...      0.904762   
+
+      2ndFlrSF  3SsnPorch  ScreenPorch  YearBuilt  KitchenAbvGr  BsmtFullBath  \
+0     0.856359        0.0          0.0   0.777778           0.5      0.777778   
+1     0.000000        0.0          0.0   0.543210           0.5      0.000000   
+2     0.864704        0.0          0.0   0.750000           0.5      0.777778   
+3     0.788209        0.0          0.0   0.090147           0.5      0.777778   
+4     0.903417        0.0          0.0   0.736111           0.5      0.777778   
+...        ...        ...          ...        ...           ...           ...   
+2914  0.661124        0.0          0.0   0.469136           0.5      0.000000   
+2915  0.661124        0.0          0.0   0.469136           0.5      0.000000   
+2916  0.000000        0.0          0.0   0.333333           0.5      0.777778   
+2917  0.000000        0.0          0.0   0.648148           0.5      0.000000   
+2918  0.898740        0.0          0.0   0.654321           0.5      0.000000   
+
+       MiscVal    YrSold  GrLivArea  
+0     0.000000  0.555556   0.713899  
+1     0.000000  0.333333   0.356661  
+2     0.000000  0.555556   0.769988  
+3     0.000000  0.000000   0.719065  
+4     0.000000  0.555556   0.892055  
+...        ...       ...        ...  
+2914  0.000000  0.000000   0.222222  
+2915  0.000000  0.000000   0.222222  
+2916  0.000000  0.000000   0.326984  
+2917  0.893464  0.000000   0.132450  
+2918  0.000000  0.000000   0.853016  
+
+[2919 rows x 38 columns], 'target': 0       208500.0
+1       181500.0
+2       223500.0
+3       140000.0
+4       250000.0
+          ...   
+1455    175000.0
+1456    210000.0
+1457    266500.0
+1458    142125.0
+1459    147500.0
+Name: SalePrice, Length: 1460, dtype: float64, 'target_test': Series([], Name: SalePrice, dtype: float64)}}, 0.7268080711364746))

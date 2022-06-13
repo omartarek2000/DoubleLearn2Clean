@@ -1,0 +1,2 @@
+col;num;pattern
+RunTime;0;'^[0-9]+$^'

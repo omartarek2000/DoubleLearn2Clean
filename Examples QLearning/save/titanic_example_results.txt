@@ -1,0 +1,224 @@
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7235772357723578, 234.34766507148743)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'ZS -> LOF -> LDA', 'accuracy', 0.7398373983739838, 2.67972993850708)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'Tree -> IQR -> NB', 'accuracy', 0.7052631578947368, 2.9261510372161865)
+('titanic_example', 'random', 'CART', 'Survived', None, 'MICE -> MF -> LC -> ZSB -> CART', 'accuracy', ({'quality_metric': 0.6902356902356902}, 13.527941226959229))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'MF -> Tree -> ZSB -> ED -> LDA', 'accuracy', ({'quality_metric': 0.6105499438832772}, 0.22495388984680176))
+('titanic_example', 'random', 'CART', 'Survived', None, 'KNN -> CART', 'accuracy', ({'quality_metric': 0.6363636363636364}, 14.609788179397583))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'EM -> DS -> WR -> IQR -> ED -> LDA', 'accuracy', ({'quality_metric': 0.5970819304152637}, 0.30986523628234863))
+('titanic_example', 'random', 'NB', 'Survived', None, 'DS -> LOF -> ED -> NB', 'accuracy', ({'quality_metric': 0.5853658536585366}, 0.12041091918945312))
+('titanic_example', 'random', 'CART', 'Survived', None, 'MM -> LC -> ZSB -> CART', 'accuracy', ({'quality_metric': 0.6876750700280112}, 11.296579837799072))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'MICE -> WR -> ZSB -> ED -> LDA', 'accuracy', ({'quality_metric': 0.6150392817059483}, 0.18587803840637207))
+('titanic_example', 'random', 'NB', 'Survived', None, 'MICE -> ZS -> Tree -> NB', 'accuracy', ({'quality_metric': 0.6801346801346801}, 0.17720293998718262))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7016806722689075}, 14.218555212020874))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7002801120448179}, 0.018539905548095703))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6680672268907563}, 0.03400993347167969))
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'EM -> MM -> IQR -> CART', 'accuracy', 0.7258426966292135, 446.10563492774963)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 5.18441104888916)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 5.555160045623779)
+('titanic_example', 'random', 'CART', 'Survived', None, 'MICE -> ED -> CART', 'accuracy', ({'quality_metric': 0.7048439450686642}, 23.666821241378784))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'ZS -> MR -> LOF -> LDA', 'accuracy', ({'quality_metric': 0.6891495601173021}, 0.10669112205505371))
+('titanic_example', 'random', 'NB', 'Survived', None, 'KNN -> Tree -> ZSB -> NB', 'accuracy', ({'quality_metric': 0.6286529680365296}, 1.5356919765472412))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 23.360082149505615))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.029618024826049805))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.04974198341369629))
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7204166666666667, 416.58101511001587)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 5.731050968170166)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 6.175410032272339)
+('titanic_example', 'random', 'CART', 'Survived', None, 'MICE -> Tree -> LOF -> ED -> CART', 'accuracy', ({'quality_metric': 0.6970588235294117}, 28.091827154159546))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'EM -> WR -> ZSB -> LDA', 'accuracy', ({'quality_metric': 0.7070907235912729}, 0.6704990863800049))
+('titanic_example', 'random', 'NB', 'Survived', None, 'MICE -> MF -> Tree -> ZSB -> NB', 'accuracy', ({'quality_metric': 0.7033333333333334}, 0.833510160446167))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 63.10840582847595))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.0740811824798584))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.15298891067504883))
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7204166666666667, 459.5204589366913)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 5.24969482421875)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 5.824446201324463)
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7204166666666667, 699.8369452953339)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 8.330705881118774)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 8.28251314163208)
+('titanic_example', 'random', 'CART', 'Survived', None, 'MICE -> ZS -> MR -> ZSB -> ED -> CART', 'accuracy', ({'quality_metric': 0.7424313725490196}, 32.949584007263184))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'KNN -> MR -> ZSB -> LDA', 'accuracy', ({'quality_metric': 0.6368631368631368}, 2.706246852874756))
+('titanic_example', 'random', 'NB', 'Survived', None, 'MICE -> ZS -> Tree -> ZSB -> NB', 'accuracy', ({'quality_metric': 0.7033333333333334}, 0.6411218643188477))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 31.36175298690796))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.039682626724243164))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.06337499618530273))
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7204166666666667, 618.3265700340271)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 6.23440408706665)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 6.452116012573242)
+('titanic_example', 'random', 'CART', 'Survived', None, 'MICE -> MM -> LC -> LOF -> CART', 'accuracy', ({'quality_metric': 0.6794117647058824}, 24.331920862197876))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'MM -> Tree -> ZSB -> ED -> LDA', 'accuracy', ({'quality_metric': 0.7121771217712177}, 0.11455392837524414))
+('titanic_example', 'random', 'NB', 'Survived', None, 'MICE -> LOF -> NB', 'accuracy', ({'quality_metric': 0.6356209150326798}, 0.27814602851867676))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 31.980008840560913))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.0395050048828125))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.06195402145385742))
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'EM -> MM -> IQR -> CART', 'accuracy', 0.7235955056179775, 629.2319600582123)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 6.723437786102295)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 7.198015928268433)
+('titanic_example', 'random', 'CART', 'Survived', None, 'MICE -> MF -> Tree -> CART', 'accuracy', ({'quality_metric': 0.7048439450686642}, 33.2234890460968))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'MICE -> MM -> LC -> LDA', 'accuracy', ({'quality_metric': 0.64646042223006}, 0.4119279384613037))
+('titanic_example', 'random', 'NB', 'Survived', None, 'MICE -> MM -> LOF -> NB', 'accuracy', ({'quality_metric': 0.6748366013071896}, 0.31497669219970703))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 33.66447114944458))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.04062914848327637))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.0799562931060791))
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7204166666666667, 552.0485980510712)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 6.589280843734741)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 7.727328062057495)
+('titanic_example', 'random', 'CART', 'Survived', None, 'MF -> MR -> LOF -> CART', 'accuracy', ({'quality_metric': 0.6956295108259825}, 30.25647211074829))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'MR -> LOF -> ED -> LDA', 'accuracy', ({'quality_metric': 0.7023460410557185}, 0.10224699974060059))
+('titanic_example', 'random', 'NB', 'Survived', None, 'EM -> DS -> WR -> IQR -> NB', 'accuracy', ({'quality_metric': 0.6578277153558052}, 0.6927061080932617))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 29.496103048324585))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.03421902656555176))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.06146097183227539))
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7204166666666667, 477.02845215797424)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 7.9723851680755615)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 8.399229764938354)
+('titanic_example', 'random', 'CART', 'Survived', None, 'EM -> DS -> LC -> ZSB -> CART', 'accuracy', ({'quality_metric': 0.6823470661672909}, 28.49423384666443))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'KNN -> ZS -> LC -> IQR -> LDA', 'accuracy', ({'quality_metric': None}, 2.457631826400757))
+('titanic_example', 'random', 'NB', 'Survived', None, 'MM -> WR -> ZSB -> NB', 'accuracy', ({'quality_metric': 0.6933877551020408}, 0.24626898765563965))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 31.565903902053833))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.05220985412597656))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.05299687385559082))
+('titanic_example', 'learn2clean', 'LASSO', 'Survived', None, 'ZSB -> LASSO', 'MSE', 0.19982865489623597, 8.463855028152466)
+('titanic_example', 'learn2clean', 'OLS', 'Survived', None, 'ZS -> LOF -> OLS', 'MSE', 0.21164430684554528, 7.948549747467041)
+('titanic_example', 'learn2clean', 'MARS', 'Survived', None, 'KNN -> MARS', 'MSE', 0.3351542198117826, 52.1054892539978)
+('titanic_example', 'learn2clean', 'HCA', 'Survived', None, 'ED -> KNN -> HCA', 'silhouette', 0.6595, 8.712964057922363)
+('titanic_example', 'learn2clean', 'KMEANS', 'Survived', None, 'Tree -> IQR -> KMEANS', 'silhouette', 0.623, 11.303467035293579)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 10.107257843017578)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 8.453393936157227)
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7204166666666667, 416.86812591552734)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 4.954730987548828)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 1928.524120092392)
+('titanic_example', 'learn2clean', 'LASSO', 'Survived', None, 'Tree -> IQR -> LASSO', 'MSE', 0.20816139627431668, 6.405863046646118)
+('titanic_example', 'learn2clean', 'OLS', 'Survived', None, 'ZS -> LOF -> OLS', 'MSE', 0.21164430684554528, 22.652488946914673)
+('titanic_example', 'learn2clean', 'MARS', 'Survived', None, 'KNN -> MARS', 'MSE', 0.3351542198117826, 565.0877361297607)
+('titanic_example', 'learn2clean', 'HCA', 'Survived', None, 'ED -> KNN -> HCA', 'silhouette', 0.6595, 6.641402006149292)
+('titanic_example', 'learn2clean', 'KMEANS', 'Survived', None, 'Tree -> IQR -> KMEANS', 'silhouette', 0.623, 9.058213233947754)
+('titanic_example', 'random', 'CART', 'Survived', None, 'ZS -> Tree -> ED -> CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 21.388565063476562))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'MICE -> Tree -> ZSB -> ED -> LDA', 'accuracy', ({'quality_metric': 0.7267237593324549}, 0.24033188819885254))
+('titanic_example', 'random', 'NB', 'Survived', None, 'MICE -> ED -> NB', 'accuracy', ({'quality_metric': 0.6757553058676654}, 0.23029780387878418))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 23.40993309020996))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.027107954025268555))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.04864907264709473))
+('titanic_example', 'learn2clean', 'CART', 'Survived', None, 'LOF -> CART', 'accuracy', 0.7204166666666667, 355.09814190864563)
+('titanic_example', 'learn2clean', 'LDA', 'Survived', None, 'Tree -> IQR -> LDA', 'accuracy', 0.7181802944740981, 4.6726720333099365)
+('titanic_example', 'learn2clean', 'NB', 'Survived', None, 'ED -> KNN -> NB', 'accuracy', 0.6933333333333332, 4.939651727676392)
+('titanic_example', 'learn2clean', 'LASSO', 'Survived', None, 'Tree -> IQR -> LASSO', 'MSE', 0.20816139627431668, 4.582233905792236)
+('titanic_example', 'learn2clean', 'OLS', 'Survived', None, 'ZSB -> OLS', 'MSE', 0.20457697642163666, 4.40791130065918)
+('titanic_example', 'learn2clean', 'MARS', 'Survived', None, 'KNN -> MARS', 'MSE', 0.3351542198117826, 40.072336196899414)
+('titanic_example', 'learn2clean', 'HCA', 'Survived', None, 'ED -> KNN -> HCA', 'silhouette', 0.6595, 6.039401292800903)
+('titanic_example', 'learn2clean', 'KMEANS', 'Survived', None, 'Tree -> IQR -> KMEANS', 'silhouette', 0.623, 8.553899049758911)
+('titanic_example', 'random', 'CART', 'Survived', None, 'MICE -> Tree -> ED -> CART', 'accuracy', ({'quality_metric': 0.7048439450686642}, 21.0466091632843))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'MICE -> MR -> IQR -> LDA', 'accuracy', ({'quality_metric': 0.7093373493975903}, 0.22765111923217773))
+('titanic_example', 'random', 'NB', 'Survived', None, 'MM -> IQR -> ED -> NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.10502004623413086))
+('titanic_example', 'no-prep', 'CART', 'Survived', None, 'CART', 'accuracy', ({'quality_metric': 0.7017410015649452}, 20.3906409740448))
+('titanic_example', 'no-prep', 'LDA', 'Survived', None, 'LDA', 'accuracy', ({'quality_metric': 0.7058823529411764}, 0.028964996337890625))
+('titanic_example', 'no-prep', 'NB', 'Survived', None, 'NB', 'accuracy', ({'quality_metric': 0.6682511737089201}, 0.04526400566101074))
+('titanic_example', 'random', 'CART', 'Survived', None, 'EM -> ZS -> Tree -> ED -> CART', 'accuracy', ({'quality_metric': 0.7070037453183521}, 22.682215929031372))
+('titanic_example', 'random', 'LDA', 'Survived', None, 'KNN -> ZS -> ZSB -> LDA', 'accuracy', ({'quality_metric': 0.6368631368631368}, 1.3396141529083252))
+('titanic_example', 'random', 'NB', 'Survived', None, 'EM -> IQR -> NB', 'accuracy', ({'quality_metric': 0.6834503950834064}, 0.26656174659729004))
+('titanic_example', 'random', 'LASSO', 'Survived', None, 'KNN -> LC -> LASSO', 'MSE', ({'quality_metric': None}, 1.3146271705627441))
+('titanic_example', 'random', 'OLS', 'Survived', None, 'KNN -> MF -> MR -> ED -> OLS', 'MSE', ({'quality_metric': 0.23677221654749742}, 1.3674919605255127))
+('titanic_example', 'random', 'MARS', 'Survived', None, 'WR -> LOF -> MARS', 'MSE', ({'quality_metric': 0.31803720147714504}, 0.8722860813140869))
+('titanic_example', 'random', 'HCA', 'Survived', None, 'EM -> MR -> IQR -> HCA', 'silhouette', ({'quality_metric': 0.6017, 'result': {'train':      SibSp     Fare  Parch        Age  Pclass  PassengerId  cluster_ID
+0      1.0   7.2500    0.0  22.000000     3.0          1.0           1
+2      0.0   7.9250    0.0  26.000000     3.0          3.0           1
+3      1.0  53.1000    0.0  35.000000     1.0          4.0           1
+4      0.0   8.0500    0.0  35.000000     3.0          5.0           1
+5      0.0   8.4583    0.0  19.356189     3.0          6.0           1
+..     ...      ...    ...        ...     ...          ...         ...
+884    0.0   7.0500    0.0  25.000000     3.0        885.0           0
+886    0.0  13.0000    0.0  27.000000     2.0        887.0           0
+887    0.0  30.0000    0.0  19.000000     1.0        888.0           0
+889    0.0  30.0000    0.0  26.000000     1.0        890.0           0
+890    0.0   7.7500    0.0  32.000000     3.0        891.0           0
+
+[677 rows x 7 columns], 'test':       SibSp     Fare  Parch        Age  Pclass  PassengerId Embarked  \
+0       1.0   7.2500    0.0  22.000000     3.0          1.0        S   
+2       0.0   7.9250    0.0  26.000000     3.0          3.0        S   
+3       1.0  53.1000    0.0  35.000000     1.0          4.0        S   
+4       0.0   8.0500    0.0  35.000000     3.0          5.0        S   
+5       0.0   8.4583    0.0  22.475374     3.0          6.0        Q   
+...     ...      ...    ...        ...     ...          ...      ...   
+1303    0.0   7.7750    0.0  28.000000     3.0       1304.0        S   
+1304    0.0   8.0500    0.0  23.184334     3.0       1305.0        S   
+1306    0.0   7.2500    0.0  38.500000     3.0       1307.0        S   
+1307    0.0   8.0500    0.0  11.414245     3.0       1308.0        S   
+1308    1.0  22.3583    1.0  -2.208893     3.0       1309.0        C   
+
+                  Ticket                                          Name     Sex  
+0              A/5 21171                       Braund, Mr. Owen Harris    male  
+2       STON/O2. 3101282                        Heikkinen, Miss. Laina  female  
+3                 113803  Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  
+4                 373450                      Allen, Mr. William Henry    male  
+5                 330877                              Moran, Mr. James    male  
+...                  ...                                           ...     ...  
+1303              347086                Henriksson, Miss. Jenny Lovisa  female  
+1304           A.5. 3236                            Spector, Mr. Woolf    male  
+1306  SOTON/O.Q. 3101262                  Saether, Mr. Simon Sivertsen    male  
+1307              359309                           Ware, Mr. Frederick    male  
+1308                2668                      Peter, Master. Michael J    male  
+
+[1000 rows x 10 columns], 'target': 0      0
+1      1
+2      1
+3      1
+4      0
+      ..
+886    0
+887    1
+888    0
+889    1
+890    0
+Name: Survived, Length: 891, dtype: int64, 'target_test': Series([], Name: Survived, dtype: int64)}}, 0.31655120849609375))
+('titanic_example', 'random', 'KMEANS', 'Survived', None, 'EM -> DS -> ZSB -> KMEANS', 'silhouette', ({'quality_metric': 0.4268, 'result': {'train':           Age      Fare     Parch  PassengerId    Pclass     SibSp  cluster_ID
+0    0.333333  0.104173  0.000000     0.000000  1.000000  0.833333           2
+2    0.466468  0.226454  0.000000     0.002247  1.000000  0.000000           1
+4    0.710629  0.244569  0.000000     0.004494  1.000000  0.000000           1
+5    0.467221  0.303740  0.000000     0.005618  1.000000  0.000000           1
+6    0.912458  0.826262  0.000000     0.006742  0.000000  0.000000           0
+..        ...       ...       ...          ...       ...       ...         ...
+885  0.789518  0.704776  0.977778     0.994382  1.000000  0.000000           1
+886  0.496164  0.444444  0.000000     0.995506  0.388889  0.000000           0
+887  0.222222  0.715447  0.000000     0.996629  0.000000  0.000000           0
+889  0.466468  0.715447  0.000000     0.998876  0.000000  0.000000           0
+890  0.638889  0.122809  0.000000     1.000000  1.000000  0.000000           1
+
+[621 rows x 7 columns], 'test':            Age      Fare  Parch  PassengerId  Pclass     SibSp Cabin Embarked  \
+0     0.333333  0.108298    0.0     0.000000     1.0  0.833333   NaN        S   
+2     0.472222  0.226454    0.0     0.001529     1.0  0.000000   NaN        S   
+4     0.703704  0.244569    0.0     0.003058     1.0  0.000000   NaN        S   
+5     0.101037  0.303740    0.0     0.003823     1.0  0.000000   NaN        Q   
+6     0.912458  0.824920    0.0     0.004587     0.0  0.000000   E46        S   
+...        ...       ...    ...          ...     ...       ...   ...      ...   
+1303  0.527778  0.140990    0.0     0.996177     1.0  0.000000   NaN        S   
+1304  0.785267  0.244569    0.0     0.996942     1.0  0.000000   NaN        S   
+1305  0.777778  0.897852    0.0     0.997706     0.0  0.000000  C105        C   
+1306  0.768519  0.108298    0.0     0.998471     1.0  0.000000   NaN        S   
+1307  0.689551  0.244569    0.0     0.999235     1.0  0.000000   NaN        S   
+
+                                Name     Sex              Ticket  
+0            Braund, Mr. Owen Harris    male           A/5 21171  
+2             Heikkinen, Miss. Laina  female    STON/O2. 3101282  
+4           Allen, Mr. William Henry    male              373450  
+5                   Moran, Mr. James    male              330877  
+6            McCarthy, Mr. Timothy J    male               17463  
+...                              ...     ...                 ...  
+1303  Henriksson, Miss. Jenny Lovisa  female              347086  
+1304              Spector, Mr. Woolf    male           A.5. 3236  
+1305    Oliva y Ocana, Dona. Fermina  female            PC 17758  
+1306    Saether, Mr. Simon Sivertsen    male  SOTON/O.Q. 3101262  
+1307             Ware, Mr. Frederick    male              359309  
+
+[911 rows x 11 columns], 'target': 0      0
+1      1
+2      1
+3      1
+4      0
+      ..
+886    0
+887    1
+888    0
+889    1
+890    0
+Name: Survived, Length: 891, dtype: int64, 'target_test': Series([], Name: Survived, dtype: int64)}}, 0.44208621978759766))
+('titanic_example', 'learn2clean', 'MARS', 'Survived', None, 'KNN -> MARS', 'MSE', 0.3355304915513617, 45.4114191532135)
