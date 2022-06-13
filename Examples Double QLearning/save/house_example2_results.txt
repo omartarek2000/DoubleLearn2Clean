@@ -1,0 +1,1076 @@
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> AD -> MARS', 'MSE', 0.22341783427202447, 61.398658990859985)
+('house_example2', 'doublelearn2clean', 'HCA', 'SaleCondition', None, 'LOF -> HCA', 'silhouette', 0.9631, 19.75394105911255)
+('house_example2', 'doublelearn2clean', 'NB', 'SaleCondition', None, 'IQR -> NB', 'accuracy', 0.6113294600136706, 8.900528907775879)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ED -> LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.33169984817504883))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'MM -> WR -> ZSB -> OLS', 'MSE', ({'quality_metric': 4135129829.0395145}, 0.1870100498199463))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'Tree -> ZSB -> ED -> MARS', 'MSE', ({'quality_metric': 0.1277798442931464}, 4.580182075500488))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.32307910919189453))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.03282880783081055))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 6.862371206283569))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 92.3030936717987))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.105377197265625))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.06516098976135254))
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.2746679775560904, 139.54786205291748)
+('house_example2', 'doublelearn2clean', 'HCA', 'SaleCondition', None, 'WR -> LOF -> HCA', 'silhouette', 0.96, 567.6509051322937)
+('house_example2', 'doublelearn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.8513885985300327, 15.458636999130249)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'WR -> LOF -> LASSO', 'MSE', ({'quality_metric': 3012681149.04807}, 3.917236089706421))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'MM -> WR -> ZSB -> OLS', 'MSE', ({'quality_metric': 6600015233.721203}, 0.3676469326019287))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'WR -> ZSB -> ED -> MARS', 'MSE', ({'quality_metric': 0.14662078759673428}, 32.889670848846436))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 3005502470.9537997}, 1.2170498371124268))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 9913847895.209864}, 0.050669193267822266))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.18268983831163207}, 36.92065930366516))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.976546905995509}, 169.19868302345276))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8486677768526228}, 0.5165770053863525))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.5992948243485559}, 0.11786317825317383))
+('house_example2', 'doublelearn2clean', 'HCA', 'SaleCondition', None, 'ZSB -> HCA', 'silhouette', 0.9648, 515.5972030162811)
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'LC -> ZSB -> MARS', 'MSE', 0.27568696698850426, 190.91377997398376)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', 0.8486677768526228, 28.587320804595947)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', 0.8486677768526228, 47.41342282295227)
+('house_example2', 'doublelearn2clean', 'CART', 'SaleCondition', None, 'CC -> CART', 'accuracy', 0.9773385395845109, 2471.4701771736145)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'IQR -> LDA', 'accuracy', 0.8618270332187858, 44.734992265701294)
+('house_example2', 'doublelearn2clean', 'NB', 'SaleCondition', None, 'Tree -> IQR -> NB', 'accuracy', 0.8513885985300327, 30.020110845565796)
+('house_example2', 'doublelearn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 3.1773289704310342e-06, 38.89910316467285)
+('house_example2', 'doublelearn2clean', 'MARS', 'SaleCondition', None, 'LC -> LOF -> MARS', 'MSE', 0.539954899281458, 1063.3112289905548)
+('house_example2', 'doublelearn2clean', 'HCA', 'SaleCondition', None, 'LOF -> AD -> HCA', 'silhouette', 0.96, 641.9486360549927)
+('house_example2', 'doublelearn2clean', 'KMEANS', 'SaleCondition', None, 'AD -> KMEANS', 'silhouette', 0.8543, 196.62630105018616)
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'DS -> LC -> IQR -> LASSO', 'MSE', ({'quality_metric': 8255552655.729724}, 0.4884836673736572))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> Tree -> LOF -> ED -> OLS', 'MSE', ({'quality_metric': 9924290429.422045}, 4.411425828933716))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'DS -> WR -> LOF -> ED -> MARS', 'MSE', ({'quality_metric': 0.23216284208566762}, 67.79675006866455))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 3005502470.9537997}, 1.7571351528167725))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 9913847895.209864}, 0.17410516738891602))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.18268983831163207}, 47.89858627319336))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.976546905995509}, 203.13621401786804))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8486677768526228}, 0.8778049945831299))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.5992948243485559}, 0.2803459167480469))
+('house_example2', 'doublelearn2clean', 'LASSO', 'SaleCondition', None, 'MM -> LOF -> LASSO', 'MSE', 3.256569076277321e-06, 34.46361184120178)
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.2746679775560904, 147.60193800926208)
+('house_example2', 'random', 'CART', 'SalePrice', None, 'ZS -> IQR -> ED -> CART', 'accuracy', ({'quality_metric': 0.011450980392156864}, 783.7246479988098))
+('house_example2', 'random', 'LDA', 'SalePrice', None, 'WR -> LOF -> LDA', 'accuracy', ({'quality_metric': 0.781103552532124}, 6.202280044555664))
+('house_example2', 'random', 'NB', 'SalePrice', None, 'MM -> NB', 'accuracy', ({'quality_metric': 0.8214177978883862}, 1.706467866897583))
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'ZS -> Tree -> ZSB -> LASSO', 'MSE', ({'quality_metric': 113288114688.91301}, 1.5079607963562012))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'MM -> Tree -> LOF -> OLS', 'MSE', ({'quality_metric': 9922038740.087435}, 3.4940991401672363))
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.2746679775560904, 185.99698114395142)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', 0.8486677768526228, 28.936492681503296)
+('house_example2', 'doublelearn2clean', 'CART', 'SaleCondition', None, 'CC -> CART', 'accuracy', 0.9773385395845109, 2562.206356048584)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'Tree -> IQR -> LDA', 'accuracy', 0.8618270332187858, 18.924728870391846)
+('house_example2', 'doublelearn2clean', 'NB', 'SaleCondition', None, 'IQR -> NB', 'accuracy', 0.8513885985300327, 32.60421705245972)
+('house_example2', 'doublelearn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 3.1773289704310342e-06, 33.34354829788208)
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> AD -> MARS', 'MSE', 0.2746679775560904, 144.608234167099)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'IQR -> LDA', 'accuracy', 0.8618270332187858, 23.73938488960266)
+('house_example2', 'doublelearn2clean', 'CART', 'SaleCondition', None, 'CC -> CART', 'accuracy', 0.9773385395845109, 1827.1526370048523)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'IQR -> LDA', 'accuracy', 0.8618270332187858, 25.13816499710083)
+('house_example2', 'doublelearn2clean', 'NB', 'SaleCondition', None, 'WR -> IQR -> NB', 'accuracy', 0.8513885985300327, 19.527724742889404)
+('house_example2', 'doublelearn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 3.1773289704310342e-06, 23.310802936553955)
+('house_example2', 'doublelearn2clean', 'MARS', 'SaleCondition', None, 'LC -> LOF -> AD -> MARS', 'MSE', 0.539954899281458, 796.1914880275726)
+('house_example2', 'doublelearn2clean', 'HCA', 'SaleCondition', None, 'AD -> HCA', 'silhouette', 0.96, 497.6070296764374)
+('house_example2', 'doublelearn2clean', 'KMEANS', 'SaleCondition', None, 'ZSB -> AD -> KMEANS', 'silhouette', 0.8902, 148.95978021621704)
+('house_example2', 'random', 'CART', 'SalePrice', None, 'LC -> ZSB -> ED -> CART', 'accuracy', ({'quality_metric': 0.0140713666467777}, 187.6205928325653))
+('house_example2', 'random', 'LDA', 'SalePrice', None, 'DS -> Tree -> LOF -> ED -> LDA', 'accuracy', ({'quality_metric': 0.8093726379440664}, 4.063324213027954))
+('house_example2', 'random', 'NB', 'SalePrice', None, 'MM -> WR -> LOF -> ED -> NB', 'accuracy', ({'quality_metric': 0.8216175359032502}, 4.241482973098755))
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'DS -> Tree -> LASSO', 'MSE', ({'quality_metric': 3869981687.910878}, 1.0709507465362549))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'Tree -> ZSB -> OLS', 'MSE', ({'quality_metric': 6600015233.721203}, 0.1749110221862793))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'MM -> Tree -> IQR -> MARS', 'MSE', ({'quality_metric': 0.17635107994727925}, 37.10355305671692))
+('house_example2', 'random', 'HCA', 'SalePrice', None, 'ZS -> LC -> ZSB -> HCA', 'silhouette', ({'quality_metric': 0.8131, 'result': {'train':        1stFlrSF  BsmtFinSF2   LotArea  ScreenPorch        Id  MiscVal  \
+0     -0.848403    -0.26242 -0.209268    -0.261988 -1.741537  -0.0812   
+1      0.102724    -0.26242 -0.117624    -0.261988 -1.739132  -0.0812   
+2     -0.698471    -0.26242  0.013866    -0.261988 -1.736728  -0.0812   
+3     -0.602422    -0.26242 -0.121608    -0.261988 -1.734324  -0.0812   
+4     -0.171369    -0.26242  0.253734    -0.261988 -1.731919  -0.0812   
+...         ...         ...       ...          ...       ...      ...   
+13236  2.794461    -0.26242  0.362352    -0.261988  1.100406  -0.0812   
+13237  2.794461    -0.26242  0.362352    -0.261988  1.100406  -0.0812   
+13238  2.794461    -0.26242  0.362352    -0.261988  1.100406  -0.0812   
+13239  2.794461    -0.26242  0.362352    -0.261988  1.100406  -0.0812   
+13240  2.794461    -0.26242  0.362352    -0.261988  1.100406  -0.0812   
+
+       2ndFlrSF  EnclosedPorch    MoSold    YrSold   PoolArea  BsmtHalfBath  \
+0      1.052216      -0.332775 -1.595173  0.143127  -0.063217     -0.216996   
+1     -0.783841      -0.332775 -0.484288 -0.602890  -0.063217      4.271883   
+2      1.078016      -0.332775  0.996893  0.143127  -0.063217     -0.216996   
+3      0.841521       4.429569 -1.595173 -1.348907  -0.063217     -0.216996   
+4      1.480057      -0.332775  2.107778  0.143127  -0.063217     -0.216996   
+...         ...            ...       ...       ...        ...           ...   
+13236  3.655806      -0.332775  0.256302 -0.602890  13.821825     -0.216996   
+13237  3.655806      -0.332775  0.256302 -0.602890  13.821825     -0.216996   
+13238  3.655806      -0.332775  0.256302 -0.602890  13.821825     -0.216996   
+13239  3.655806      -0.332775  0.256302 -0.602890  13.821825     -0.216996   
+13240  3.655806      -0.332775  0.256302 -0.602890  13.821825     -0.216996   
+
+       LowQualFinSF  KitchenAbvGr  3SsnPorch  cluster_ID  
+0         -0.116606     -0.203148  -0.096683           0  
+1         -0.116606     -0.203148  -0.096683           0  
+2         -0.116606     -0.203148  -0.096683           0  
+3         -0.116606     -0.203148  -0.096683           0  
+4         -0.116606     -0.203148  -0.096683           0  
+...             ...           ...        ...         ...  
+13236     -0.116606     -0.203148  -0.096683           0  
+13237     -0.116606     -0.203148  -0.096683           0  
+13238     -0.116606     -0.203148  -0.096683           0  
+13239     -0.116606     -0.203148  -0.096683           0  
+13240     -0.116606     -0.203148  -0.096683           0  
+
+[13218 rows x 16 columns], 'test':       BsmtFinSF2        Id  2ndFlrSF    MoSold    YrSold  3SsnPorch  1stFlrSF  \
+0      -0.292975 -1.731161  1.207172 -1.551918  0.157619  -0.103313 -0.773728   
+1      -0.292975 -1.729974 -0.784891 -0.446848 -0.602858  -0.103313  0.261030   
+2      -0.292975 -1.728788  1.235163  1.026577  0.157619  -0.103313 -0.610614   
+3      -0.292975 -1.727601  0.978574 -1.551918 -1.363335  -0.103313 -0.506118   
+4      -0.292975 -1.726415  1.671364  2.131647  0.157619  -0.103313 -0.037164   
+...          ...       ...       ...       ...       ...        ...       ...   
+2914   -0.292975  1.726415  0.488723 -0.078492 -1.363335  -0.103313 -1.563815   
+2915   -0.292975  1.727601  0.488723 -0.815205 -1.363335  -0.103313 -1.563815   
+2916   -0.292975  1.728788 -0.784891  1.026577 -1.363335  -0.103313  0.164181   
+2917   -0.292975  1.729974 -0.784891  0.289865 -1.363335  -0.103313 -0.483181   
+2918   -0.292975  1.731161  1.557066  1.763290 -1.363335  -0.103313 -0.416915   
+
+      ScreenPorch   MiscVal  PoolArea  ...  Street  ExterQual  Foundation  \
+0       -0.285886 -0.089577 -0.063139  ...    Pave         Gd       PConc   
+1       -0.285886 -0.089577 -0.063139  ...    Pave         TA      CBlock   
+2       -0.285886 -0.089577 -0.063139  ...    Pave         Gd       PConc   
+3       -0.285886 -0.089577 -0.063139  ...    Pave         TA      BrkTil   
+4       -0.285886 -0.089577 -0.063139  ...    Pave         Gd       PConc   
+...           ...       ...       ...  ...     ...        ...         ...   
+2914    -0.285886 -0.089577 -0.063139  ...    Pave         TA      CBlock   
+2915    -0.285886 -0.089577 -0.063139  ...    Pave         TA      CBlock   
+2916    -0.285886 -0.089577 -0.063139  ...    Pave         TA      CBlock   
+2917    -0.285886  1.144116 -0.063139  ...    Pave         TA       PConc   
+2918    -0.285886 -0.089577 -0.063139  ...    Pave         TA       PConc   
+
+      LotConfig  Utilities BsmtQual LotShape Exterior1st MSZoning Alley  
+0        Inside     AllPub       Gd      Reg     VinylSd       RL  Grvl  
+1           FR2     AllPub       Gd      Reg     MetalSd       RL  Grvl  
+2        Inside     AllPub       Gd      IR1     VinylSd       RL  Grvl  
+3        Corner     AllPub       TA      IR1     Wd Sdng       RL  Grvl  
+4           FR2     AllPub       Gd      IR1     VinylSd       RL  Grvl  
+...         ...        ...      ...      ...         ...      ...   ...  
+2914     Inside     AllPub       TA      Reg     CemntBd       RM  Grvl  
+2915     Inside     AllPub       TA      Reg     CemntBd       RM  Grvl  
+2916     Inside     AllPub       TA      Reg     VinylSd       RL  Grvl  
+2917     Inside     AllPub       Gd      Reg     HdBoard       RL  Grvl  
+2918     Inside     AllPub       Gd      Reg     HdBoard       RL  Grvl  
+
+[2896 rows x 58 columns], 'target': 0        208500.0
+1        181500.0
+2        223500.0
+3        140000.0
+4        250000.0
+           ...   
+13255    755000.0
+13256    755000.0
+13257    755000.0
+13258    755000.0
+13259    755000.0
+Name: SalePrice, Length: 13260, dtype: float64, 'target_test': Series([], Name: SalePrice, dtype: float64)}}, 30.152714014053345))
+('house_example2', 'random', 'KMEANS', 'SalePrice', None, 'Tree -> LOF -> KMEANS', 'silhouette', ({'quality_metric': 0.9497, 'result': {'train':        1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0         856.0     854.0        0.0           3.0       706.0         0.0   
+1        1262.0       0.0        0.0           3.0       978.0         0.0   
+2         920.0     866.0        0.0           3.0       486.0         0.0   
+3         961.0     756.0        0.0           3.0       216.0         0.0   
+4        1145.0    1053.0        0.0           4.0       655.0         0.0   
+...         ...       ...        ...           ...         ...         ...   
+13255    2444.0    1872.0        0.0           4.0      1455.0         0.0   
+13256    2444.0    1872.0        0.0           4.0      1455.0         0.0   
+13257    2444.0    1872.0        0.0           4.0      1455.0         0.0   
+13258    2444.0    1872.0        0.0           4.0      1455.0         0.0   
+13259    2444.0    1872.0        0.0           4.0      1455.0         0.0   
+
+       BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  PoolArea  \
+0               1.0           0.0      150.0            0.0  ...       0.0   
+1               0.0           1.0      284.0            0.0  ...       0.0   
+2               1.0           0.0      434.0            0.0  ...       0.0   
+3               1.0           0.0      540.0          272.0  ...       0.0   
+4               1.0           0.0      490.0            0.0  ...       0.0   
+...             ...           ...        ...            ...  ...       ...   
+13255           0.0           1.0      989.0            0.0  ...       0.0   
+13256           0.0           1.0      989.0            0.0  ...       0.0   
+13257           0.0           1.0      989.0            0.0  ...       0.0   
+13258           0.0           1.0      989.0            0.0  ...       0.0   
+13259           0.0           1.0      989.0            0.0  ...       0.0   
+
+       ScreenPorch  TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  YearBuilt  \
+0              0.0           8.0        856.0         0.0     2003.0   
+1              0.0           6.0       1262.0       298.0     1976.0   
+2              0.0           6.0        920.0         0.0     2001.0   
+3              0.0           7.0        756.0         0.0     1915.0   
+4              0.0           9.0       1145.0       192.0     2000.0   
+...            ...           ...          ...         ...        ...   
+13255          0.0          10.0       2444.0       382.0     1994.0   
+13256          0.0          10.0       2444.0       382.0     1994.0   
+13257          0.0          10.0       2444.0       382.0     1994.0   
+13258          0.0          10.0       2444.0       382.0     1994.0   
+13259          0.0          10.0       2444.0       382.0     1994.0   
+
+       YearRemodAdd  YrSold  New_ID  cluster_ID  
+0            2003.0  2008.0       1           1  
+1            1976.0  2007.0       2           1  
+2            2002.0  2008.0       3           1  
+3            1970.0  2006.0       4           1  
+4            2000.0  2008.0       5           1  
+...             ...     ...     ...         ...  
+13255        1995.0  2007.0   13256           1  
+13256        1995.0  2007.0   13257           1  
+13257        1995.0  2007.0   13258           1  
+13258        1995.0  2007.0   13259           1  
+13259        1995.0  2007.0   13260           1  
+
+[13230 rows x 39 columns], 'test':       1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0        856.0     854.0        0.0           3.0       706.0         0.0   
+1       1262.0       0.0        0.0           3.0       978.0         0.0   
+2        920.0     866.0        0.0           3.0       486.0         0.0   
+3        961.0     756.0        0.0           3.0       216.0         0.0   
+4       1145.0    1053.0        0.0           4.0       655.0         0.0   
+...        ...       ...        ...           ...         ...         ...   
+2914     546.0     546.0        0.0           3.0         0.0         0.0   
+2915     546.0     546.0        0.0           3.0       252.0         0.0   
+2916    1224.0       0.0        0.0           4.0      1224.0         0.0   
+2917     970.0       0.0        0.0           3.0       337.0         0.0   
+2918     996.0    1004.0        0.0           3.0       758.0         0.0   
+
+      BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  MiscFeature  \
+0              1.0           0.0      150.0            0.0  ...         Shed   
+1              0.0           1.0      284.0            0.0  ...         Shed   
+2              1.0           0.0      434.0            0.0  ...         Shed   
+3              1.0           0.0      540.0          272.0  ...         Shed   
+4              1.0           0.0      490.0            0.0  ...         Shed   
+...            ...           ...        ...            ...  ...          ...   
+2914           0.0           0.0      546.0            0.0  ...         Shed   
+2915           0.0           0.0      294.0            0.0  ...         Shed   
+2916           1.0           0.0        0.0            0.0  ...         Shed   
+2917           0.0           1.0      575.0            0.0  ...         Shed   
+2918           0.0           0.0      238.0            0.0  ...         Shed   
+
+      Neighborhood  PavedDrive  PoolQC  RoofMatl  RoofStyle  SaleCondition  \
+0          CollgCr           Y      Gd   CompShg      Gable         Normal   
+1          Veenker           Y      Gd   CompShg      Gable         Normal   
+2          CollgCr           Y      Gd   CompShg      Gable         Normal   
+3          Crawfor           Y      Gd   CompShg      Gable        Abnorml   
+4          NoRidge           Y      Gd   CompShg      Gable         Normal   
+...            ...         ...     ...       ...        ...            ...   
+2914       MeadowV           Y      Gd   CompShg      Gable         Normal   
+2915       MeadowV           Y      Gd   CompShg      Gable        Abnorml   
+2916       Mitchel           Y      Gd   CompShg      Gable        Abnorml   
+2917       Mitchel           Y      Gd   CompShg      Gable         Normal   
+2918       Mitchel           Y      Gd   CompShg      Gable         Normal   
+
+      Street  Utilities  \
+0       Pave     AllPub   
+1       Pave     AllPub   
+2       Pave     AllPub   
+3       Pave     AllPub   
+4       Pave     AllPub   
+...      ...        ...   
+2914    Pave     AllPub   
+2915    Pave     AllPub   
+2916    Pave     AllPub   
+2917    Pave     AllPub   
+2918    Pave     AllPub   
+
+                                                                                                      row  
+0     856.0*854.0*0.0*Grvl*3.0*1Fam*TA*No*706.0*0.0*GLQ*Unf*1.0*0.0*Gd*150.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+1     1262.0*0.0*0.0*Grvl*3.0*1Fam*TA*Gd*978.0*0.0*ALQ*Unf*0.0*1.0*Gd*284.0*Y*Feedr*Norm*SBrkr*0.0*TA*...  
+2     920.0*866.0*0.0*Grvl*3.0*1Fam*TA*Mn*486.0*0.0*GLQ*Unf*1.0*0.0*Gd*434.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+3     961.0*756.0*0.0*Grvl*3.0*1Fam*Gd*No*216.0*0.0*ALQ*Unf*1.0*0.0*TA*540.0*Y*Norm*Norm*SBrkr*272.0*T...  
+4     1145.0*1053.0*0.0*Grvl*4.0*1Fam*TA*Av*655.0*0.0*GLQ*Unf*1.0*0.0*Gd*490.0*Y*Norm*Norm*SBrkr*0.0*T...  
+...                                                                                                   ...  
+2914  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...  
+2915  546.0*546.0*0.0*Grvl*3.0*TwnhsE*TA*No*252.0*0.0*Rec*Unf*0.0*0.0*TA*294.0*Y*Norm*Norm*SBrkr*0.0*T...  
+2916  1224.0*0.0*0.0*Grvl*4.0*1Fam*TA*No*1224.0*0.0*ALQ*Unf*1.0*0.0*TA*0.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2917  970.0*0.0*0.0*Grvl*3.0*1Fam*TA*Av*337.0*0.0*GLQ*Unf*0.0*1.0*Gd*575.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2918  996.0*1004.0*0.0*Grvl*3.0*1Fam*TA*Av*758.0*0.0*LwQ*Unf*0.0*0.0*Gd*238.0*Y*Norm*Norm*SBrkr*0.0*TA...  
+
+[2889 rows x 81 columns], 'target': 0        208500.0
+1        181500.0
+2        223500.0
+3        140000.0
+4        250000.0
+           ...   
+13255    755000.0
+13256    755000.0
+13257    755000.0
+13258    755000.0
+13259    755000.0
+Name: SalePrice, Length: 13260, dtype: float64, 'target_test': Series([], Name: SalePrice, dtype: float64)}}, 13.658926010131836))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 3005502470.9537997}, 1.190290927886963))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 9913847895.209864}, 0.05044913291931152))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.18268983831163207}, 38.50159311294556))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.976546905995509}, 186.9479570388794))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8486677768526228}, 0.6084952354431152))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.5992948243485559}, 0.14656686782836914))
+('house_example2', 'no-prep', 'LASSO', 'SaleCondition', None, 'LASSO', 'MSE', ({'quality_metric': 0.0009629175225700483}, 0.5854249000549316))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.976546905995509}, 181.55003380775452))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8486677768526228}, 0.5785350799560547))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.5992948243485559}, 0.1470792293548584))
+('house_example2', 'no-prep', 'LASSO', 'SaleCondition', None, 'LASSO', 'MSE', ({'quality_metric': 0.0009629175225700483}, 0.5300700664520264))
+('house_example2', 'no-prep', 'MARS', 'SaleCondition', None, 'MARS', 'MSE', ({'quality_metric': 0.0631793891273992}, 11.658132076263428))
+('house_example2', 'no-prep', 'HCA', 'SaleCondition', None, 'HCA', 'silhouette', ({'quality_metric': 0.9436, 'result': {'train':        1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0         856.0     854.0        0.0           3.0       706.0         0.0   
+1        1262.0       0.0        0.0           3.0       978.0         0.0   
+2         920.0     866.0        0.0           3.0       486.0         0.0   
+3         961.0     756.0        0.0           3.0       216.0         0.0   
+4        1145.0    1053.0        0.0           4.0       655.0         0.0   
+...         ...       ...        ...           ...         ...         ...   
+14407    1610.0     551.0        0.0           3.0      1288.0         0.0   
+14408    2046.0       0.0        0.0           3.0         0.0         0.0   
+14409    4692.0     950.0        0.0           3.0      5644.0         0.0   
+14410    1660.0       0.0        0.0           3.0      1220.0         0.0   
+14411     778.0     798.0        0.0           3.0         0.0         0.0   
+
+       BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  ScreenPorch  \
+0               1.0           0.0      150.0            0.0  ...          0.0   
+1               0.0           1.0      284.0            0.0  ...          0.0   
+2               1.0           0.0      434.0            0.0  ...          0.0   
+3               1.0           0.0      540.0          272.0  ...          0.0   
+4               1.0           0.0      490.0            0.0  ...          0.0   
+...             ...           ...        ...            ...  ...          ...   
+14407           1.0           0.0      294.0            0.0  ...          0.0   
+14408           0.0           0.0     2046.0            0.0  ...          0.0   
+14409           2.0           0.0      466.0            0.0  ...          0.0   
+14410           1.0           0.0      440.0            0.0  ...          0.0   
+14411           0.0           0.0      770.0            0.0  ...          0.0   
+
+       TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  YearBuilt  YearRemodAdd  YrSold  \
+0               8.0        856.0         0.0     2003.0        2003.0  2008.0   
+1               6.0       1262.0       298.0     1976.0        1976.0  2007.0   
+2               6.0        920.0         0.0     2001.0        2002.0  2008.0   
+3               7.0        756.0         0.0     1915.0        1970.0  2006.0   
+4               9.0       1145.0       192.0     2000.0        2000.0  2008.0   
+...             ...          ...         ...        ...           ...     ...   
+14407           8.0       1582.0       178.0     2007.0        2007.0  2007.0   
+14408           7.0       2046.0       322.0     2008.0        2008.0  2009.0   
+14409          12.0       6110.0       214.0     2008.0        2008.0  2008.0   
+14410           8.0       1660.0       322.0     2006.0        2006.0  2006.0   
+14411           6.0        770.0         0.0     2006.0        2006.0  2006.0   
+
+       SaleCondition  New_ID  cluster_ID  
+0                  4       1           1  
+1                  4       2           1  
+2                  4       3           1  
+3                  0       4           1  
+4                  4       5           1  
+...              ...     ...         ...  
+14407              5   14408           1  
+14408              5   14409           1  
+14409              5   14410           1  
+14410              5   14411           1  
+14411              5   14412           1  
+
+[14412 rows x 40 columns], 'test':       1stFlrSF  2ndFlrSF  3SsnPorch Alley  BedroomAbvGr BldgType BsmtCond  \
+0        856.0     854.0        0.0  Grvl           3.0     1Fam       TA   
+1       1262.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2        920.0     866.0        0.0  Grvl           3.0     1Fam       TA   
+3        961.0     756.0        0.0  Grvl           3.0     1Fam       Gd   
+4       1145.0    1053.0        0.0  Grvl           4.0     1Fam       TA   
+...        ...       ...        ...   ...           ...      ...      ...   
+2914     546.0     546.0        0.0  Grvl           3.0    Twnhs       TA   
+2915     546.0     546.0        0.0  Grvl           3.0   TwnhsE       TA   
+2916    1224.0       0.0        0.0  Grvl           4.0     1Fam       TA   
+2917     970.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2918     996.0    1004.0        0.0  Grvl           3.0     1Fam       TA   
+
+     BsmtExposure  BsmtFinSF1  BsmtFinSF2  ... Street TotRmsAbvGrd  \
+0              No       706.0         0.0  ...   Pave          8.0   
+1              Gd       978.0         0.0  ...   Pave          6.0   
+2              Mn       486.0         0.0  ...   Pave          6.0   
+3              No       216.0         0.0  ...   Pave          7.0   
+4              Av       655.0         0.0  ...   Pave          9.0   
+...           ...         ...         ...  ...    ...          ...   
+2914           No         0.0         0.0  ...   Pave          5.0   
+2915           No       252.0         0.0  ...   Pave          6.0   
+2916           No      1224.0         0.0  ...   Pave          7.0   
+2917           Av       337.0         0.0  ...   Pave          6.0   
+2918           Av       758.0         0.0  ...   Pave          9.0   
+
+      TotalBsmtSF  Utilities WoodDeckSF  YearBuilt YearRemodAdd  YrSold  \
+0           856.0     AllPub        0.0     2003.0       2003.0  2008.0   
+1          1262.0     AllPub      298.0     1976.0       1976.0  2007.0   
+2           920.0     AllPub        0.0     2001.0       2002.0  2008.0   
+3           756.0     AllPub        0.0     1915.0       1970.0  2006.0   
+4          1145.0     AllPub      192.0     2000.0       2000.0  2008.0   
+...           ...        ...        ...        ...          ...     ...   
+2914        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2915        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2916       1224.0     AllPub      474.0     1960.0       1996.0  2006.0   
+2917        912.0     AllPub       80.0     1992.0       1992.0  2006.0   
+2918        996.0     AllPub      190.0     1993.0       1994.0  2006.0   
+
+     New_ID  \
+0         1   
+1         2   
+2         3   
+3         4   
+4         5   
+...     ...   
+2914   2915   
+2915   2916   
+2916   2917   
+2917   2918   
+2918   2919   
+
+                                                                                                      row  
+0     856.0*854.0*0.0*Grvl*3.0*1Fam*TA*No*706.0*0.0*GLQ*Unf*1.0*0.0*Gd*150.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+1     1262.0*0.0*0.0*Grvl*3.0*1Fam*TA*Gd*978.0*0.0*ALQ*Unf*0.0*1.0*Gd*284.0*Y*Feedr*Norm*SBrkr*0.0*TA*...  
+2     920.0*866.0*0.0*Grvl*3.0*1Fam*TA*Mn*486.0*0.0*GLQ*Unf*1.0*0.0*Gd*434.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+3     961.0*756.0*0.0*Grvl*3.0*1Fam*Gd*No*216.0*0.0*ALQ*Unf*1.0*0.0*TA*540.0*Y*Norm*Norm*SBrkr*272.0*T...  
+4     1145.0*1053.0*0.0*Grvl*4.0*1Fam*TA*Av*655.0*0.0*GLQ*Unf*1.0*0.0*Gd*490.0*Y*Norm*Norm*SBrkr*0.0*T...  
+...                                                                                                   ...  
+2914  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...  
+2915  546.0*546.0*0.0*Grvl*3.0*TwnhsE*TA*No*252.0*0.0*Rec*Unf*0.0*0.0*TA*294.0*Y*Norm*Norm*SBrkr*0.0*T...  
+2916  1224.0*0.0*0.0*Grvl*4.0*1Fam*TA*No*1224.0*0.0*ALQ*Unf*1.0*0.0*TA*0.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2917  970.0*0.0*0.0*Grvl*3.0*1Fam*TA*Av*337.0*0.0*GLQ*Unf*0.0*1.0*Gd*575.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2918  996.0*1004.0*0.0*Grvl*3.0*1Fam*TA*Av*758.0*0.0*LwQ*Unf*0.0*0.0*Gd*238.0*Y*Norm*Norm*SBrkr*0.0*TA...  
+
+[2919 rows x 80 columns], 'target': 0        4
+1        4
+2        4
+3        0
+4        4
+        ..
+14407    5
+14408    5
+14409    5
+14410    5
+14411    5
+Name: SaleCondition, Length: 14412, dtype: int64, 'target_test': Series([], Name: SaleCondition, dtype: int64)}}, 41.69953799247742))
+('house_example2', 'no-prep', 'KMEANS', 'SaleCondition', None, 'KMEANS', 'silhouette', ({'quality_metric': 0.7822, 'result': {'train':        1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0         856.0     854.0        0.0           3.0       706.0         0.0   
+1        1262.0       0.0        0.0           3.0       978.0         0.0   
+2         920.0     866.0        0.0           3.0       486.0         0.0   
+3         961.0     756.0        0.0           3.0       216.0         0.0   
+4        1145.0    1053.0        0.0           4.0       655.0         0.0   
+...         ...       ...        ...           ...         ...         ...   
+14407    1610.0     551.0        0.0           3.0      1288.0         0.0   
+14408    2046.0       0.0        0.0           3.0         0.0         0.0   
+14409    4692.0     950.0        0.0           3.0      5644.0         0.0   
+14410    1660.0       0.0        0.0           3.0      1220.0         0.0   
+14411     778.0     798.0        0.0           3.0         0.0         0.0   
+
+       BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  ScreenPorch  \
+0               1.0           0.0      150.0            0.0  ...          0.0   
+1               0.0           1.0      284.0            0.0  ...          0.0   
+2               1.0           0.0      434.0            0.0  ...          0.0   
+3               1.0           0.0      540.0          272.0  ...          0.0   
+4               1.0           0.0      490.0            0.0  ...          0.0   
+...             ...           ...        ...            ...  ...          ...   
+14407           1.0           0.0      294.0            0.0  ...          0.0   
+14408           0.0           0.0     2046.0            0.0  ...          0.0   
+14409           2.0           0.0      466.0            0.0  ...          0.0   
+14410           1.0           0.0      440.0            0.0  ...          0.0   
+14411           0.0           0.0      770.0            0.0  ...          0.0   
+
+       TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  YearBuilt  YearRemodAdd  YrSold  \
+0               8.0        856.0         0.0     2003.0        2003.0  2008.0   
+1               6.0       1262.0       298.0     1976.0        1976.0  2007.0   
+2               6.0        920.0         0.0     2001.0        2002.0  2008.0   
+3               7.0        756.0         0.0     1915.0        1970.0  2006.0   
+4               9.0       1145.0       192.0     2000.0        2000.0  2008.0   
+...             ...          ...         ...        ...           ...     ...   
+14407           8.0       1582.0       178.0     2007.0        2007.0  2007.0   
+14408           7.0       2046.0       322.0     2008.0        2008.0  2009.0   
+14409          12.0       6110.0       214.0     2008.0        2008.0  2008.0   
+14410           8.0       1660.0       322.0     2006.0        2006.0  2006.0   
+14411           6.0        770.0         0.0     2006.0        2006.0  2006.0   
+
+       SaleCondition  New_ID  cluster_ID  
+0                  4       1           1  
+1                  4       2           1  
+2                  4       3           1  
+3                  0       4           1  
+4                  4       5           1  
+...              ...     ...         ...  
+14407              5   14408           1  
+14408              5   14409           1  
+14409              5   14410           0  
+14410              5   14411           1  
+14411              5   14412           1  
+
+[14412 rows x 40 columns], 'test':       1stFlrSF  2ndFlrSF  3SsnPorch Alley  BedroomAbvGr BldgType BsmtCond  \
+0        856.0     854.0        0.0  Grvl           3.0     1Fam       TA   
+1       1262.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2        920.0     866.0        0.0  Grvl           3.0     1Fam       TA   
+3        961.0     756.0        0.0  Grvl           3.0     1Fam       Gd   
+4       1145.0    1053.0        0.0  Grvl           4.0     1Fam       TA   
+...        ...       ...        ...   ...           ...      ...      ...   
+2914     546.0     546.0        0.0  Grvl           3.0    Twnhs       TA   
+2915     546.0     546.0        0.0  Grvl           3.0   TwnhsE       TA   
+2916    1224.0       0.0        0.0  Grvl           4.0     1Fam       TA   
+2917     970.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2918     996.0    1004.0        0.0  Grvl           3.0     1Fam       TA   
+
+     BsmtExposure  BsmtFinSF1  BsmtFinSF2  ... Street TotRmsAbvGrd  \
+0              No       706.0         0.0  ...   Pave          8.0   
+1              Gd       978.0         0.0  ...   Pave          6.0   
+2              Mn       486.0         0.0  ...   Pave          6.0   
+3              No       216.0         0.0  ...   Pave          7.0   
+4              Av       655.0         0.0  ...   Pave          9.0   
+...           ...         ...         ...  ...    ...          ...   
+2914           No         0.0         0.0  ...   Pave          5.0   
+2915           No       252.0         0.0  ...   Pave          6.0   
+2916           No      1224.0         0.0  ...   Pave          7.0   
+2917           Av       337.0         0.0  ...   Pave          6.0   
+2918           Av       758.0         0.0  ...   Pave          9.0   
+
+      TotalBsmtSF  Utilities WoodDeckSF  YearBuilt YearRemodAdd  YrSold  \
+0           856.0     AllPub        0.0     2003.0       2003.0  2008.0   
+1          1262.0     AllPub      298.0     1976.0       1976.0  2007.0   
+2           920.0     AllPub        0.0     2001.0       2002.0  2008.0   
+3           756.0     AllPub        0.0     1915.0       1970.0  2006.0   
+4          1145.0     AllPub      192.0     2000.0       2000.0  2008.0   
+...           ...        ...        ...        ...          ...     ...   
+2914        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2915        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2916       1224.0     AllPub      474.0     1960.0       1996.0  2006.0   
+2917        912.0     AllPub       80.0     1992.0       1992.0  2006.0   
+2918        996.0     AllPub      190.0     1993.0       1994.0  2006.0   
+
+     New_ID  \
+0         1   
+1         2   
+2         3   
+3         4   
+4         5   
+...     ...   
+2914   2915   
+2915   2916   
+2916   2917   
+2917   2918   
+2918   2919   
+
+                                                                                                      row  
+0     856.0*854.0*0.0*Grvl*3.0*1Fam*TA*No*706.0*0.0*GLQ*Unf*1.0*0.0*Gd*150.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+1     1262.0*0.0*0.0*Grvl*3.0*1Fam*TA*Gd*978.0*0.0*ALQ*Unf*0.0*1.0*Gd*284.0*Y*Feedr*Norm*SBrkr*0.0*TA*...  
+2     920.0*866.0*0.0*Grvl*3.0*1Fam*TA*Mn*486.0*0.0*GLQ*Unf*1.0*0.0*Gd*434.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+3     961.0*756.0*0.0*Grvl*3.0*1Fam*Gd*No*216.0*0.0*ALQ*Unf*1.0*0.0*TA*540.0*Y*Norm*Norm*SBrkr*272.0*T...  
+4     1145.0*1053.0*0.0*Grvl*4.0*1Fam*TA*Av*655.0*0.0*GLQ*Unf*1.0*0.0*Gd*490.0*Y*Norm*Norm*SBrkr*0.0*T...  
+...                                                                                                   ...  
+2914  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...  
+2915  546.0*546.0*0.0*Grvl*3.0*TwnhsE*TA*No*252.0*0.0*Rec*Unf*0.0*0.0*TA*294.0*Y*Norm*Norm*SBrkr*0.0*T...  
+2916  1224.0*0.0*0.0*Grvl*4.0*1Fam*TA*No*1224.0*0.0*ALQ*Unf*1.0*0.0*TA*0.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2917  970.0*0.0*0.0*Grvl*3.0*1Fam*TA*Av*337.0*0.0*GLQ*Unf*0.0*1.0*Gd*575.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2918  996.0*1004.0*0.0*Grvl*3.0*1Fam*TA*Av*758.0*0.0*LwQ*Unf*0.0*0.0*Gd*238.0*Y*Norm*Norm*SBrkr*0.0*TA...  
+
+[2919 rows x 80 columns], 'target': 0        4
+1        4
+2        4
+3        0
+4        4
+        ..
+14407    5
+14408    5
+14409    5
+14410    5
+14411    5
+Name: SaleCondition, Length: 14412, dtype: int64, 'target_test': Series([], Name: SaleCondition, dtype: int64)}}, 13.03829312324524))
+('house_example2', 'doublelearn2clean', 'MARS', 'SalePrice', None, 'LC -> LOF -> MARS', 'MSE', 0.22341783427202447, 58.231759786605835)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'ZSB -> LDA', 'accuracy', 0.825612307574187, 4.807368040084839)
+('house_example2', 'doublelearn2clean', 'CART', 'SaleCondition', None, 'CC -> CART', 'accuracy', 0.8907506127450979, 967.2733588218689)
+('house_example2', 'doublelearn2clean', 'LDA', 'SaleCondition', None, 'LC -> IQR -> LDA', 'accuracy', 0.8453319628659663, 5.970402240753174)
+('house_example2', 'doublelearn2clean', 'NB', 'SaleCondition', None, 'IQR -> NB', 'accuracy', 0.6113294600136706, 8.099472284317017)
+('house_example2', 'doublelearn2clean', 'LASSO', 'SaleCondition', None, 'MM -> AD -> LASSO', 'MSE', 1.6189728459843126e-06, 11.496153116226196)
+('house_example2', 'doublelearn2clean', 'OLS', 'SaleCondition', None, 'Tree -> IQR -> OLS', 'MSE', 1.0715761272302342, 5.039328098297119)
+('house_example2', 'doublelearn2clean', 'MARS', 'SaleCondition', None, 'DS -> ZSB -> MARS', 'MSE', 0.2524569437561471, 11.105510950088501)
+('house_example2', 'doublelearn2clean', 'HCA', 'SaleCondition', None, 'LOF -> AD -> HCA', 'silhouette', 0.9631, 23.16438603401184)
+('house_example2', 'doublelearn2clean', 'KMEANS', 'SaleCondition', None, 'ZSB -> KMEANS', 'silhouette', 0.9648, 23.774142026901245)
+('house_example2', 'random', 'CART', 'SalePrice', None, 'MM -> CART', 'accuracy', ({'quality_metric': 0.010958904109589041}, 313.6995210647583))
+('house_example2', 'random', 'LDA', 'SalePrice', None, 'MM -> LOF -> LDA', 'accuracy', ({'quality_metric': 0.012587412587412588}, 0.5644850730895996))
+('house_example2', 'random', 'NB', 'SalePrice', None, 'DS -> LC -> IQR -> ED -> NB', 'accuracy', ({'quality_metric': 0.008904109589041096}, 0.6688838005065918))
+('house_example2', 'random', 'LASSO', 'SalePrice', None, 'MM -> WR -> IQR -> LASSO', 'MSE', ({'quality_metric': 1369429490.2709088}, 0.3107278347015381))
+('house_example2', 'random', 'OLS', 'SalePrice', None, 'DS -> LC -> OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.18078899383544922))
+('house_example2', 'random', 'MARS', 'SalePrice', None, 'WR -> ZSB -> ED -> MARS', 'MSE', ({'quality_metric': 0.1277798442931464}, 4.256475925445557))
+('house_example2', 'random', 'HCA', 'SalePrice', None, 'LC -> LOF -> HCA', 'silhouette', ({'quality_metric': 0.9643, 'result': {'train':       KitchenAbvGr  WoodDeckSF  BsmtFinSF2      Id  EnclosedPorch  1stFlrSF  \
+0              1.0         0.0         0.0     1.0            0.0     856.0   
+1              1.0       298.0         0.0     2.0            0.0    1262.0   
+2              1.0         0.0         0.0     3.0            0.0     920.0   
+3              1.0         0.0         0.0     4.0          272.0     961.0   
+4              1.0       192.0         0.0     5.0            0.0    1145.0   
+...            ...         ...         ...     ...            ...       ...   
+1455           1.0         0.0         0.0  1456.0            0.0     953.0   
+1456           1.0       349.0       163.0  1457.0            0.0    2073.0   
+1457           1.0         0.0         0.0  1458.0            0.0    1188.0   
+1458           1.0       366.0      1029.0  1459.0          112.0    1078.0   
+1459           1.0       736.0       290.0  1460.0            0.0    1256.0   
+
+      2ndFlrSF  YrSold  LotArea  OverallCond  PoolArea  MoSold  BsmtHalfBath  \
+0        854.0  2008.0   8450.0          5.0       0.0     2.0           0.0   
+1          0.0  2007.0   9600.0          8.0       0.0     5.0           1.0   
+2        866.0  2008.0  11250.0          5.0       0.0     9.0           0.0   
+3        756.0  2006.0   9550.0          5.0       0.0     2.0           0.0   
+4       1053.0  2008.0  14260.0          5.0       0.0    12.0           0.0   
+...        ...     ...      ...          ...       ...     ...           ...   
+1455     694.0  2007.0   7917.0          5.0       0.0     8.0           0.0   
+1456       0.0  2010.0  13175.0          6.0       0.0     2.0           0.0   
+1457    1152.0  2010.0   9042.0          9.0       0.0     5.0           0.0   
+1458       0.0  2010.0   9717.0          6.0       0.0     4.0           0.0   
+1459       0.0  2008.0   9937.0          6.0       0.0     6.0           0.0   
+
+      MiscVal  ScreenPorch  3SsnPorch  LowQualFinSF  cluster_ID  
+0         0.0          0.0        0.0           0.0           1  
+1         0.0          0.0        0.0           0.0           1  
+2         0.0          0.0        0.0           0.0           1  
+3         0.0          0.0        0.0           0.0           1  
+4         0.0          0.0        0.0           0.0           1  
+...       ...          ...        ...           ...         ...  
+1455      0.0          0.0        0.0           0.0           1  
+1456      0.0          0.0        0.0           0.0           1  
+1457   2500.0          0.0        0.0           0.0           1  
+1458      0.0          0.0        0.0           0.0           1  
+1459      0.0          0.0        0.0           0.0           1  
+
+[1430 rows x 18 columns], 'test':       KitchenAbvGr  WoodDeckSF  EnclosedPorch  1stFlrSF  BsmtHalfBath  \
+0              1.0         0.0            0.0     856.0           0.0   
+1              1.0       298.0            0.0    1262.0           1.0   
+2              1.0         0.0            0.0     920.0           0.0   
+3              1.0         0.0          272.0     961.0           0.0   
+4              1.0       192.0            0.0    1145.0           0.0   
+...            ...         ...            ...       ...           ...   
+2914           1.0         0.0            0.0     546.0           0.0   
+2915           1.0         0.0            0.0     546.0           0.0   
+2916           1.0       474.0            0.0    1224.0           0.0   
+2917           1.0        80.0            0.0     970.0           1.0   
+2918           1.0       190.0            0.0     996.0           0.0   
+
+      MiscVal  3SsnPorch      Id  2ndFlrSF  MoSold  ...  CentralAir  \
+0         0.0        0.0     1.0     854.0     2.0  ...           Y   
+1         0.0        0.0     2.0       0.0     5.0  ...           Y   
+2         0.0        0.0     3.0     866.0     9.0  ...           Y   
+3         0.0        0.0     4.0     756.0     2.0  ...           Y   
+4         0.0        0.0     5.0    1053.0    12.0  ...           Y   
+...       ...        ...     ...       ...     ...  ...         ...   
+2914      0.0        0.0  2915.0     546.0     6.0  ...           Y   
+2915      0.0        0.0  2916.0     546.0     4.0  ...           Y   
+2916      0.0        0.0  2917.0       0.0     9.0  ...           Y   
+2917    700.0        0.0  2918.0       0.0     7.0  ...           Y   
+2918      0.0        0.0  2919.0    1004.0    11.0  ...           Y   
+
+      HeatingQC  Electrical  HouseStyle  Utilities  ExterCond  LotConfig  \
+0            Ex       SBrkr      2Story     AllPub         TA     Inside   
+1            Ex       SBrkr      1Story     AllPub         TA        FR2   
+2            Ex       SBrkr      2Story     AllPub         TA     Inside   
+3            Gd       SBrkr      2Story     AllPub         TA     Corner   
+4            Ex       SBrkr      2Story     AllPub         TA        FR2   
+...         ...         ...         ...        ...        ...        ...   
+2914         Gd       SBrkr      2Story     AllPub         TA     Inside   
+2915         TA       SBrkr      2Story     AllPub         TA     Inside   
+2916         Ex       SBrkr      1Story     AllPub         TA     Inside   
+2917         TA       SBrkr      SFoyer     AllPub         TA     Inside   
+2918         Ex       SBrkr      2Story     AllPub         TA     Inside   
+
+     BsmtQual Exterior1st LandContour  
+0          Gd     VinylSd         Lvl  
+1          Gd     MetalSd         Lvl  
+2          Gd     VinylSd         Lvl  
+3          TA     Wd Sdng         Lvl  
+4          Gd     VinylSd         Lvl  
+...       ...         ...         ...  
+2914       TA     CemntBd         Lvl  
+2915       TA     CemntBd         Lvl  
+2916       TA     VinylSd         Lvl  
+2917       Gd     HdBoard         Lvl  
+2918       Gd     HdBoard         Lvl  
+
+[2889 rows x 60 columns], 'target': 0       208500.0
+1       181500.0
+2       223500.0
+3       140000.0
+4       250000.0
+          ...   
+1455    175000.0
+1456    210000.0
+1457    266500.0
+1458    142125.0
+1459    147500.0
+Name: SalePrice, Length: 1460, dtype: float64, 'target_test': Series([], Name: SalePrice, dtype: float64)}}, 0.6396081447601318))
+('house_example2', 'random', 'KMEANS', 'SalePrice', None, 'Tree -> ED -> KMEANS', 'silhouette', ({'quality_metric': 0.9623, 'result': {'train':       1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0        856.0     854.0        0.0           3.0       706.0         0.0   
+1       1262.0       0.0        0.0           3.0       978.0         0.0   
+2        920.0     866.0        0.0           3.0       486.0         0.0   
+3        961.0     756.0        0.0           3.0       216.0         0.0   
+4       1145.0    1053.0        0.0           4.0       655.0         0.0   
+...        ...       ...        ...           ...         ...         ...   
+1455     953.0     694.0        0.0           3.0         0.0         0.0   
+1456    2073.0       0.0        0.0           3.0       790.0       163.0   
+1457    1188.0    1152.0        0.0           4.0       275.0         0.0   
+1458    1078.0       0.0        0.0           2.0        49.0      1029.0   
+1459    1256.0       0.0        0.0           3.0       830.0       290.0   
+
+      BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  PoolArea  \
+0              1.0           0.0      150.0            0.0  ...       0.0   
+1              0.0           1.0      284.0            0.0  ...       0.0   
+2              1.0           0.0      434.0            0.0  ...       0.0   
+3              1.0           0.0      540.0          272.0  ...       0.0   
+4              1.0           0.0      490.0            0.0  ...       0.0   
+...            ...           ...        ...            ...  ...       ...   
+1455           0.0           0.0      953.0            0.0  ...       0.0   
+1456           1.0           0.0      589.0            0.0  ...       0.0   
+1457           0.0           0.0      877.0            0.0  ...       0.0   
+1458           1.0           0.0        0.0          112.0  ...       0.0   
+1459           1.0           0.0      136.0            0.0  ...       0.0   
+
+      ScreenPorch  TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  YearBuilt  \
+0             0.0           8.0        856.0         0.0     2003.0   
+1             0.0           6.0       1262.0       298.0     1976.0   
+2             0.0           6.0        920.0         0.0     2001.0   
+3             0.0           7.0        756.0         0.0     1915.0   
+4             0.0           9.0       1145.0       192.0     2000.0   
+...           ...           ...          ...         ...        ...   
+1455          0.0           7.0        953.0         0.0     1999.0   
+1456          0.0           7.0       1542.0       349.0     1978.0   
+1457          0.0           9.0       1152.0         0.0     1941.0   
+1458          0.0           5.0       1078.0       366.0     1950.0   
+1459          0.0           6.0       1256.0       736.0     1965.0   
+
+      YearRemodAdd  YrSold  New_ID  cluster_ID  
+0           2003.0  2008.0       1           0  
+1           1976.0  2007.0       2           0  
+2           2002.0  2008.0       3           0  
+3           1970.0  2006.0       4           0  
+4           2000.0  2008.0       5           0  
+...            ...     ...     ...         ...  
+1455        2000.0  2007.0    1456           0  
+1456        1988.0  2010.0    1457           0  
+1457        2006.0  2010.0    1458           0  
+1458        1996.0  2010.0    1459           0  
+1459        1965.0  2008.0    1460           0  
+
+[1460 rows x 39 columns], 'test':       1stFlrSF  2ndFlrSF  3SsnPorch Alley  BedroomAbvGr BldgType BsmtCond  \
+0        856.0     854.0        0.0  Grvl           3.0     1Fam       TA   
+1       1262.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2        920.0     866.0        0.0  Grvl           3.0     1Fam       TA   
+3        961.0     756.0        0.0  Grvl           3.0     1Fam       Gd   
+4       1145.0    1053.0        0.0  Grvl           4.0     1Fam       TA   
+...        ...       ...        ...   ...           ...      ...      ...   
+2914     546.0     546.0        0.0  Grvl           3.0    Twnhs       TA   
+2915     546.0     546.0        0.0  Grvl           3.0   TwnhsE       TA   
+2916    1224.0       0.0        0.0  Grvl           4.0     1Fam       TA   
+2917     970.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2918     996.0    1004.0        0.0  Grvl           3.0     1Fam       TA   
+
+     BsmtExposure  BsmtFinSF1  BsmtFinSF2  ... Street TotRmsAbvGrd  \
+0              No       706.0         0.0  ...   Pave          8.0   
+1              Gd       978.0         0.0  ...   Pave          6.0   
+2              Mn       486.0         0.0  ...   Pave          6.0   
+3              No       216.0         0.0  ...   Pave          7.0   
+4              Av       655.0         0.0  ...   Pave          9.0   
+...           ...         ...         ...  ...    ...          ...   
+2914           No         0.0         0.0  ...   Pave          5.0   
+2915           No       252.0         0.0  ...   Pave          6.0   
+2916           No      1224.0         0.0  ...   Pave          7.0   
+2917           Av       337.0         0.0  ...   Pave          6.0   
+2918           Av       758.0         0.0  ...   Pave          9.0   
+
+      TotalBsmtSF  Utilities WoodDeckSF  YearBuilt YearRemodAdd  YrSold  \
+0           856.0     AllPub        0.0     2003.0       2003.0  2008.0   
+1          1262.0     AllPub      298.0     1976.0       1976.0  2007.0   
+2           920.0     AllPub        0.0     2001.0       2002.0  2008.0   
+3           756.0     AllPub        0.0     1915.0       1970.0  2006.0   
+4          1145.0     AllPub      192.0     2000.0       2000.0  2008.0   
+...           ...        ...        ...        ...          ...     ...   
+2914        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2915        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2916       1224.0     AllPub      474.0     1960.0       1996.0  2006.0   
+2917        912.0     AllPub       80.0     1992.0       1992.0  2006.0   
+2918        996.0     AllPub      190.0     1993.0       1994.0  2006.0   
+
+     New_ID  \
+0         1   
+1         2   
+2         3   
+3         4   
+4         5   
+...     ...   
+2914   2915   
+2915   2916   
+2916   2917   
+2917   2918   
+2918   2919   
+
+                                                                                                      row  
+0     856.0*854.0*0.0*Grvl*3.0*1Fam*TA*No*706.0*0.0*GLQ*Unf*1.0*0.0*Gd*150.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+1     1262.0*0.0*0.0*Grvl*3.0*1Fam*TA*Gd*978.0*0.0*ALQ*Unf*0.0*1.0*Gd*284.0*Y*Feedr*Norm*SBrkr*0.0*TA*...  
+2     920.0*866.0*0.0*Grvl*3.0*1Fam*TA*Mn*486.0*0.0*GLQ*Unf*1.0*0.0*Gd*434.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+3     961.0*756.0*0.0*Grvl*3.0*1Fam*Gd*No*216.0*0.0*ALQ*Unf*1.0*0.0*TA*540.0*Y*Norm*Norm*SBrkr*272.0*T...  
+4     1145.0*1053.0*0.0*Grvl*4.0*1Fam*TA*Av*655.0*0.0*GLQ*Unf*1.0*0.0*Gd*490.0*Y*Norm*Norm*SBrkr*0.0*T...  
+...                                                                                                   ...  
+2914  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...  
+2915  546.0*546.0*0.0*Grvl*3.0*TwnhsE*TA*No*252.0*0.0*Rec*Unf*0.0*0.0*TA*294.0*Y*Norm*Norm*SBrkr*0.0*T...  
+2916  1224.0*0.0*0.0*Grvl*4.0*1Fam*TA*No*1224.0*0.0*ALQ*Unf*1.0*0.0*TA*0.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2917  970.0*0.0*0.0*Grvl*3.0*1Fam*TA*Av*337.0*0.0*GLQ*Unf*0.0*1.0*Gd*575.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2918  996.0*1004.0*0.0*Grvl*3.0*1Fam*TA*Av*758.0*0.0*LwQ*Unf*0.0*0.0*Gd*238.0*Y*Norm*Norm*SBrkr*0.0*TA...  
+
+[2919 rows x 81 columns], 'target': 0       208500.0
+1       181500.0
+2       223500.0
+3       140000.0
+4       250000.0
+          ...   
+1455    175000.0
+1456    210000.0
+1457    266500.0
+1458    142125.0
+1459    147500.0
+Name: SalePrice, Length: 1460, dtype: float64, 'target_test': Series([], Name: SalePrice, dtype: float64)}}, 0.41257786750793457))
+('house_example2', 'no-prep', 'LASSO', 'SalePrice', None, 'LASSO', 'MSE', ({'quality_metric': 1368302034.8029606}, 0.32067275047302246))
+('house_example2', 'no-prep', 'OLS', 'SalePrice', None, 'OLS', 'MSE', ({'quality_metric': 6311111264.297448}, 0.07214689254760742))
+('house_example2', 'no-prep', 'MARS', 'SalePrice', None, 'MARS', 'MSE', ({'quality_metric': 0.13182415272055714}, 6.2079548835754395))
+('house_example2', 'no-prep', 'CART', 'SaleCondition', None, 'CART', 'accuracy', ({'quality_metric': 0.8828343454314362}, 94.77356910705566))
+('house_example2', 'no-prep', 'LDA', 'SaleCondition', None, 'LDA', 'accuracy', ({'quality_metric': 0.8160351582855196}, 0.09611892700195312))
+('house_example2', 'no-prep', 'NB', 'SaleCondition', None, 'NB', 'accuracy', ({'quality_metric': 0.10413783363931647}, 0.07023882865905762))
+('house_example2', 'no-prep', 'LASSO', 'SaleCondition', None, 'LASSO', 'MSE', ({'quality_metric': 0.0001248281690647271}, 0.20227909088134766))
+('house_example2', 'no-prep', 'MARS', 'SaleCondition', None, 'MARS', 'MSE', ({'quality_metric': 0.06469368272601796}, 0.4901890754699707))
+('house_example2', 'no-prep', 'HCA', 'SaleCondition', None, 'HCA', 'silhouette', ({'quality_metric': 0.962, 'result': {'train':       1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0        856.0     854.0        0.0           3.0       706.0         0.0   
+1       1262.0       0.0        0.0           3.0       978.0         0.0   
+2        920.0     866.0        0.0           3.0       486.0         0.0   
+3        961.0     756.0        0.0           3.0       216.0         0.0   
+4       1145.0    1053.0        0.0           4.0       655.0         0.0   
+...        ...       ...        ...           ...         ...         ...   
+2914     546.0     546.0        0.0           3.0         0.0         0.0   
+2915     546.0     546.0        0.0           3.0       252.0         0.0   
+2916    1224.0       0.0        0.0           4.0      1224.0         0.0   
+2917     970.0       0.0        0.0           3.0       337.0         0.0   
+2918     996.0    1004.0        0.0           3.0       758.0         0.0   
+
+      BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  ScreenPorch  \
+0              1.0           0.0      150.0            0.0  ...          0.0   
+1              0.0           1.0      284.0            0.0  ...          0.0   
+2              1.0           0.0      434.0            0.0  ...          0.0   
+3              1.0           0.0      540.0          272.0  ...          0.0   
+4              1.0           0.0      490.0            0.0  ...          0.0   
+...            ...           ...        ...            ...  ...          ...   
+2914           0.0           0.0      546.0            0.0  ...          0.0   
+2915           0.0           0.0      294.0            0.0  ...          0.0   
+2916           1.0           0.0        0.0            0.0  ...          0.0   
+2917           0.0           1.0      575.0            0.0  ...          0.0   
+2918           0.0           0.0      238.0            0.0  ...          0.0   
+
+      TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  YearBuilt  YearRemodAdd  YrSold  \
+0              8.0        856.0         0.0     2003.0        2003.0  2008.0   
+1              6.0       1262.0       298.0     1976.0        1976.0  2007.0   
+2              6.0        920.0         0.0     2001.0        2002.0  2008.0   
+3              7.0        756.0         0.0     1915.0        1970.0  2006.0   
+4              9.0       1145.0       192.0     2000.0        2000.0  2008.0   
+...            ...          ...         ...        ...           ...     ...   
+2914           5.0        546.0         0.0     1970.0        1970.0  2006.0   
+2915           6.0        546.0         0.0     1970.0        1970.0  2006.0   
+2916           7.0       1224.0       474.0     1960.0        1996.0  2006.0   
+2917           6.0        912.0        80.0     1992.0        1992.0  2006.0   
+2918           9.0        996.0       190.0     1993.0        1994.0  2006.0   
+
+      SaleCondition  New_ID  cluster_ID  
+0                 4       1           1  
+1                 4       2           1  
+2                 4       3           1  
+3                 0       4           1  
+4                 4       5           1  
+...             ...     ...         ...  
+2914              4    2915           1  
+2915              0    2916           1  
+2916              0    2917           1  
+2917              4    2918           1  
+2918              4    2919           1  
+
+[2919 rows x 40 columns], 'test':       1stFlrSF  2ndFlrSF  3SsnPorch Alley  BedroomAbvGr BldgType BsmtCond  \
+0        856.0     854.0        0.0  Grvl           3.0     1Fam       TA   
+1       1262.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2        920.0     866.0        0.0  Grvl           3.0     1Fam       TA   
+3        961.0     756.0        0.0  Grvl           3.0     1Fam       Gd   
+4       1145.0    1053.0        0.0  Grvl           4.0     1Fam       TA   
+...        ...       ...        ...   ...           ...      ...      ...   
+2914     546.0     546.0        0.0  Grvl           3.0    Twnhs       TA   
+2915     546.0     546.0        0.0  Grvl           3.0   TwnhsE       TA   
+2916    1224.0       0.0        0.0  Grvl           4.0     1Fam       TA   
+2917     970.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2918     996.0    1004.0        0.0  Grvl           3.0     1Fam       TA   
+
+     BsmtExposure  BsmtFinSF1  BsmtFinSF2  ... Street TotRmsAbvGrd  \
+0              No       706.0         0.0  ...   Pave          8.0   
+1              Gd       978.0         0.0  ...   Pave          6.0   
+2              Mn       486.0         0.0  ...   Pave          6.0   
+3              No       216.0         0.0  ...   Pave          7.0   
+4              Av       655.0         0.0  ...   Pave          9.0   
+...           ...         ...         ...  ...    ...          ...   
+2914           No         0.0         0.0  ...   Pave          5.0   
+2915           No       252.0         0.0  ...   Pave          6.0   
+2916           No      1224.0         0.0  ...   Pave          7.0   
+2917           Av       337.0         0.0  ...   Pave          6.0   
+2918           Av       758.0         0.0  ...   Pave          9.0   
+
+      TotalBsmtSF  Utilities WoodDeckSF  YearBuilt YearRemodAdd  YrSold  \
+0           856.0     AllPub        0.0     2003.0       2003.0  2008.0   
+1          1262.0     AllPub      298.0     1976.0       1976.0  2007.0   
+2           920.0     AllPub        0.0     2001.0       2002.0  2008.0   
+3           756.0     AllPub        0.0     1915.0       1970.0  2006.0   
+4          1145.0     AllPub      192.0     2000.0       2000.0  2008.0   
+...           ...        ...        ...        ...          ...     ...   
+2914        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2915        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2916       1224.0     AllPub      474.0     1960.0       1996.0  2006.0   
+2917        912.0     AllPub       80.0     1992.0       1992.0  2006.0   
+2918        996.0     AllPub      190.0     1993.0       1994.0  2006.0   
+
+     New_ID  \
+0         1   
+1         2   
+2         3   
+3         4   
+4         5   
+...     ...   
+2914   2915   
+2915   2916   
+2916   2917   
+2917   2918   
+2918   2919   
+
+                                                                                                      row  
+0     856.0*854.0*0.0*Grvl*3.0*1Fam*TA*No*706.0*0.0*GLQ*Unf*1.0*0.0*Gd*150.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+1     1262.0*0.0*0.0*Grvl*3.0*1Fam*TA*Gd*978.0*0.0*ALQ*Unf*0.0*1.0*Gd*284.0*Y*Feedr*Norm*SBrkr*0.0*TA*...  
+2     920.0*866.0*0.0*Grvl*3.0*1Fam*TA*Mn*486.0*0.0*GLQ*Unf*1.0*0.0*Gd*434.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+3     961.0*756.0*0.0*Grvl*3.0*1Fam*Gd*No*216.0*0.0*ALQ*Unf*1.0*0.0*TA*540.0*Y*Norm*Norm*SBrkr*272.0*T...  
+4     1145.0*1053.0*0.0*Grvl*4.0*1Fam*TA*Av*655.0*0.0*GLQ*Unf*1.0*0.0*Gd*490.0*Y*Norm*Norm*SBrkr*0.0*T...  
+...                                                                                                   ...  
+2914  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...  
+2915  546.0*546.0*0.0*Grvl*3.0*TwnhsE*TA*No*252.0*0.0*Rec*Unf*0.0*0.0*TA*294.0*Y*Norm*Norm*SBrkr*0.0*T...  
+2916  1224.0*0.0*0.0*Grvl*4.0*1Fam*TA*No*1224.0*0.0*ALQ*Unf*1.0*0.0*TA*0.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2917  970.0*0.0*0.0*Grvl*3.0*1Fam*TA*Av*337.0*0.0*GLQ*Unf*0.0*1.0*Gd*575.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2918  996.0*1004.0*0.0*Grvl*3.0*1Fam*TA*Av*758.0*0.0*LwQ*Unf*0.0*0.0*Gd*238.0*Y*Norm*Norm*SBrkr*0.0*TA...  
+
+[2919 rows x 80 columns], 'target': 0       4
+1       4
+2       4
+3       0
+4       4
+       ..
+2914    4
+2915    0
+2916    0
+2917    4
+2918    4
+Name: SaleCondition, Length: 2919, dtype: int64, 'target_test': Series([], Name: SaleCondition, dtype: int64)}}, 1.7421331405639648))
+('house_example2', 'no-prep', 'KMEANS', 'SaleCondition', None, 'KMEANS', 'silhouette', ({'quality_metric': 0.962, 'result': {'train':       1stFlrSF  2ndFlrSF  3SsnPorch  BedroomAbvGr  BsmtFinSF1  BsmtFinSF2  \
+0        856.0     854.0        0.0           3.0       706.0         0.0   
+1       1262.0       0.0        0.0           3.0       978.0         0.0   
+2        920.0     866.0        0.0           3.0       486.0         0.0   
+3        961.0     756.0        0.0           3.0       216.0         0.0   
+4       1145.0    1053.0        0.0           4.0       655.0         0.0   
+...        ...       ...        ...           ...         ...         ...   
+2914     546.0     546.0        0.0           3.0         0.0         0.0   
+2915     546.0     546.0        0.0           3.0       252.0         0.0   
+2916    1224.0       0.0        0.0           4.0      1224.0         0.0   
+2917     970.0       0.0        0.0           3.0       337.0         0.0   
+2918     996.0    1004.0        0.0           3.0       758.0         0.0   
+
+      BsmtFullBath  BsmtHalfBath  BsmtUnfSF  EnclosedPorch  ...  ScreenPorch  \
+0              1.0           0.0      150.0            0.0  ...          0.0   
+1              0.0           1.0      284.0            0.0  ...          0.0   
+2              1.0           0.0      434.0            0.0  ...          0.0   
+3              1.0           0.0      540.0          272.0  ...          0.0   
+4              1.0           0.0      490.0            0.0  ...          0.0   
+...            ...           ...        ...            ...  ...          ...   
+2914           0.0           0.0      546.0            0.0  ...          0.0   
+2915           0.0           0.0      294.0            0.0  ...          0.0   
+2916           1.0           0.0        0.0            0.0  ...          0.0   
+2917           0.0           1.0      575.0            0.0  ...          0.0   
+2918           0.0           0.0      238.0            0.0  ...          0.0   
+
+      TotRmsAbvGrd  TotalBsmtSF  WoodDeckSF  YearBuilt  YearRemodAdd  YrSold  \
+0              8.0        856.0         0.0     2003.0        2003.0  2008.0   
+1              6.0       1262.0       298.0     1976.0        1976.0  2007.0   
+2              6.0        920.0         0.0     2001.0        2002.0  2008.0   
+3              7.0        756.0         0.0     1915.0        1970.0  2006.0   
+4              9.0       1145.0       192.0     2000.0        2000.0  2008.0   
+...            ...          ...         ...        ...           ...     ...   
+2914           5.0        546.0         0.0     1970.0        1970.0  2006.0   
+2915           6.0        546.0         0.0     1970.0        1970.0  2006.0   
+2916           7.0       1224.0       474.0     1960.0        1996.0  2006.0   
+2917           6.0        912.0        80.0     1992.0        1992.0  2006.0   
+2918           9.0        996.0       190.0     1993.0        1994.0  2006.0   
+
+      SaleCondition  New_ID  cluster_ID  
+0                 4       1           0  
+1                 4       2           0  
+2                 4       3           0  
+3                 0       4           0  
+4                 4       5           0  
+...             ...     ...         ...  
+2914              4    2915           0  
+2915              0    2916           0  
+2916              0    2917           0  
+2917              4    2918           0  
+2918              4    2919           0  
+
+[2919 rows x 40 columns], 'test':       1stFlrSF  2ndFlrSF  3SsnPorch Alley  BedroomAbvGr BldgType BsmtCond  \
+0        856.0     854.0        0.0  Grvl           3.0     1Fam       TA   
+1       1262.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2        920.0     866.0        0.0  Grvl           3.0     1Fam       TA   
+3        961.0     756.0        0.0  Grvl           3.0     1Fam       Gd   
+4       1145.0    1053.0        0.0  Grvl           4.0     1Fam       TA   
+...        ...       ...        ...   ...           ...      ...      ...   
+2914     546.0     546.0        0.0  Grvl           3.0    Twnhs       TA   
+2915     546.0     546.0        0.0  Grvl           3.0   TwnhsE       TA   
+2916    1224.0       0.0        0.0  Grvl           4.0     1Fam       TA   
+2917     970.0       0.0        0.0  Grvl           3.0     1Fam       TA   
+2918     996.0    1004.0        0.0  Grvl           3.0     1Fam       TA   
+
+     BsmtExposure  BsmtFinSF1  BsmtFinSF2  ... Street TotRmsAbvGrd  \
+0              No       706.0         0.0  ...   Pave          8.0   
+1              Gd       978.0         0.0  ...   Pave          6.0   
+2              Mn       486.0         0.0  ...   Pave          6.0   
+3              No       216.0         0.0  ...   Pave          7.0   
+4              Av       655.0         0.0  ...   Pave          9.0   
+...           ...         ...         ...  ...    ...          ...   
+2914           No         0.0         0.0  ...   Pave          5.0   
+2915           No       252.0         0.0  ...   Pave          6.0   
+2916           No      1224.0         0.0  ...   Pave          7.0   
+2917           Av       337.0         0.0  ...   Pave          6.0   
+2918           Av       758.0         0.0  ...   Pave          9.0   
+
+      TotalBsmtSF  Utilities WoodDeckSF  YearBuilt YearRemodAdd  YrSold  \
+0           856.0     AllPub        0.0     2003.0       2003.0  2008.0   
+1          1262.0     AllPub      298.0     1976.0       1976.0  2007.0   
+2           920.0     AllPub        0.0     2001.0       2002.0  2008.0   
+3           756.0     AllPub        0.0     1915.0       1970.0  2006.0   
+4          1145.0     AllPub      192.0     2000.0       2000.0  2008.0   
+...           ...        ...        ...        ...          ...     ...   
+2914        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2915        546.0     AllPub        0.0     1970.0       1970.0  2006.0   
+2916       1224.0     AllPub      474.0     1960.0       1996.0  2006.0   
+2917        912.0     AllPub       80.0     1992.0       1992.0  2006.0   
+2918        996.0     AllPub      190.0     1993.0       1994.0  2006.0   
+
+     New_ID  \
+0         1   
+1         2   
+2         3   
+3         4   
+4         5   
+...     ...   
+2914   2915   
+2915   2916   
+2916   2917   
+2917   2918   
+2918   2919   
+
+                                                                                                      row  
+0     856.0*854.0*0.0*Grvl*3.0*1Fam*TA*No*706.0*0.0*GLQ*Unf*1.0*0.0*Gd*150.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+1     1262.0*0.0*0.0*Grvl*3.0*1Fam*TA*Gd*978.0*0.0*ALQ*Unf*0.0*1.0*Gd*284.0*Y*Feedr*Norm*SBrkr*0.0*TA*...  
+2     920.0*866.0*0.0*Grvl*3.0*1Fam*TA*Mn*486.0*0.0*GLQ*Unf*1.0*0.0*Gd*434.0*Y*Norm*Norm*SBrkr*0.0*TA*...  
+3     961.0*756.0*0.0*Grvl*3.0*1Fam*Gd*No*216.0*0.0*ALQ*Unf*1.0*0.0*TA*540.0*Y*Norm*Norm*SBrkr*272.0*T...  
+4     1145.0*1053.0*0.0*Grvl*4.0*1Fam*TA*Av*655.0*0.0*GLQ*Unf*1.0*0.0*Gd*490.0*Y*Norm*Norm*SBrkr*0.0*T...  
+...                                                                                                   ...  
+2914  546.0*546.0*0.0*Grvl*3.0*Twnhs*TA*No*0.0*0.0*Unf*Unf*0.0*0.0*TA*546.0*Y*Norm*Norm*SBrkr*0.0*TA*T...  
+2915  546.0*546.0*0.0*Grvl*3.0*TwnhsE*TA*No*252.0*0.0*Rec*Unf*0.0*0.0*TA*294.0*Y*Norm*Norm*SBrkr*0.0*T...  
+2916  1224.0*0.0*0.0*Grvl*4.0*1Fam*TA*No*1224.0*0.0*ALQ*Unf*1.0*0.0*TA*0.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2917  970.0*0.0*0.0*Grvl*3.0*1Fam*TA*Av*337.0*0.0*GLQ*Unf*0.0*1.0*Gd*575.0*Y*Norm*Norm*SBrkr*0.0*TA*TA...  
+2918  996.0*1004.0*0.0*Grvl*3.0*1Fam*TA*Av*758.0*0.0*LwQ*Unf*0.0*0.0*Gd*238.0*Y*Norm*Norm*SBrkr*0.0*TA...  
+
+[2919 rows x 80 columns], 'target': 0       4
+1       4
+2       4
+3       0
+4       4
+       ..
+2914    4
+2915    0
+2916    0
+2917    4
+2918    4
+Name: SaleCondition, Length: 2919, dtype: int64, 'target_test': Series([], Name: SaleCondition, dtype: int64)}}, 0.9389328956604004))
+('house_example2', 'doublelearn2clean', 'CART', 'SaleCondition', None, 'ZSB -> CART', 'accuracy', 0.8978433974784341, 1126.5709118843079)

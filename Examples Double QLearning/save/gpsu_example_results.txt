@@ -1,0 +1,1365 @@
+('gpsu_example', 'learn2clean', 'NB', 'Sentiment', None, 'ZS -> ED -> NB', 'accuracy', 0.6408668730650154, 4.58355188369751)
+('gpsu_example', 'learn2clean', 'LDA', 'Sentiment', None, 'LOF -> LDA', 'accuracy', 0.6399448375104929, 3.942518949508667)
+('gpsu_example', 'random', 'LASSO', 'Sentiment', None, 'LC -> LASSO', 'MSE', ({'quality_metric': 1.1305978472943574}, 0.07033896446228027))
+('gpsu_example', 'random', 'OLS', 'Sentiment', None, 'WR -> IQR -> ED -> OLS', 'MSE', ({'quality_metric': 1072.304535723864}, 0.09471511840820312))
+('gpsu_example', 'random', 'MARS', 'Sentiment', None, 'ZS -> LOF -> MARS', 'MSE', ({'quality_metric': 0.5225642524140152}, 4.01341700553894))
+('gpsu_example', 'random', 'LASSO', 'Sentiment', None, 'ZS -> LC -> ZSB -> ED -> LASSO', 'MSE', ({'quality_metric': 2.1020031968512622}, 0.15211915969848633))
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'ZS -> LOF -> ED -> LDA', 'accuracy', ({'quality_metric': 0.9260500235960358}, 0.5381298065185547))
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'LC -> ZSB -> ED -> LDA', 'accuracy', ({'quality_metric': 0.9280734809232218}, 0.35216259956359863))
+('gpsu_example', 'no-prep', 'CART', 'Sentiment', None, 'CART', 'accuracy', ({'quality_metric': 0.9987655795802971}, 163.2061710357666))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9286027157249234}, 0.21481084823608398))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9681439891689563}, 0.4411649703979492))
+('gpsu_example', 'learn2clean', 'NB', 'Sentiment', None, 'ZS -> ED -> NB', 'accuracy', 0.64221260815822, 7.239048957824707)
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'EM -> Tree -> LOF -> LDA', 'accuracy', ({'quality_metric': 0.6404312668463612}, 681.1164729595184))
+('gpsu_example', 'no-prep', 'CART', 'Sentiment', None, 'CART', 'accuracy', ({'quality_metric': 0.9985281152169418}, 132.22319293022156))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.928952281829702}, 0.23058772087097168))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9682154942271548}, 0.3376908302307129))
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'ED -> ZS -> IQR -> NB', 'accuracy', 0.6391771826951658, 10.598905086517334)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'MM -> AD -> NB', 'accuracy', 0.6397054365237208, 7.781907081604004)
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'KNN -> LC -> IQR -> ED -> LDA', 'accuracy', ({'quality_metric': None}, 1139.3470101356506))
+('gpsu_example', 'no-prep', 'CART', 'Sentiment', None, 'CART', 'accuracy', ({'quality_metric': 0.9985618057053582}, 147.77347993850708))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9294475694867014}, 0.26361703872680664))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9703166743039343}, 0.3963019847869873))
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'ED -> CC -> NB', 'accuracy', 0.6432322520501675, 12.928272247314453)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'ED -> IQR -> NB', 'accuracy', 0.6416734053875881, 7.007336139678955)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'Tree -> LOF -> AD -> NB', 'accuracy', 0.6423730002200998, 9.758570909500122)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'ED -> Tree -> IQR -> NB', 'accuracy', 0.6423935925383352, 7.200392961502075)
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'EM -> ZS -> LC -> LOF -> LDA', 'accuracy', ({'quality_metric': 0.6437356853749344}, 148.1127963066101))
+('gpsu_example', 'no-prep', 'CART', 'Sentiment', None, 'CART', 'accuracy', ({'quality_metric': 0.9984756193746984}, 96.5136308670044))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9266687319029326}, 0.16803288459777832))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9677472203067465}, 0.2741432189941406))
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'ED -> WR -> IQR -> NB', 'accuracy', 0.6436226746617255, 5.649607181549072)
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'MICE -> DS -> Tree -> LOF -> ED -> LDA', 'accuracy', ({'quality_metric': 0.6393732482010505}, 40.41349387168884))
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'DS -> LOF -> AD -> NB', 'accuracy', 0.640295572014322, 6.1172051429748535)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'WR -> ED -> ZS -> LC -> LOF -> NB', 'accuracy', 0.6479257921276436, 5.594629764556885)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'LC -> LOF -> NB', 'accuracy', 0.6415942141433648, 4.506498098373413)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'ZSB -> Tree -> ZS -> IQR -> NB', 'accuracy', 0.6422618662932644, 5.323301076889038)
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'Tree -> ZSB -> LDA', 'accuracy', ({'quality_metric': 0.9273015873015873}, 0.2666590213775635))
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'MM -> AD -> NB', 'accuracy', 0.6371617558628984, 5.180004835128784)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'ZSB -> ED -> NB', 'accuracy', 0.6443418013856813, 4.754101276397705)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> ZSB -> HCA', 'silhouette', 0.9804, 712.5642371177673)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'DS -> ZSB -> AD -> HCA', 'silhouette', 0.9928, 504.5983021259308)
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'Tree -> LDA', 'accuracy', ({'quality_metric': 0.9270281922772416}, 0.25472307205200195))
+('gpsu_example', 'no-prep', 'CART', 'Sentiment', None, 'CART', 'accuracy', ({'quality_metric': 0.9985676708640921}, 105.57766914367676))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9270281922772416}, 0.22321510314941406))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9666971525315773}, 0.32961082458496094))
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> ZSB -> HCA', 'silhouette', 0.9793, 546.1670417785645)
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'EM -> ZS -> MR -> LOF -> HCA', 'silhouette', ({'quality_metric': 0.3991, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+0                0.127486                0.006650           0
+1               -0.486008               -0.523967           0
+2                0.454403                1.132119           0
+3                0.251719               -0.359134           0
+4               -0.444289               -1.762004           0
+...                   ...                     ...         ...
+43072            1.502876                1.431511           0
+43073            1.464237                0.031559           0
+43074            1.353094                1.830700           0
+43075            0.145296                0.098185           0
+43076           -1.176556                1.387157           0
+
+[43047 rows x 3 columns], 'test':        Sentiment_Polarity  Sentiment_Subjectivity
+0               -0.973376                0.922731
+1               -2.212934                0.824831
+2               -0.436851               -0.741575
+3               -0.732865               -1.328977
+4               -0.692473                0.818934
+...                   ...                     ...
+21213            0.155177                0.162838
+21214           -0.436851               -1.720579
+21215           -0.338180                0.193917
+21216           -0.029832                0.172162
+21217           -0.326522               -0.179917
+
+[21188 rows x 2 columns], 'target': 62561         NaN
+13949         NaN
+46891    Positive
+39640         NaN
+61642     Neutral
+           ...   
+8365     Positive
+35400         NaN
+14984    Positive
+20531         NaN
+46431    Negative
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 12862    Negative
+12959    Negative
+19497     Neutral
+18005    Negative
+52066         NaN
+           ...   
+1477     Positive
+35965     Neutral
+60217    Positive
+9667     Positive
+30133         NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 2069.5536556243896))
+('gpsu_example', 'no-prep', 'HCA', 'Sentiment', None, 'HCA', 'silhouette', ({'quality_metric': 0.561, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+46891            0.300000                0.725000           0
+61642            0.000000                0.000000           0
+38988            0.200000                0.532051           0
+52374            0.316667                0.516667           0
+45760           -0.027273                0.533983           0
+...                   ...                     ...         ...
+16056            0.700000                0.700000           0
+61188            0.125000                0.512500           0
+8365             0.650000                0.800000           0
+14984            0.600000                0.900000           0
+46431           -0.244444                0.788889           0
+
+[25097 rows x 3 columns], 'test':                                                      App  \
+12862                                      Baseball Boy!   
+12959                                   Basketball Stars   
+19497  CBS Sports App - Scores, News, Stats & Watch Live   
+18005                                  Bualuang mBanking   
+52066                       Galaxy Attack: Alien Shooter   
+...                                                  ...   
+1477                                         8 Ball Pool   
+35965                             Dr. Oetker Rezeptideen   
+60217                                          HauteLook   
+9667                      Avakin Life - 3D virtual world   
+30133                               CppDroid - C/C++ IDE   
+
+                                                                                         Translated_Review  \
+12862  This terrible. There way many ads. I understand ads free game. But 90 percent using cancelling a...   
+12959                          I hate matching level 14 level 15 I level 7 every time made cry I like game   
+19497                                    I started getting malicious pop ups recently. Opens says I virus.   
+18005                       The error updated 31 May 2018 unavailable contact call center 1333 02-645-5555   
+52066                                                                                                  NaN   
+...                                                                                                    ...   
+1477   A Classic. Cant beat good, quick game 8 ball. Even rookies noobies enjoy, isn't really learning ...   
+35965                                             5 if the egg timer would work crashes when I press start   
+60217  Please let turn notifications. I can't stand decide they're going bombard notifications whether ...   
+9667   Lockwood: please get update ASAP. Messages, invites, gifts friend requests broken AF. It takes m...   
+30133                                                                                                  NaN   
+
+      Sentiment  Sentiment_Polarity  Sentiment_Subjectivity  
+12862  Negative           -0.181250                0.675000  
+12959  Negative           -0.600000                0.650000  
+19497   Neutral            0.000000                0.250000  
+18005  Negative           -0.100000                0.100000  
+52066       NaN                 NaN                     NaN  
+...         ...                 ...                     ...  
+1477   Positive            0.200000                0.480952  
+35965   Neutral            0.000000                0.000000  
+60217  Positive            0.033333                0.488889  
+9667   Positive            0.137500                0.483333  
+30133       NaN                 NaN                     NaN  
+
+[21218 rows x 5 columns], 'target': 62561         NaN
+13949         NaN
+46891    Positive
+39640         NaN
+61642     Neutral
+           ...   
+8365     Positive
+35400         NaN
+14984    Positive
+20531         NaN
+46431    Negative
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 12862    Negative
+12959    Negative
+19497     Neutral
+18005    Negative
+52066         NaN
+           ...   
+1477     Positive
+35965     Neutral
+60217    Positive
+9667     Positive
+30133         NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 120.90322089195251))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9287165143480354}, 0.22991609573364258))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9668884922645014}, 0.29440784454345703))
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> LOF -> HCA', 'silhouette', 0.952, 620.6557228565216)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'DS -> LC -> ZSB -> HCA', 'silhouette', 1.0, 530.2408442497253)
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'MF -> MR -> ZSB -> HCA', 'silhouette', ({'quality_metric': 0.988, 'result': {'train':        Sentiment_Subjectivity  Sentiment_Polarity  cluster_ID
+32768                     0.0                 0.0           1
+2                         0.0                 0.0           1
+32770                     0.0                 0.0           1
+32771                     0.0                 0.0           1
+32772                     0.0                 0.0           1
+...                       ...                 ...         ...
+32762                     0.0                 0.0           1
+32763                     0.0                 0.0           1
+32764                     0.0                 0.0           1
+32765                     0.0                 0.0           1
+32766                     0.0                 0.0           1
+
+[21497 rows x 3 columns], 'test':        Sentiment_Subjectivity  Sentiment_Polarity Sentiment Translated_Review  \
+32769                     0.0                 0.0  Positive              Good   
+32774                     0.0                 0.0  Positive              Good   
+32775                     0.0                 0.0  Positive              Good   
+32776                     0.0                 0.0  Positive              Good   
+32778                     0.0                 0.0  Positive              Good   
+...                       ...                 ...       ...               ...   
+32753                     0.0                 0.0  Positive              Good   
+32754                     0.0                 0.0  Positive              Good   
+32758                     0.0                 0.0  Positive              Good   
+32760                     0.0                 0.0  Positive              Good   
+32767                     0.0                 0.0  Positive              Good   
+
+                                  App  
+32769  DaBang - Rental Homes in Korea  
+32774  DaBang - Rental Homes in Korea  
+32775  DaBang - Rental Homes in Korea  
+32776  DaBang - Rental Homes in Korea  
+32778  DaBang - Rental Homes in Korea  
+...                               ...  
+32753  DaBang - Rental Homes in Korea  
+32754  DaBang - Rental Homes in Korea  
+32758  DaBang - Rental Homes in Korea  
+32760  DaBang - Rental Homes in Korea  
+32767  DaBang - Rental Homes in Korea  
+
+[10579 rows x 5 columns], 'target': 56747         NaN
+44054    Positive
+21331         NaN
+30189         NaN
+56833         NaN
+           ...   
+55193         NaN
+3235          NaN
+42703         NaN
+36206         NaN
+43712    Positive
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 6499     Positive
+57351         NaN
+43943         NaN
+12706    Positive
+47344    Positive
+           ...   
+30462         NaN
+25810         NaN
+33098         NaN
+14261         NaN
+6822          NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 77.97291398048401))
+('gpsu_example', 'no-prep', 'HCA', 'Sentiment', None, 'HCA', 'silhouette', ({'quality_metric': 0.4059, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+44054            0.083333                0.383333           0
+43092            0.000000                0.291667           0
+39304           -0.009615                0.412821           0
+63840           -0.154911                0.332589           0
+19169            0.383333                0.500000           0
+...                   ...                     ...         ...
+29542            0.233333                0.769048           0
+50476           -0.400000                0.400000           1
+26859            0.242929                0.570875           0
+49310            0.000000                0.800000           0
+43712            0.200000                0.900000           0
+
+[25055 rows x 3 columns], 'test':                                                       App  \
+6499                                        Amazon Kindle   
+57351                                              Granny   
+43943                                               Fancy   
+12706                            Barbieâ¢ Fashion Closet   
+47344          FlirtChat - â¥Free Dating/Flirting Appâ¥   
+...                                                   ...   
+30462                        Creative Ideas - DIY & Craft   
+25810                          Chess School for Beginners   
+33098                                         Dairy Queen   
+14261  Best Ovulation Tracker Fertility Calendar App Glow   
+6822                                    American Airlines   
+
+          Translated_Review Sentiment  Sentiment_Polarity  \
+6499   Good need free books  Positive                0.55   
+57351                   NaN       NaN                 NaN   
+43943                   NaN       NaN                 NaN   
+12706   It's good I'm happy  Positive                0.75   
+47344                  Nice  Positive                0.60   
+...                     ...       ...                 ...   
+30462                   NaN       NaN                 NaN   
+25810                   NaN       NaN                 NaN   
+33098                   NaN       NaN                 NaN   
+14261                   NaN       NaN                 NaN   
+6822                    NaN       NaN                 NaN   
+
+       Sentiment_Subjectivity  
+6499                      0.7  
+57351                     NaN  
+43943                     NaN  
+12706                     0.8  
+47344                     1.0  
+...                       ...  
+30462                     NaN  
+25810                     NaN  
+33098                     NaN  
+14261                     NaN  
+6822                      NaN  
+
+[21218 rows x 5 columns], 'target': 56747         NaN
+44054    Positive
+21331         NaN
+30189         NaN
+56833         NaN
+           ...   
+55193         NaN
+3235          NaN
+42703         NaN
+36206         NaN
+43712    Positive
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 6499     Positive
+57351         NaN
+43943         NaN
+12706    Positive
+47344    Positive
+           ...   
+30462         NaN
+25810         NaN
+33098         NaN
+14261         NaN
+6822          NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 208.7203278541565))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9281580281603766}, 0.26476573944091797))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9680704831358831}, 0.31518101692199707))
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'ZSB -> HCA', 'silhouette', 0.9923, 790.5481362342834)
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'ZS -> MR -> IQR -> ED -> HCA', 'silhouette', ({'quality_metric': None, 'result': {'train':                                                                               App
+0                                                           10 Best Foods for You
+200    104 æ¾å·¥ä½ - æ¾å·¥ä½ æ¾æå·¥ æ¾å¼è· å±¥æ­·å¥æª¢ å±¥æ­·è¨ºçå®¤
+240                                                                          11st
+280                                                    1800 Contacts - Lens Store
+360                                             1LINE â One Line with One Touch
+...                                                                           ...
+64076                              Hotspot Shield Free VPN Proxy & Wi-Fi Security
+64116                                                                     Hotstar
+64156                                              Hotwire Hotel & Car Rental App
+64197                                              Housing-Real Estate & Property
+64237                                                 Houzz Interior Design Ideas
+
+[1074 rows x 1 columns], 'test':                                                                               App
+2                                                           10 Best Foods for You
+204    104 æ¾å·¥ä½ - æ¾å·¥ä½ æ¾æå·¥ æ¾å¼è· å±¥æ­·å¥æª¢ å±¥æ­·è¨ºçå®¤
+241                                                                          11st
+282                                                    1800 Contacts - Lens Store
+364                                             1LINE â One Line with One Touch
+...                                                                           ...
+64084                              Hotspot Shield Free VPN Proxy & Wi-Fi Security
+64132                                                                     Hotstar
+64158                                              Hotwire Hotel & Car Rental App
+64196                                              Housing-Real Estate & Property
+64236                                                 Houzz Interior Design Ideas
+
+[1074 rows x 1 columns], 'target': 57407    Positive
+48095    Positive
+39403         NaN
+3335     Positive
+30769    Negative
+           ...   
+49764    Positive
+37046    Negative
+59006    Negative
+46638    Positive
+28566         NaN
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 54530    Positive
+46010    Negative
+13483    Positive
+56587    Negative
+45571    Positive
+           ...   
+46234    Positive
+60682     Neutral
+11033         NaN
+19302    Positive
+24438         NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 0.1364908218383789))
+('gpsu_example', 'no-prep', 'HCA', 'Sentiment', None, 'HCA', 'silhouette', ({'quality_metric': 0.5559, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+57407            0.240365                0.581250           0
+48095            0.200000                0.660000           0
+3335             0.058333                0.366667           0
+30769           -0.275000                0.425000           0
+40496           -0.143229                0.411111           0
+...                   ...                     ...         ...
+37448            0.000000                0.000000           0
+49764            0.115833                0.566667           0
+37046           -0.800000                0.900000           1
+59006           -0.525000                0.700000           0
+46638            0.145000                0.338333           0
+
+[25040 rows x 3 columns], 'test':                                                    App  \
+54530                          Golf GPS by SwingxSwing   
+46010                     Find a Way: Addictive Puzzle   
+13483                    Beauty Camera - Selfie Camera   
+56587                                    Google Photos   
+45571  Files Go by Google: Free up space on your phone   
+...                                                ...   
+46234               Firefox Focus: The privacy browser   
+60682                                      HealtheLife   
+11033              BaBe Lite - Baca Berita Hemat Kuota   
+19302                    CATS: Crash Arena Turbo Stars   
+24438                   Carousell: Snap-Sell, Chat-Buy   
+
+                                                                                         Translated_Review  \
+54530                                Nice app. Don't know pay version free everything weekly golfer needs.   
+46010  Addictive, mind-wrenching puzzle/game requiring electrician-like circuit fault-tracing skills. W...   
+13483  I've noticed many us 'blank screen, small add top' problem. Its upsetting favorite mine too. Ple...   
+56587                                    Since updating Samsung 7 active, photos keeps closing. I hate it!   
+45571  Does really good job regularly alerting I much useless storage. It regularly flag I keep backgro...   
+...                                                                                                    ...   
+46234  Works exactly advertised. (and well too!) Now, since know people'd usually for, I'll cut chase: ...   
+60682                                                     Intentionally blocks smartlock autofilling login   
+11033                                                                                                  NaN   
+19302  I enjoy game, unfortunately I've referred least 10 people play game, install started playing it,...   
+24438                                                                                                  NaN   
+
+      Sentiment  Sentiment_Polarity  Sentiment_Subjectivity  
+54530  Positive            0.500000                0.900000  
+46010  Negative           -0.090000                0.670000  
+13483  Positive            0.275000                0.480000  
+56587  Negative           -0.566667                0.750000  
+45571  Positive            0.033333                0.433974  
+...         ...                 ...                     ...  
+46234  Positive            0.308929                0.607143  
+60682   Neutral            0.000000                0.000000  
+11033       NaN                 NaN                     NaN  
+19302  Positive            0.028571                0.621429  
+24438       NaN                 NaN                     NaN  
+
+[21218 rows x 5 columns], 'target': 57407    Positive
+48095    Positive
+39403         NaN
+3335     Positive
+30769    Negative
+           ...   
+49764    Positive
+37046    Negative
+59006    Negative
+46638    Positive
+28566         NaN
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 54530    Positive
+46010    Negative
+13483    Positive
+56587    Negative
+45571    Positive
+           ...   
+46234    Positive
+60682     Neutral
+11033         NaN
+19302    Positive
+24438         NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 122.90718078613281))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9267172697069163}, 0.27048397064208984))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9681709265175718}, 0.3231661319732666))
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'ZSB -> HCA', 'silhouette', 0.9921, 656.4882109165192)
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'DS -> LC -> ED -> HCA', 'silhouette', ({'quality_metric': 0.6331, 'result': {'train':        Sentiment_Polarity  cluster_ID
+0                1.000000           3
+1                0.603865           1
+3                0.736626           1
+4                1.000000           3
+5                1.000000           3
+...                   ...         ...
+64218            0.333333           0
+64220            0.084593           2
+64222            0.525926           0
+64226            0.096867           2
+64227            0.944444           3
+
+[21222 rows x 2 columns], 'test':       Sentiment  \
+2           NaN   
+6      Positive   
+10     Positive   
+17     Positive   
+21     Positive   
+...         ...   
+64217  Positive   
+64221  Positive   
+64223  Positive   
+64230  Negative   
+64236       NaN   
+
+                                                                                         Translated_Review  \
+2                                                                                                      NaN   
+6                                                                                                  Amazing   
+10                                                                                               good you.   
+17                  Mrs sunita bhati I thankful developers,to make kind app, really good healthy food body   
+21                                                                                   Healthy Really helped   
+...                                                                                                    ...   
+64217         I able set range 1cr, scroll space 0-1cr range. At least able set value input box something.   
+64221               Everything old stuff neither clear sold properties add new ones ..absolute time waste!   
+64223  If photos posted portal load, fit purpose. I'm sure storage technology use. I experience photo l...   
+64230  Useless app, I searched flats kondapur, Hyderabad . None number reachable I know flats unavailab...   
+64236                                                                                                  NaN   
+
+       Sentiment_Polarity                             App  
+2                     NaN           10 Best Foods for You  
+6                0.884307           10 Best Foods for You  
+10               0.915254           10 Best Foods for You  
+17               0.884307           10 Best Foods for You  
+21               0.702081           10 Best Foods for You  
+...                   ...                             ...  
+64217            0.590643  Housing-Real Estate & Property  
+64221            0.357323  Housing-Real Estate & Property  
+64223            0.581871  Housing-Real Estate & Property  
+64230            0.092907  Housing-Real Estate & Property  
+64236                 NaN     Houzz Interior Design Ideas  
+
+[12194 rows x 4 columns], 'target': 7273          NaN
+2562     Positive
+5485          NaN
+27653         NaN
+31686    Positive
+           ...   
+31292         NaN
+27081         NaN
+25520         NaN
+7306     Negative
+22524         NaN
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 15257         NaN
+63605    Positive
+62782    Positive
+22331         NaN
+61910         NaN
+           ...   
+13245    Negative
+33615     Neutral
+5246     Positive
+51564         NaN
+60659    Negative
+Name: Sentiment, Length: 21218, dtype: object}}, 84.91641592979431))
+('gpsu_example', 'no-prep', 'HCA', 'Sentiment', None, 'HCA', 'silhouette', ({'quality_metric': 0.5042, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+2562             0.200000                0.550000           0
+31686            0.600000                0.800000           0
+52347            0.000000                0.516667           0
+47723            0.000000                0.000000           0
+16904            0.191667                0.579167           0
+...                   ...                     ...         ...
+63332            0.025000                0.638889           0
+57513            0.000000                0.178571           0
+49175           -0.385714                0.608929           0
+24               0.650000                0.500000           0
+7306            -0.025000                0.525000           0
+
+[25088 rows x 3 columns], 'test':                                                       App  \
+15257  Black White Interracial Dating - Interracial Match   
+63605      Hostelworld: Hostels & Cheap Hotels Travel App   
+62782                    Home Street â Home Design Game   
+22331                        Calorie Counter - MyNetDiary   
+61910                                   Hill Climb Racing   
+...                                                   ...   
+13245                                 Be A Legend: Soccer   
+33615                                        Delta Dental   
+5246                       AlReader -any text book reader   
+51564                        GPS Speedometer and Odometer   
+60659                                         HealtheLife   
+
+                                                                                         Translated_Review  \
+15257                                                                                                  NaN   
+63605                                 Great app. Review function help choose best hostel.good transpirency   
+62782  I love game wish wiring items jobs didn't take long would makers fix babies husband would comple...   
+22331                                                                                                  NaN   
+61910                                                                                                  NaN   
+...                                                                                                    ...   
+13245  Horrible The concept game great ur enemy even 1higher point, win ball score...not mention u can'...   
+33615                                                               Doesn't support plus addressing setup.   
+5246                                                                         It simplest, amazing readers.   
+51564                                                                                                  NaN   
+60659  Bad install v.2.4.0. Won't start. A workaround go Playstore, press Open three dots/open work. Th...   
+
+      Sentiment  Sentiment_Polarity  Sentiment_Subjectivity  
+15257       NaN                 NaN                     NaN  
+63605  Positive            0.900000                0.525000  
+62782  Positive            0.061328                0.450000  
+22331       NaN                 NaN                     NaN  
+61910       NaN                 NaN                     NaN  
+...         ...                 ...                     ...  
+13245  Negative           -0.028571                0.490476  
+33615   Neutral            0.000000                0.000000  
+5246   Positive            0.600000                0.900000  
+51564       NaN                 NaN                     NaN  
+60659  Negative           -0.350000                0.583333  
+
+[21218 rows x 5 columns], 'target': 7273          NaN
+2562     Positive
+5485          NaN
+27653         NaN
+31686    Positive
+           ...   
+31292         NaN
+27081         NaN
+25520         NaN
+7306     Negative
+22524         NaN
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 15257         NaN
+63605    Positive
+62782    Positive
+22331         NaN
+61910         NaN
+           ...   
+13245    Negative
+33615     Neutral
+5246     Positive
+51564         NaN
+60659    Negative
+Name: Sentiment, Length: 21218, dtype: object}}, 153.45307278633118))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9275750440367236}, 0.23716402053833008))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9677930105527597}, 0.26959919929504395))
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> LOF -> AD -> HCA', 'silhouette', 0.9522, 599.3374629020691)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> ZSB -> HCA', 'silhouette', 1.0, 499.4324200153351)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> LOF -> HCA', 'silhouette', 0.9514, 627.1882081031799)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> LOF -> HCA', 'silhouette', 0.9504, 547.2776319980621)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> LOF -> AD -> HCA', 'silhouette', 0.9513, 760.5722079277039)
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'KNN -> ZS -> LC -> LOF -> HCA', 'silhouette', ({'quality_metric': 0.7288, 'result': {'train':        Sentiment_Polarity  cluster_ID
+5               -0.729281           4
+6               -0.375211           4
+9                0.805024           1
+10               0.173598           4
+11               3.165494           2
+...                   ...         ...
+43067           -0.375211           4
+43068           -0.375211           4
+43069           -0.233583           4
+43070           -0.375211           4
+43075           -0.375211           4
+
+[16672 rows x 2 columns], 'test':        Sentiment_Polarity                             App  \
+0                2.272897           10 Best Foods for You   
+1               -0.374904           10 Best Foods for You   
+3               -0.374904           10 Best Foods for You   
+4               -1.787064           10 Best Foods for You   
+8               -1.407546           10 Best Foods for You   
+...                   ...                             ...   
+20850           -0.374904     Calculator - unit converter   
+20919            2.096376  Calculator with Percent (Free)   
+20937            0.684216  Calculator with Percent (Free)   
+20972            0.331176  Calendar Widget Month + Agenda   
+21157            0.331176     Call Control - Call Blocker   
+
+                                                                                         Translated_Review  \
+0      I like eat delicious food. That's I'm cooking food myself, case "10 Best Foods" helps lot, also ...   
+1                                                          This help eating healthy exercise regular basis   
+3                                                               Works great especially going grocery store   
+4                                                                                             Best idea us   
+8                                                                                     Looking forward app,   
+...                                                                                                    ...   
+20850      Its great calculator India India different number system , usually comma two digit , help that?   
+20919  Really nice app. Does least basics probably lot I'm mathematician I fairly basic calculations. E...   
+20937                                         Only change I would make actually multiplication sign, star.   
+20972                                My problem I already purchased cannot can't update setting appearance   
+21157                                         Since recent update requires set default dialer block calls.   
+
+      Sentiment  
+0      Positive  
+1      Positive  
+3      Positive  
+4      Positive  
+8       Neutral  
+...         ...  
+20850  Positive  
+20919  Positive  
+20937   Neutral  
+20972   Neutral  
+21157   Neutral  
+
+[4353 rows x 4 columns], 'target': 43406    Positive
+62065    Positive
+22538         NaN
+63916    Positive
+58408     Neutral
+           ...   
+7972     Positive
+21117         NaN
+59324    Negative
+33730     Neutral
+45810    Positive
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 58508    Positive
+54325     Neutral
+1954          NaN
+32888         NaN
+52759    Negative
+           ...   
+9238     Positive
+14508    Positive
+17584         NaN
+39346    Positive
+39704         NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 724.9063980579376))
+('gpsu_example', 'no-prep', 'HCA', 'Sentiment', None, 'HCA', 'silhouette', ({'quality_metric': 0.4478, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+43406            0.337500                0.250000           0
+62065            0.050000                0.700000           0
+63916            1.000000                0.750000           0
+58408            0.000000                0.000000           0
+19252           -0.100000                0.500000           0
+...                   ...                     ...         ...
+4750            -0.500000                1.000000           1
+7972             0.500000                0.500000           0
+59324           -0.166667                0.166667           0
+33730            0.000000                0.000000           0
+45810            0.431071                0.577143           0
+
+[25088 rows x 3 columns], 'test':                                                      App  \
+58508                              HD Camera for Android   
+54325                          Golden Dictionary (EN-AR)   
+1954                             A Manual of Acupuncture   
+32888  Daily Workouts - Exercise Fitness Routine Trainer   
+52759                                   Garena Free Fire   
+...                                                  ...   
+9238                     Ascape VR: 360Â° Virtual Travel   
+14508                                         Betterment   
+17584                                     Breathing Zone   
+39346                                             Edmodo   
+39704                           Email TypeApp - Mail App   
+
+                                                                                         Translated_Review  \
+58508                                             Great good taking selfies/profile pic Facebook others...   
+54325                                                                                          &lt;3 &lt;3   
+1954                                                                                                   NaN   
+32888                                                                                                  NaN   
+52759  After update game working device I press start button gets freeze work..does working...repair fa...   
+...                                                                                                    ...   
+9238                                               I able tour Location I tried many times Download stated   
+14508  Will update solved. Signed account Thursday morning, typed information correctly, still waiting ...   
+17584                                                                                                  NaN   
+39346                                                                                     This useful me..   
+39704                                                                                                  NaN   
+
+      Sentiment  Sentiment_Polarity  Sentiment_Subjectivity  
+58508  Positive            0.750000                0.675000  
+54325   Neutral            0.000000                0.000000  
+1954        NaN                 NaN                     NaN  
+32888       NaN                 NaN                     NaN  
+52759  Negative           -0.400000                0.400000  
+...         ...                 ...                     ...  
+9238   Positive            0.500000                0.562500  
+14508  Positive            0.233333                0.555556  
+17584       NaN                 NaN                     NaN  
+39346  Positive            0.300000                0.000000  
+39704       NaN                 NaN                     NaN  
+
+[21218 rows x 5 columns], 'target': 43406    Positive
+62065    Positive
+22538         NaN
+63916    Positive
+58408     Neutral
+           ...   
+7972     Positive
+21117         NaN
+59324    Negative
+33730     Neutral
+45810    Positive
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 58508    Positive
+54325     Neutral
+1954          NaN
+32888         NaN
+52759    Negative
+           ...   
+9238     Positive
+14508    Positive
+17584         NaN
+39346    Positive
+39704         NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 107.51274180412292))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9267379999957863}, 0.21785497665405273))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9681920842542603}, 0.31737184524536133))
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> LOF -> HCA', 'silhouette', 0.9521, 562.3984429836273)
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'MICE -> MR -> IQR -> HCA', 'silhouette', ({'quality_metric': 0.7146, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+0                 0.18117                0.492334           0
+1                 0.18117                0.492334           0
+2                 0.17500                0.363889           0
+3                 0.18117                0.492334           0
+4                 0.00000                0.000000           0
+...                   ...                     ...         ...
+43070             0.18117                0.492334           0
+43072             0.00000                0.350000           0
+43073             0.18117                0.492334           0
+43075             0.00000                0.000000           0
+43076             0.30000                0.377900           0
+
+[36758 rows x 3 columns], 'test':        Sentiment_Polarity  Sentiment_Subjectivity
+0               -0.500000                0.833333
+1               -0.002222                0.302222
+2                0.150000                0.450000
+3                0.083333                0.333333
+5               -0.175000                0.375000
+...                   ...                     ...
+21211            0.184140                0.493459
+21212            0.300000                0.200000
+21213            0.184140                0.493459
+21215            0.033333                0.366667
+21217           -0.008333                0.538889
+
+[18116 rows x 2 columns], 'target': 40075         NaN
+7238          NaN
+12413    Positive
+34795         NaN
+38718     Neutral
+           ...   
+30859     Neutral
+36631         NaN
+48069    Positive
+23885     Neutral
+21805    Positive
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 54072    Negative
+23878    Negative
+41217    Positive
+14427    Positive
+43810    Positive
+           ...   
+22507         NaN
+50703    Positive
+61435    Positive
+31677    Positive
+33798    Negative
+Name: Sentiment, Length: 21218, dtype: object}}, 384.34920501708984))
+('gpsu_example', 'no-prep', 'HCA', 'Sentiment', None, 'HCA', 'silhouette', ({'quality_metric': 0.5587, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+12413            0.175000                0.363889           0
+38718            0.000000                0.000000           0
+7683             0.071429                0.585714           0
+11280            0.700000                0.800000           0
+12271            0.366667                0.400000           0
+...                   ...                     ...         ...
+51660            0.800000                0.750000           0
+30859            0.000000                0.350000           0
+48069            0.910000                0.780000           0
+23885            0.000000                0.000000           0
+21805            0.300000                0.377900           0
+
+[25128 rows x 3 columns], 'test':                                                       App  \
+54072                                              GoBank   
+23878                                     Candy Pop Story   
+41217   Evernote â Organizer, Planner for Notes & Memos   
+14427  BestCam Selfie-selfie, beauty camera, photo editor   
+43810                                   FamilySearch Tree   
+...                                                   ...   
+22507                        Calorie Counter by FatSecret   
+50703                                      Fun Kid Racing   
+61435                                        Hero Hunters   
+31677                              DC Super Hero Girlsâ¢   
+33798                             Diabetes & Diet Tracker   
+
+                                                                                         Translated_Review  \
+54072  I keep random charges put card I know they're money. It's extremely difficult complicated get ho...   
+23878      The moves provided achieving targets fall short. If moves less high targets complexity reduced.   
+41217  It says box. And that's lot. For part, Evernote well. It's surprisingly flexible put Evernote sy...   
+14427                                                                                           No subject   
+43810                                                                           This great family history.   
+...                                                                                                    ...   
+22507                                                                                                  NaN   
+50703                                                                                       It's good idea   
+61435              All opinions would want case time play time tired really jump still want LVL up. Fun...   
+31677                                                                        I loved add games play avatar   
+33798  Not easy quick. Demands much work time. Annoying. I wish I demanded refund early. It unhelpful u...   
+
+      Sentiment  Sentiment_Polarity  Sentiment_Subjectivity  
+54072  Negative           -0.500000                0.833333  
+23878  Negative           -0.002222                0.302222  
+41217  Positive            0.150000                0.450000  
+14427  Positive            0.083333                0.333333  
+43810  Positive            0.800000                0.750000  
+...         ...                 ...                     ...  
+22507       NaN                 NaN                     NaN  
+50703  Positive            0.700000                0.600000  
+61435  Positive            0.033333                0.366667  
+31677  Positive            0.700000                0.800000  
+33798  Negative           -0.008333                0.538889  
+
+[21218 rows x 5 columns], 'target': 40075         NaN
+7238          NaN
+12413    Positive
+34795         NaN
+38718     Neutral
+           ...   
+30859     Neutral
+36631         NaN
+48069    Positive
+23885     Neutral
+21805    Positive
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 54072    Negative
+23878    Negative
+41217    Positive
+14427    Positive
+43810    Positive
+           ...   
+22507         NaN
+50703    Positive
+61435    Positive
+31677    Positive
+33798    Negative
+Name: Sentiment, Length: 21218, dtype: object}}, 105.148432970047))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9299188156638013}, 0.20037293434143066))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9679243095140937}, 0.27069997787475586))
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'LOF -> CART', 'accuracy', 0.6410052580328223, 843.0653212070465)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'ZS -> IQR -> LDA', 'accuracy', 0.6390044027757731, 5.969995975494385)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'DS -> IQR -> NB', 'accuracy', 0.6390043719180519, 4.270267963409424)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'ZSB -> LASSO', 'MSE', 0.6904885185491542, 8.510886907577515)
+('gpsu_example', 'doublelearn2clean', 'OLS', 'Sentiment', None, 'ZSB -> OLS', 'MSE', 0.6894434576193524, 9.299532175064087)
+('gpsu_example', 'doublelearn2clean', 'MARS', 'Sentiment', None, 'LC -> LOF -> MARS', 'MSE', 0.6353744231330054, 43.34505319595337)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'ZS -> AD -> HCA', 'silhouette', 0.8422, 894.8230819702148)
+('gpsu_example', 'doublelearn2clean', 'KMEANS', 'Sentiment', None, 'LC -> AD -> KMEANS', 'silhouette', 0.8509, 301.05012702941895)
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'MICE -> Tree -> ZSB -> ED -> HCA', 'silhouette', ({'quality_metric': 0.7421, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+32768            0.181594                0.493250           2
+1                0.181594                0.493250           2
+2                0.181594                0.493250           2
+3                0.181594                0.493250           2
+4                0.181594                0.493250           2
+...                   ...                     ...         ...
+32707            0.181594                0.493250           2
+39066            0.181594                0.493250           2
+32717            0.288095                0.550000           0
+32745            0.155000                0.475385           2
+32754            0.300000                0.550000           0
+
+[10192 rows x 3 columns], 'test':        Sentiment_Polarity  Sentiment_Subjectivity  \
+0                0.183270                0.491595   
+8                0.183270                0.491595   
+12               0.183270                0.491595   
+18               0.136364                0.454545   
+30               0.183270                0.491595   
+...                   ...                     ...   
+21167            0.279911                0.496429   
+21178            0.264444                0.557778   
+21181            0.132143                0.535714   
+21202            0.183270                0.491595   
+21209            0.316667                0.551667   
+
+                                  App  \
+0                                 NaN   
+8               10 Best Foods for You   
+12              10 Best Foods for You   
+18                                NaN   
+30              10 Best Foods for You   
+...                               ...   
+21167                             NaN   
+21178         Call Free â Free Call   
+21181                             NaN   
+21202  Call of Duty:Black Ops Zombies   
+21209  Call of Duty:Black Ops Zombies   
+
+                                                                               Translated_Review  \
+0                                                                                            NaN   
+8                                                                           Looking forward app,   
+12     Thank you! Great app!! Add arthritis, eyes, immunity, kidney/liver detox foods please. :)   
+18                                                                                           NaN   
+30                                                                                       Good.!!   
+...                                                                                          ...   
+21167                                                                                        NaN   
+21178                                                                                        NaN   
+21181                                                                                        NaN   
+21202                                                                                        NaN   
+21209                                                                                        NaN   
+
+      Sentiment  
+0           NaN  
+8       Neutral  
+12     Positive  
+18          NaN  
+30     Positive  
+...         ...  
+21167       NaN  
+21178       NaN  
+21181       NaN  
+21202       NaN  
+21209       NaN  
+
+[3304 rows x 5 columns], 'target': 49142    Negative
+15242         NaN
+15729         NaN
+10296         NaN
+51627         NaN
+           ...   
+35380         NaN
+7327     Positive
+53147     Neutral
+41623         NaN
+28499    Positive
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 28201         NaN
+30060         NaN
+27862    Negative
+33014         NaN
+27022    Negative
+           ...   
+53075    Negative
+60827    Positive
+11101    Positive
+19227     Neutral
+57148         NaN
+Name: Sentiment, Length: 21218, dtype: object}}, 53.62803101539612))
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'DS -> ZSB -> AD -> CART', 'accuracy', 0.6422543844713094, 1041.3305730819702)
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'CART', 'accuracy', 0.6407628720988222, 770.2702519893646)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'LOF -> LDA', 'accuracy', 0.6402977081375036, 5.159901142120361)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'LOF -> NB', 'accuracy', 0.6402977147667706, 5.4606993198394775)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'MM -> LOF -> AD -> LASSO', 'MSE', 1.086289723097839, 10.21600604057312)
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'CART', 'accuracy', 0.6437079766742836, 678.8561179637909)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'LOF -> AD -> LDA', 'accuracy', 0.6427672917519947, 8.1252601146698)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'LOF -> NB', 'accuracy', 0.6427673353114024, 3.8773539066314697)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'ZSB -> LASSO', 'MSE', 1.0548260707126755, 9.19025707244873)
+('gpsu_example', 'doublelearn2clean', 'OLS', 'Sentiment', None, 'ZSB -> OLS', 'MSE', 0.698890553618352, 4.141885995864868)
+('gpsu_example', 'doublelearn2clean', 'MARS', 'Sentiment', None, 'IQR -> MARS', 'MSE', 0.4971008213628999, 60.82599902153015)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'ZS -> AD -> HCA', 'silhouette', 0.8394, 396.7966511249542)
+('gpsu_example', 'doublelearn2clean', 'KMEANS', 'Sentiment', None, 'DS -> AD -> KMEANS', 'silhouette', 0.8437, 219.61546421051025)
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'EM -> MM -> ZSB -> HCA', 'silhouette', ({'quality_metric': 0.3229, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+1                0.444342                0.595995           1
+2                0.477372                0.536225           1
+3                0.548575                0.702147           0
+5                0.628266                0.622725           0
+6                0.627221                0.489009           0
+...                   ...                     ...         ...
+43071            0.536382                0.544982           1
+43073            0.496454                0.610682           1
+43074            0.581873                0.523737           0
+43075            0.508262                0.507697           1
+43076            0.589059                0.664126           0
+
+[29681 rows x 3 columns], 'test':        Sentiment_Polarity  Sentiment_Subjectivity  \
+0                0.553602                0.483257   
+1                0.510091                0.751797   
+2                0.434236                0.709454   
+4                0.487070                0.398151   
+5                0.474566                0.592866   
+...                   ...                     ...   
+21211            0.526446                0.579761   
+21212            0.511429                0.408798   
+21213            0.604975                0.576710   
+21214            0.614041                0.411231   
+21217            0.516654                0.404011   
+
+                                  App Translated_Review Sentiment  
+0                                 NaN               NaN       NaN  
+1                                 NaN               NaN       NaN  
+2               10 Best Foods for You               NaN       NaN  
+4                                 NaN               NaN       NaN  
+5                                 NaN               NaN       NaN  
+...                               ...               ...       ...  
+21211  Call of Duty:Black Ops Zombies               NaN       NaN  
+21212  Call of Duty:Black Ops Zombies               NaN       NaN  
+21213                             NaN               NaN       NaN  
+21214                             NaN               NaN       NaN  
+21217                             NaN               NaN       NaN  
+
+[14688 rows x 5 columns], 'target': 40017         NaN
+38179         NaN
+47921     Neutral
+25935         NaN
+45716    Negative
+           ...   
+60676     Neutral
+21710    Positive
+4390          NaN
+36151         NaN
+49613         NaN
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 13651         NaN
+43414         NaN
+41125         NaN
+24802         NaN
+9985          NaN
+           ...   
+62857    Positive
+33200         NaN
+41415     Neutral
+43186     Neutral
+11307    Positive
+Name: Sentiment, Length: 21218, dtype: object}}, 331.02920794487))
+('gpsu_example', 'no-prep', 'HCA', 'Sentiment', None, 'HCA', 'silhouette', ({'quality_metric': 0.5035, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+47921            0.000000                0.333333           0
+45716           -0.800000                0.800000           1
+10950            0.416667                0.500000           0
+62232           -0.025000                0.450000           0
+60294            0.062500                0.429167           0
+...                   ...                     ...         ...
+51742            0.444444                0.577778           0
+8475             0.331818                0.418182           0
+246             -0.325000                0.650000           0
+60676            0.000000                0.000000           0
+21710            0.052692                0.476795           0
+
+[25064 rows x 3 columns], 'test':                                                      App  \
+13651                               Beauty Selfie Camera   
+43414                         Fake Call - Fake Caller ID   
+41125                        Everlance: Free Mileage Log   
+24802                     Cat Sim Online: Play with Cats   
+9985                       B612 - Beauty & Filter Camera   
+...                                                  ...   
+62857                        Home Workout - No Equipment   
+33200                     Dashlane Free Password Manager   
+41415  Expedia Hotels, Flights & Car Rental Travel Deals   
+43186                                 Facetune - Ad Free   
+11307                                       Baby Monitor   
+
+                                                                                         Translated_Review  \
+13651                                                                                                  NaN   
+43414                                                                                                  NaN   
+41125                                                                                                  NaN   
+24802                                                                                                  NaN   
+9985                                                                                                   NaN   
+...                                                                                                    ...   
+62857  Many thanks LFG great app. I looking suitable without-equipment plans I discovered app. I recomm...   
+33200                                                                                                  NaN   
+41415                                                       I put itinerary show anything aunt book flight   
+43186                                                                                               Fav ..   
+11307  My old phone sim card inside. How I phone app? Please try provide alert options like Skype, noti...   
+
+      Sentiment  Sentiment_Polarity  Sentiment_Subjectivity  
+13651       NaN                 NaN                     NaN  
+43414       NaN                 NaN                     NaN  
+41125       NaN                 NaN                     NaN  
+24802       NaN                 NaN                     NaN  
+9985        NaN                 NaN                     NaN  
+...         ...                 ...                     ...  
+62857  Positive             0.37381                0.480754  
+33200       NaN                 NaN                     NaN  
+41415   Neutral             0.00000                0.000000  
+43186   Neutral             0.00000                0.000000  
+11307  Positive             0.10000                0.200000  
+
+[21218 rows x 5 columns], 'target': 40017         NaN
+38179         NaN
+47921     Neutral
+25935         NaN
+45716    Negative
+           ...   
+60676     Neutral
+21710    Positive
+4390          NaN
+36151         NaN
+49613         NaN
+Name: Sentiment, Length: 43077, dtype: object, 'target_test': 13651         NaN
+43414         NaN
+41125         NaN
+24802         NaN
+9985          NaN
+           ...   
+62857    Positive
+33200         NaN
+41415     Neutral
+43186     Neutral
+11307    Positive
+Name: Sentiment, Length: 21218, dtype: object}}, 116.06927418708801))
+('gpsu_example', 'no-prep', 'LDA', 'Sentiment', None, 'LDA', 'accuracy', ({'quality_metric': 0.9276253395469123}, 0.2178940773010254))
+('gpsu_example', 'no-prep', 'NB', 'Sentiment', None, 'NB', 'accuracy', ({'quality_metric': 0.9683210076430846}, 0.2755551338195801))
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'DS -> IQR -> CART', 'accuracy', 1.0, 879.9624030590057)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'MM -> AD -> LDA', 'accuracy', 0.999962792082155, 20.58443284034729)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'DS -> ZSB -> LC -> LOF -> NB', 'accuracy', 1.0, 21.664232969284058)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'ZSB -> ED -> LASSO', 'MSE', 0.8613204747211934, 19.210182905197144)
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'DS -> IQR -> CART', 'accuracy', 1.0, 830.2680733203888)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'DS -> AD -> LDA', 'accuracy', 1.0, 14.310725212097168)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'MM -> AD -> NB', 'accuracy', 1.0, 19.972676992416382)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'LC -> LOF -> LASSO', 'MSE', 1.0810445279767131, 15.887732982635498)
+('gpsu_example', 'doublelearn2clean', 'OLS', 'Sentiment', None, 'CC -> OLS', 'MSE', 1.2616660862571598, 17.042148113250732)
+('gpsu_example', 'doublelearn2clean', 'MARS', 'Sentiment', None, 'ZSB -> MARS', 'MSE', 0.10616648511378242, 89.83596181869507)
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'DS -> IQR -> CART', 'accuracy', 1.0, 876.3711018562317)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'DS -> LOF -> AD -> LDA', 'accuracy', 0.9999814333457111, 39.20324397087097)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'DS -> LOF -> AD -> NB', 'accuracy', 1.0, 38.01389217376709)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'MM -> AD -> LASSO', 'MSE', 1.1053262689287724, 23.658584117889404)
+('gpsu_example', 'doublelearn2clean', 'OLS', 'Sentiment', None, 'IQR -> OLS', 'MSE', 1.2852529649996982, 32.015499114990234)
+('gpsu_example', 'doublelearn2clean', 'MARS', 'Sentiment', None, 'ZSB -> MARS', 'MSE', 0.11455180221515308, 154.7534782886505)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> LOF -> HCA', 'silhouette', 0.7308, 12990.027194023132)
+('gpsu_example', 'doublelearn2clean', 'KMEANS', 'Sentiment', None, 'LC -> ZS -> IQR -> KMEANS', 'silhouette', 0.74, 1901.831158876419)
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'DS -> LOF -> CART', 'accuracy', 1.0, 851.6910829544067)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'MM -> AD -> LDA', 'accuracy', 0.9998157374920207, 14.345284938812256)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'DS -> ZSB -> NB', 'accuracy', 1.0, 15.740369081497192)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'ZSB -> ED -> LASSO', 'MSE', 0.8634821004583944, 15.33869194984436)
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'DS -> AD -> CART', 'accuracy', 1.0, 2080.5957639217377)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'LC -> LOF -> LDA', 'accuracy', 0.9999259368982374, 10.839928150177002)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'DS -> LOF -> AD -> NB', 'accuracy', 1.0, 31.890379905700684)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'LOF -> AD -> LASSO', 'MSE', 1.1055587099247042, 37.39771509170532)
+('gpsu_example', 'doublelearn2clean', 'OLS', 'Sentiment', None, 'Tree -> IQR -> OLS', 'MSE', 1.2901286640385916, 36.83816385269165)
+('gpsu_example', 'doublelearn2clean', 'MARS', 'Sentiment', None, 'ZSB -> WR -> IQR -> MARS', 'MSE', 0.11434632517136727, 103.1278429031372)
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'DS -> LOF -> AD -> CART', 'accuracy', 1.0, 1078.434781074524)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'MM -> AD -> LDA', 'accuracy', 0.9999627421758569, 14.015777111053467)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'MM -> AD -> NB', 'accuracy', 1.0, 25.72677707672119)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'ZSB -> LASSO', 'MSE', 0.8608902347199116, 21.26805019378662)
+('gpsu_example', 'doublelearn2clean', 'OLS', 'Sentiment', None, 'Tree -> IQR -> OLS', 'MSE', 1.271284017384379, 19.597590923309326)
+('gpsu_example', 'doublelearn2clean', 'MARS', 'Sentiment', None, 'ZSB -> MARS', 'MSE', 0.12474566747066818, 107.2010726928711)
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'DS -> Tree -> IQR -> CART', 'accuracy', 1.0, 784.9511249065399)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'AD -> LDA', 'accuracy', 0.999981460882462, 14.791586875915527)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'DS -> Tree -> IQR -> NB', 'accuracy', 1.0, 10.43675184249878)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'MM -> AD -> LASSO', 'MSE', 1.125353121896702, 37.456669092178345)
+('gpsu_example', 'doublelearn2clean', 'OLS', 'Sentiment', None, 'IQR -> OLS', 'MSE', 1.3086294257559608, 42.30718803405762)
+('gpsu_example', 'doublelearn2clean', 'MARS', 'Sentiment', None, 'ZSB -> WR -> MM -> AD -> MARS', 'MSE', 0.09165431722986299, 105.09813523292542)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'LC -> LOF -> HCA', 'silhouette', 0.7302, 11983.401993989944)
+('gpsu_example', 'doublelearn2clean', 'KMEANS', 'Sentiment', None, 'LC -> AD -> KMEANS', 'silhouette', 0.7302, 1788.1975343227386)
+('gpsu_example', 'doublelearn2clean', 'KMEANS', 'Sentiment', None, 'MM -> AD -> KMEANS', 'silhouette', 0.7302, 2058.7533960342407)
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'MM -> Tree -> LOF -> LDA', 'accuracy', ({'quality_metric': 0.9993322134847294}, 2.206252098083496))
+('gpsu_example', 'random', 'CART', 'Sentiment', None, 'DS -> Tree -> IQR -> ED -> CART', 'accuracy', ({'quality_metric': 1.0}, 94.9686951637268))
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'WR -> ZSB -> ED -> LDA', 'accuracy', ({'quality_metric': 0.9980804091809262}, 0.20152997970581055))
+('gpsu_example', 'random', 'NB', 'Sentiment', None, 'MM -> IQR -> ED -> NB', 'accuracy', ({'quality_metric': 1.0}, 0.47403597831726074))
+('gpsu_example', 'random', 'LASSO', 'Sentiment', None, 'DS -> Tree -> IQR -> LASSO', 'MSE', ({'quality_metric': 1.2746363119277044}, 0.20110678672790527))
+('gpsu_example', 'random', 'OLS', 'Sentiment', None, 'ZS -> LC -> ZSB -> OLS', 'MSE', ({'quality_metric': 1.6271266196998802}, 0.1444380283355713))
+('gpsu_example', 'random', 'MARS', 'Sentiment', None, 'MM -> Tree -> ZSB -> MARS', 'MSE', ({'quality_metric': 0.12287456439287212}, 4.939702033996582))
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'ZS -> LC -> IQR -> ED -> HCA', 'silhouette', ({'quality_metric': 0.7395, 'result': {'train':        Sentiment_Polarity  Sentiment_Subjectivity  cluster_ID
+1                1.364357                0.746662           2
+2               -1.383884                0.178237           0
+4                1.655485                1.082599           2
+8                1.597259                0.505916           2
+9                0.971104                0.465073           2
+...                   ...                     ...         ...
+71963            1.527389                1.346683           2
+71964            1.066491               -0.060944           2
+71965            1.480808                0.746662           2
+71966            1.132560                0.056972           2
+71967            1.655485                0.027493           2
+
+[53939 rows x 3 columns], 'test':        Sentiment_Subjectivity  Sentiment_Polarity                       App  \
+1                    0.485589            1.108082     10 Best Foods for You   
+16385                1.004343            1.162339  Blood Pressure(BP) Diary   
+4                    0.467990           -1.185264     10 Best Foods for You   
+16391                1.377933            1.759006  Blood Pressure(BP) Diary   
+16392               -0.995055           -0.433078  Blood Pressure(BP) Diary   
+...                       ...                 ...                       ...   
+16376               -0.995055           -0.433078  Blood Pressure(BP) Diary   
+16378               -0.995055           -0.433078  Blood Pressure(BP) Diary   
+16379                0.910893            0.348914  Blood Pressure(BP) Diary   
+16380               -0.995055           -0.433078  Blood Pressure(BP) Diary   
+16381                0.984453            1.544991  Blood Pressure(BP) Diary   
+
+                                                                                         Translated_Review  \
+1                                                          This help eating healthy exercise regular basis   
+16385                                                  Nice app, trying refresh update records can't that.   
+4                                                                                             Best idea us   
+16391                                                                                           Can't sign   
+16392                                                                            To complicated understand   
+...                                                                                                    ...   
+16376                                                                                                 Cool   
+16378  Terms Service Privacy Policy incomprehensible unenforceable. Retaining everyone's personal infor...   
+16379  The displays weight kg's I select lbs, & vice versa. Sent email developer 6 days ago, response. ...   
+16380                                          I believe wanted contacts nothing I linked Facebook account   
+16381                                     It Sync Samsung Health LG Stylus 2 phone CAn please let know it?   
+
+      Sentiment  \
+1             2   
+16385         2   
+4             0   
+16391         2   
+16392         3   
+...         ...   
+16376         3   
+16378         1   
+16379         2   
+16380         3   
+16381         2   
+
+                                                                                                       row  
+1      2*0.7872879036672139*0.5661839784646802*10BestFoodsforYou*Thishelpeatinghealthyexerciseregularba...  
+16385  2*0.8013136288998357*0.7645502645502646*BloodPressure(BP)Diary*Niceapp,tryingrefreshupdaterecord...  
+4      0*0.19444444444444442*0.5594541910331383*10BestFoodsforYou*Bestideaus*2*0*0.19444444444444442*0....  
+16391  2*0.9555555555555555*0.9074074074074074*BloodPressure(BP)Diary*Can'tsign*3432*2*0.95555555555555...  
+16392  3*0.3888888888888889*0.0*BloodPressure(BP)Diary*Tocomplicatedunderstand*3433*3*0.388888888888888...  
+...                                                                                                    ...  
+16376  3*0.3888888888888889*0.0*BloodPressure(BP)Diary*Cool*3426*3*0.3888888888888889*0.0*BloodPressure...  
+16378  1*0.3888888888888889*0.0*BloodPressure(BP)Diary*TermsServicePrivacyPolicyincomprehensibleunenfor...  
+16379  2*0.591038591038591*0.7288159371492704*BloodPressure(BP)Diary*Thedisplaysweightkg'sIselectlbs,&v...  
+16380  3*0.3888888888888889*0.0*BloodPressure(BP)Diary*IbelievewantedcontactsnothingIlinkedFacebookacco...  
+16381  2*0.9002314814814815*0.7569444444444444*BloodPressure(BP)Diary*ItSyncSamsungHealthLGStylus2phone...  
+
+[4369 rows x 6 columns], 'target': 0        3
+1        2
+2        0
+3        3
+4        2
+        ..
+71963    2
+71964    2
+71965    2
+71966    2
+71967    2
+Name: Sentiment, Length: 71968, dtype: int64, 'target_test': 13997    3
+21490    2
+26513    1
+58487    2
+4195     0
+        ..
+44241    2
+55825    2
+43984    3
+10427    2
+56879    3
+Name: Sentiment, Length: 21218, dtype: int64}}, 2004.3396191596985))
+('gpsu_example', 'doublelearn2clean', 'CART', 'Sentiment', None, 'CART', 'accuracy', 0.6416392980396726, 645.2055609226227)
+('gpsu_example', 'doublelearn2clean', 'LDA', 'Sentiment', None, 'DS -> LOF -> LDA', 'accuracy', 0.6406343958874892, 4.606396198272705)
+('gpsu_example', 'doublelearn2clean', 'NB', 'Sentiment', None, 'DS -> LOF -> NB', 'accuracy', 0.6406343843843845, 4.663424968719482)
+('gpsu_example', 'doublelearn2clean', 'LASSO', 'Sentiment', None, 'WR -> ZSB -> AD -> LASSO', 'MSE', 1.0133387361779598, 12.561751127243042)
+('gpsu_example', 'doublelearn2clean', 'OLS', 'Sentiment', None, 'ZSB -> Tree -> IQR -> OLS', 'MSE', 0.7061822160225694, 5.913940906524658)
+('gpsu_example', 'doublelearn2clean', 'MARS', 'Sentiment', None, 'LOF -> MARS', 'MSE', 0.5721745727871003, 34.52398371696472)
+('gpsu_example', 'doublelearn2clean', 'HCA', 'Sentiment', None, 'DS -> AD -> HCA', 'silhouette', 0.85, 478.5266408920288)
+('gpsu_example', 'doublelearn2clean', 'KMEANS', 'Sentiment', None, 'LC -> LOF -> AD -> KMEANS', 'silhouette', 0.8519, 215.64500212669373)
+('gpsu_example', 'random', 'CART', 'Sentiment', None, 'ZS -> ZSB -> CART', 'accuracy', ({'quality_metric': 0.6388875955771228}, 62.57785892486572))
+('gpsu_example', 'random', 'LDA', 'Sentiment', None, 'MM -> WR -> IQR -> LDA', 'accuracy', ({'quality_metric': 0.6405612856800191}, 0.1153879165649414))
+('gpsu_example', 'random', 'NB', 'Sentiment', None, 'DS -> IQR -> ED -> NB', 'accuracy', ({'quality_metric': 0.6405613121979921}, 0.20951390266418457))
+('gpsu_example', 'random', 'LASSO', 'Sentiment', None, 'MM -> LC -> LOF -> LASSO', 'MSE', ({'quality_metric': 0.9793096008674566}, 0.23574399948120117))
+('gpsu_example', 'random', 'OLS', 'Sentiment', None, 'DS -> LOF -> OLS', 'MSE', ({'quality_metric': 0.7097222292350561}, 0.3685438632965088))
+('gpsu_example', 'random', 'MARS', 'Sentiment', None, 'DS -> ED -> MARS', 'MSE', ({'quality_metric': 0.5695313510821147}, 2.528506278991699))
+('gpsu_example', 'random', 'HCA', 'Sentiment', None, 'MM -> LC -> HCA', 'silhouette', ({'quality_metric': 0.4272, 'result': {'train':        Sentiment_Polarity   New_ID  cluster_ID
+0                0.858225  0.00000           3
+1                1.000000  0.00006           3
+3                0.388889  0.00012           0
+4                0.388889  0.00018           0
+5                0.388889  0.00024           0
+...                   ...      ...         ...
+43066            0.388889  0.99976           1
+43070            0.911111  0.99982           2
+43072            0.805298  0.99988           2
+43075            0.388889  0.99994           1
+43076            0.933333  1.00000           2
+
+[16676 rows x 3 columns], 'test':       Sentiment                             App    New_ID  \
+10            2           10 Best Foods for You  0.000000   
+16            3           10 Best Foods for You  0.000233   
+20            3           10 Best Foods for You  0.000467   
+23            2           10 Best Foods for You  0.000700   
+27            2           10 Best Foods for You  0.000934   
+...         ...                             ...       ...   
+20850         3     Calculator - unit converter  0.999066   
+20919         2  Calculator with Percent (Free)  0.999300   
+20972         0  Calendar Widget Month + Agenda  0.999533   
+20998         3  Calendar+ Schedule Planner App  0.999767   
+21198         3  Call of Duty:Black Ops Zombies  1.000000   
+
+                                                                                         Translated_Review  \
+10                                                                                               good you.   
+16                                                     Health It's important world either life . think? :)   
+20                                                                                               good nice   
+23                                                     HEALTH SHOULD ALWAYS BE TOP PRIORITY. !!. ON MYSG5.   
+27                                                                                          Healthy Eating   
+...                                                                                                    ...   
+20850      Its great calculator India India different number system , usually comma two digit , help that?   
+20919  Really nice app. Does least basics probably lot I'm mathematician I fairly basic calculations. E...   
+20972                                My problem I already purchased cannot can't update setting appearance   
+20998  Updated 2015: STIL app, still love still highly recommend! *** I've short time, impressed enough...   
+21198  This GAME DOESN'T EVEN LAUNCH!!! , every time I go play it, goes black home screen says "restart...   
+
+       Sentiment_Polarity  \
+10               0.715793   
+16               0.388889   
+20               0.388889   
+23               0.818172   
+27               0.955556   
+...                   ...   
+20850            0.388889   
+20919            0.962963   
+20972            0.148148   
+20998            0.388889   
+21198            0.388889   
+
+                                                                                                       row  
+10     2*0.7157928925071908*0.7359717577108886*10BestFoodsforYou*goodyou.*1*2*0.7157928925071908*0.7359...  
+16     3*0.3888888888888889*0.0*10BestFoodsforYou*HealthIt'simportantworldeitherlife.think?:)*2*3*0.388...  
+20     3*0.3888888888888889*0.0*10BestFoodsforYou*goodnice*3*3*0.3888888888888889*0.0*10BestFoodsforYou...  
+23     2*0.8181718971672669*0.8559670781893003*10BestFoodsforYou*HEALTHSHOULDALWAYSBETOPPRIORITY.!!.ONM...  
+27     2*0.9555555555555555*0.9074074074074074*10BestFoodsforYou*HealthyEating*5*2*0.9555555555555555*0...  
+...                                                                                                    ...  
+20850  3*0.3888888888888889*0.0*Calculator-unitconverter*ItsgreatcalculatorIndiaIndiadifferentnumbersys...  
+20919  2*0.9629629629629629*0.7901234567901233*CalculatorwithPercent(Free)*Reallyniceapp.Doesleastbasic...  
+20972  0*0.14814814814814814*0.5167548500881834*CalendarWidgetMonth+Agenda*MyproblemIalreadypurchasedca...  
+20998  3*0.3888888888888889*0.0*Calendar+SchedulePlannerApp*Updated2015:STILapp,stilllovestillhighlyrec...  
+21198  3*0.3888888888888889*0.0*CallofDuty:BlackOpsZombies*ThisGAMEDOESN'TEVENLAUNCH!!!,everytimeIgopla...  
+
+[4285 rows x 6 columns], 'target': 38994    2
+9471     2
+337      2
+4440     3
+58427    3
+        ..
+23481    2
+57480    2
+50772    3
+24323    3
+30683    2
+Name: Sentiment, Length: 43077, dtype: int64, 'target_test': 2938     0
+50753    2
+14977    3
+51035    2
+15878    3
+        ..
+55777    2
+16239    1
+4305     3
+55518    3
+32218    2
+Name: Sentiment, Length: 21218, dtype: int64}}, 36.77855610847473))
